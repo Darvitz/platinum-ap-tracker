@@ -162,9 +162,10 @@ function onClear(slot_data)
         elseif k == "regional_dex_goal" then
             Tracker:FindObjectForCode("regional_dex_goal").AcquiredCount = v
         elseif k == "hm_badge_requirement" then
-            local stage = (tonumber(v) == 1) and 0 or 1
-            for _, code in pairs(HM_CODES) do
-                Tracker:FindObjectForCode(code).CurrentStage = stage
+            if v == 0 then
+                for _, code in pairs(HM_CODES) do
+                    Tracker:FindObjectForCode(code).CurrentStage = 1
+                end
             end
         elseif k == "remove_badge_requirements" then
             for _, hm in pairs(v) do
@@ -410,16 +411,12 @@ function onNotifyLaunch(key, value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == KEY1_ID then
-            print("Triggered Key 1")
             updateVanillaKeyItems1(value)
         elseif key == KEY2_ID then
-            print("Triggered Key 2")
             updateVanillaKeyItems2(value)
         elseif key == KEY3_ID then
-            print("Triggered Key 3")
             updateVanillaKeyItems3(value)
         elseif key == KEY4_ID then
-            print("Triggered Key 4")
             updateVanillaKeyItems4(value)
         elseif key == HINT_ID then
             updateHints(value)
