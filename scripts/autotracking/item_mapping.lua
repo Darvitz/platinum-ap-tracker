@@ -86,4 +86,7 @@ ITEM_MAPPING = {
     [107]   = {{"shinystone", "toggle"}},
     [108]   = {{"duskstone", "toggle"}},
     [109]   = {{"dawnstone", "toggle"}},
+    [94]   = {{"honey", "toggle"}},
+    [4958]   = {{"honeyx3", "toggle"}},
+    [6750]   = {{"honeyx10", "toggle"}}
 }

@@ -135,8 +135,10 @@
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
 { "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
-{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"},
-{ "name": "Defeat Cyrus (Event)", "ref": "Galactic HQ/Defeat Cyrus (Event)"}]},
+{ "name": "Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
+{ "name": "Secret Lab", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
+{ "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
+{ "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Iron Island/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Iron Island/Galactic Grunt 2"}]},
@@ -400,6 +402,7 @@
 { "name": "Side Cave B1F - NW Strength Boulders Item 1", "ref": "Victory Road/Side Cave B1F - NW Strength Boulders Item 1"},
 { "name": "Side Cave B1F - NW Strength Boulders Item 2", "ref": "Victory Road/Side Cave B1F - NW Strength Boulders Item 2"}]},
 { "name": "Great Marsh", "map_locations": [ { "map": "pastoriacity", "x": 560, "y": 151}], "sections": [
+{ "name": "Lobby - Matchup Checker App from Cowgirl", "ref": "Great Marsh/Lobby - Matchup Checker App from Cowgirl"},
 { "name": "Area 1 - Hidden Item in Northwest Corner of Deep Mud", "ref": "Great Marsh/Area 1 - Hidden Item in Northwest Corner of Deep Mud"},
 { "name": "Area 1 - Lower Item Between Mud Patches", "ref": "Great Marsh/Area 1 - Lower Item Between Mud Patches"},
 { "name": "Area 1 - Upper Item Between Mud Patches", "ref": "Great Marsh/Area 1 - Upper Item Between Mud Patches"},
@@ -413,8 +416,7 @@
 { "name": "Area 5 - Item in Southwest Area", "ref": "Great Marsh/Area 5 - Item in Southwest Area"},
 { "name": "Area 6 - Hidden Item in Southeast Deep Mud", "ref": "Great Marsh/Area 6 - Hidden Item in Southeast Deep Mud"},
 { "name": "Area 6 - Item Below Bug Catcher", "ref": "Great Marsh/Area 6 - Item Below Bug Catcher"},
-{ "name": "Area 6 - Item Below Pond", "ref": "Great Marsh/Area 6 - Item Below Pond"},
-{ "name": "Lobby - Matchup Checker App from Cowgirl", "ref": "Great Marsh/Lobby - Matchup Checker App from Cowgirl"}]},
+{ "name": "Area 6 - Item Below Pond", "ref": "Great Marsh/Area 6 - Item Below Pond"}]},
 { "name": "Lost Tower", "map_locations": [ { "map": "route209north", "x": 392, "y": 162}], "sections": [
 { "name": "2F - Hidden Item in Southeast Headstone", "ref": "Lost Tower/2F - Hidden Item in Southeast Headstone"},
 { "name": "2F - Item in Front of Youngster", "ref": "Lost Tower/2F - Item in Front of Youngster"},
@@ -477,7 +479,6 @@
 { "name": "Hidden Item in Box in Room with Two Tables", "ref": "Galactic HQ/Hidden Item in Box in Room with Two Tables"},
 { "name": "Hidden Item in Room Next to Cyrus", "ref": "Galactic HQ/Hidden Item in Room Next to Cyrus"},
 { "name": "Hidden Item in Room with Four Boxes", "ref": "Galactic HQ/Hidden Item in Room with Four Boxes"},
-{ "name": "Hidden Item Near Entrance in Green Warp Room", "ref": "Galactic HQ/Hidden Item Near Entrance in Green Warp Room"},
 { "name": "Item Behind Box", "ref": "Galactic HQ/Item Behind Box"},
 { "name": "Item in Room with Four Boxes", "ref": "Galactic HQ/Item in Room with Four Boxes"},
 { "name": "Item in Room with Two Generators", "ref": "Galactic HQ/Item in Room with Two Generators"},
@@ -611,13 +612,21 @@
 { "name": "Veteran Harlan", "ref": "Stark Mountain/Veteran Harlan"},
 { "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)", "ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)"}]},
 { "name": "Lake Verity", "map_locations": [ { "map": "veritylakefront", "x": 270, "y": 100}], "sections": [
-{ "name": "Lake - Item in Southwest Grass Patch", "ref": "Lake Verity/Lake - Item in Southwest Grass Patch"},
-{ "name": "Lake - Galactic Grunt 1", "ref": "Lake Verity/Lake - Galactic Grunt 1"},
-{ "name": "Lake - Galactic Grunt 2", "ref": "Lake Verity/Lake - Galactic Grunt 2"},
-{ "name": "Lake - Galactic Grunt 3", "ref": "Lake Verity/Lake - Galactic Grunt 3"},
-{ "name": "Lake - Galactic Grunt 4", "ref": "Lake Verity/Lake - Galactic Grunt 4"},
-{ "name": "Lake - Commander Mars", "ref": "Lake Verity/Lake - Commander Mars"},
-{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"}]},
+{ "name": "Item in Southwest Grass Patch", "ref": "Lake Verity/Lake - Item in Southwest Grass Patch"},
+{ "name": "Galactic Grunt 1", "ref": "Lake Verity/Lake - Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Lake Verity/Lake - Galactic Grunt 2"},
+{ "name": "Galactic Grunt 3", "ref": "Lake Verity/Lake - Galactic Grunt 3"},
+{ "name": "Galactic Grunt 4", "ref": "Lake Verity/Lake - Galactic Grunt 4"},
+{ "name": "Commander Mars", "ref": "Lake Verity/Lake - Commander Mars"},
+{ "name": "Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"},
+{ "name": "Land Encounters", "ref": "Lake Verity/Land Encounters"},
+{ "name": "Radar Encounters", "ref": "Lake Verity/Radar Encounters"},
+{ "name": "Ruby Encounters", "ref": "Lake Verity/Ruby Encounters"},
+{ "name": "Sapphire Encounters", "ref": "Lake Verity/Sapphire Encounters"},
+{ "name": "Surf Encounters", "ref": "Lake Verity/Surf Encounters"},
+{ "name": "Old Rod Encounters", "ref": "Lake Verity/Old Rod Encounters"},
+{ "name": "Good Rod Encounters", "ref": "Lake Verity/Good Rod Encounters"},
+{ "name": "Super Rod Encounters", "ref": "Lake Verity/Super Rod Encounters"}]},
 { "name": "Lake Acuity", "map_locations": [ { "map": "acuitylakefront", "x": 336, "y": 42}], "sections": [
 { "name": "Lake - Item in NE Corner of Lake", "ref": "Lake Acuity/Lake - Item in NE Corner of Lake"},
 { "name": "Lake - Watch Jupiter defeat your rival (Event)", "ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)"}]},
@@ -692,5 +701,24 @@
 { "name": "Hidden Item in SW White Rock", "ref": "Mt. Coronet B1F/Hidden Item in SW White Rock"},
 { "name": "Hidden Item on Left White Rock", "ref": "Mt. Coronet R216 Path/Hidden Item on Left White Rock"},
 { "name": "Iceberg Ruins - Item in Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Item in Center"},
-{ "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]}]
+{ "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]},
+{ "name": "Mt. Coronet Tunnel", "map_locations": [ { "map": "mtcoronetsouthoutside", "x": 537, "y": 189}], "sections": [
+{ "name": "Hidden Item Behind Breakable Rock on Left", "ref": "Mt. Coronet Tunnel/Hidden Item Behind Breakable Rock on Left"},
+{ "name": "Hidden Item on Corner White Rock Before Exit", "ref": "Mt. Coronet Tunnel/Hidden Item on Corner White Rock Before Exit"},
+{ "name": "Hidden Item Above Big White Rock", "ref": "Mt. Coronet Tunnel/Hidden Item Above Big White Rock"},
+{ "name": "Hidden Item Before Exit", "ref": "Mt. Coronet Tunnel/Hidden Item Before Exit"},
+{ "name": "Hidden Item on Right Path", "ref": "Mt. Coronet Tunnel/Hidden Item on Right Path"},
+{ "name": "Hidden Item in White Rock on South Ledge", "ref": "Mt. Coronet Tunnel/Hidden Item in White Rock on South Ledge"},
+{ "name": "Galactic Grunt 1", "ref": "Mt. Coronet Tunnel/Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Mt. Coronet Tunnel/Galactic Grunt 2"},
+{ "name": "Galactic Grunt 3", "ref": "Mt. Coronet Tunnel/Galactic Grunt 3"}]},
+{ "name": "Coupon 1 Clown", "map_locations": [ { "map": "jubilifecity", "x": 878, "y": 420}], "sections": [
+{ "name": "Coupon from East Clown", "ref": "Jubilife City/Coupon from East Clown"},
+{ "name": "Coupon from East Clown​", "ref": "Jubilife City/Coupon from East Clown​"}]},
+{ "name": "Coupon 3 Clown​", "map_locations": [ { "map": "jubilifecity", "x": 559, "y": 197}], "sections": [
+{ "name": "Coupon from Clown in front of Jubilife TV", "ref": "Jubilife City/Coupon from Clown in front of Jubilife TV"},
+{ "name": "Coupon from Clown in front of Jubilife TV​", "ref": "Jubilife City/Coupon from Clown in front of Jubilife TV​"}]},
+{ "name": "Coupon 2 Clown", "map_locations": [ { "map": "jubilifecity", "x": 255, "y": 229}], "sections": [
+{ "name": "Coupon from Clown in front of Poketch HQ", "ref": "Jubilife City/Coupon from Clown in front of Poketch HQ"},
+{ "name": "Coupon from Clown in front of Poketch HQ​", "ref": "Jubilife City/Coupon from Clown in front of Poketch HQ​"}]}]
 }]]
