@@ -102,19 +102,33 @@ function feebas_fishing_encounters()
     end
 end
 
+function soft_honey()
+	if has("honey") or has("honeyx3") or has("honeyx10") then
+	    return AccessibilityLevel.SequenceBreak
+	else
+        return AccessibilityLevel.None
+    end
+end
+
 function regular_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    return meadow
+    if meadow == 6 then
+        return AccessibilityLevel.Normal
+	elseif meadow == 5 then
+        return AccessibilityLevel.SequenceBreak
+	else
+	    return soft_honey()
+    end
 end
 
 function munchlax_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    if has("treecamera") and has("poketch") and has("dowsingmachine") then
-        return meadow
-    elseif meadow then
+    if has("treecamera") and has("poketch") and has("dowsingmachine") and meadow == 6 then
+        return AccessibilityLevel.Normal
+	elseif has("treecamera") and has("poketch") and has("dowsingmachine") and meadow == 5 then
         return AccessibilityLevel.SequenceBreak
 	else
-	    return AccessibilityLevel.None
+	    return soft_honey()
     end
 end
 

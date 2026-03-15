@@ -634,5 +634,20 @@
         "img": "images/items/seen_reg.png",
         "overlay_background": "#000000",
         "codes": "num_seen_reg"
+    },
+    {
+        "name": "Honey",
+        "type": "toggle",
+        "codes": "honey"
+    },
+    {
+        "name": "Honey x3",
+        "type": "toggle",
+        "codes": "honeyx3"
+    },
+    {
+        "name": "Honey x10",
+        "type": "toggle",
+        "codes": "honeyx10"
     }
 ]
