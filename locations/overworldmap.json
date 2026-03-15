@@ -16642,7 +16642,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@route_206, ^$land_encounters"
+                    "@route_206_upper, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -16654,7 +16654,7 @@
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
                 "access_rules": [
-                    "@route_206, ^$swarm_encounters"
+                    "@route_206_upper, ^$swarm_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -16666,7 +16666,7 @@
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
                 "access_rules": [
-                    "@route_206, ^$radar_encounters"
+                    "@route_206_upper, ^$radar_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -16678,7 +16678,7 @@
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
                 "access_rules": [
-                    "@route_206, ^$night_encounters"
+                    "@route_206_upper, ^$night_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
