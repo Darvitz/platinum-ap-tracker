@@ -839,7 +839,4 @@
 { "name": "Oreburgh Gate\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
 { "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
-]
-]
-
-[​]
+]]
