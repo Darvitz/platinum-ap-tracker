@@ -120,7 +120,7 @@
 {"name": "Iron Island", "sections": [{"ref": "Iron Island/Outside - Hidden Item on Rock", "name": "Outside - Hidden Item on Rock"}], "map_locations": [{"map": "ironislandoutside", "x": 304, "y": 266}]},
 {"name": "Iron Island​", "sections": [{"ref": "Iron Island/B3F - Item in Front of Iron Ruins", "name": "B3F - Item in Front of Iron Ruins"}], "map_locations": [{"map": "ironislandb3f", "x": 232, "y": 104}]},
 {"name": "Iron Island​​", "sections": [{"ref": "Iron Island/Iron Ruins - Item in Center", "name": "Iron Ruins - Item in Center"}], "map_locations": [{"map": "ironruins", "x": 168, "y": 182}]},
-{"name": "Iron Island​​​", "sections": [{"ref": "Iron Island/Iron Ruins - Hidden Item on Left", "name": "Iron Ruins - Hidden Item on Left"}], "map_locations": [{"map": "ironruins", "x": 110, "y": 160}]},
+{"name": "Iron Island​​​", "sections": [{"ref": "Iron Island/Iron Ruins - Hidden Item on Left", "name": "Iron Ruins - Hidden Item on Left"}], "map_locations": [{"map": "ironruins", "x": 102, "y": 166}]},
 {"name": "Iron Island​​​​", "sections": [{"ref": "Iron Island/B2F Left - Item Up Right Walkway", "name": "B2F Left - Item Up Right Walkway"}], "map_locations": [{"map": "ironislandb2fleft", "x": 620, "y": 200}]},
 {"name": "Iron Island​​​​​", "sections": [{"ref": "Iron Island/B2F Left - Item in Top Left", "name": "B2F Left - Item in Top Left"}], "map_locations": [{"map": "ironislandb2fleft", "x": 152, "y": 62}]},
 {"name": "Iron Island​​​​​​", "sections": [{"ref": "Iron Island/B2F Left - Item Below Two Rocks", "name": "B2F Left - Item Below Two Rocks"}], "map_locations": [{"map": "ironislandb2fleft", "x": 88, "y": 220}]},
