@@ -3,35 +3,67 @@ function land_encounters()
 end
 
 function day_encounters()
-    return has("daytime") and has("poketch")
+    if has("daytime") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function night_encounters()
-    return has("nighttime") and has("poketch")
+    if has("nighttime") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function radar_encounters()
-    return has("radar") and has("bag")
+    if has("radar") and has("bag") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function firered_encounters()
-    return  has("fireredcartridge") and has("poketch")
+    if has("fireredcartridge") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function leafgreen_encounters()
-    return has("leafgreencartridge") and has("poketch")
+    if has("leafgreencartridge") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function ruby_encounters()
-    return has("rubycartridge") and has("poketch")
+    if has("rubycartridge") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function sapphire_encounters()
-    return has("sapphirecartridge") and has("poketch")
+    if has("sapphirecartridge") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function emerald_encounters()
-    return has("emeraldcartridge") and has("poketch")
+    if has("emeraldcartridge") and has("poketch") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function swarm_encounters()
@@ -105,17 +137,33 @@ function great_marsh_observatory_encounters()
 end
 
 function great_marsh_observatory_national_dex_encounters()
-    return has("national_dex")
+    if has("national_dex") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function oldrod_encounters()
-    return has("oldrod") and has("bag")
+    if has("oldrod") and has("bag") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function goodrod_encounters()
-    return has("goodrod") and has("bag")
+    if has("goodrod") and has("bag") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
 
 function superrod_encounters()
-    return has("superrod") and has("bag")
+    if has("superrod") and has("bag") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.None
+    end
 end
