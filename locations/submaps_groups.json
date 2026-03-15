@@ -794,7 +794,7 @@
 { "name": "Solaceon Ruins\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "solaceonruinsb4f", "x": 111, "y": 133}], "sections": [
 { "name": "B5F - FRIENDSHIP Room Top Right Item", "ref": "Solaceon Ruins/B5F - FRIENDSHIP Room Top Right Item"},
 { "name": "B5F - FRIENDSHIP Room Top Right Item\u200b", "ref": "Solaceon Ruins/B5F - FRIENDSHIP Room Top Right Item\u200b"}]},
-{ "name": "Sunyshore City", "map_locations": [ { "map": "sunyshorecity", "x": 872, "y": 652}], "sections": [
+{ "name": "Sunyshore City\u200b\u200b", "map_locations": [ { "map": "sunyshorecity", "x": 872, "y": 652}], "sections": [
 { "name": "Daytime in Lighthouse", "ref": "Sunyshore City/Daytime in Lighthouse"},
 { "name": "Daytime in Lighthouse\u200b", "ref": "Sunyshore City/Daytime in Lighthouse\u200b"}]},
 { "name": "Eterna Forest\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "eternaforest", "x": 72, "y": 824}], "sections": [
@@ -806,10 +806,10 @@
 { "name": "Old Chateau\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "oldchateauentrance", "x": 542, "y": 68}], "sections": [
 { "name": "Entrance - TM96 (In Right Side Room)", "ref": "Old Chateau/Entrance - TM96 (In Right Side Room)"},
 { "name": "Entrance - TM96 (In Right Side Room)\u200b", "ref": "Old Chateau/Entrance - TM96 (In Right Side Room)\u200b"}]},
-{ "name": "Eterna City", "map_locations": [ { "map": "eternacity", "x": 280, "y": 194}], "sections": [
+{ "name": "Eterna City\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "eternacity", "x": 280, "y": 194}], "sections": [
 { "name": "HM01 from Cynthia", "ref": "Eterna City/HM01 from Cynthia"},
 { "name": "HM01 from Cynthia\u200b", "ref": "Eterna City/HM01 from Cynthia\u200b"}]},
-{ "name": "Eterna City", "map_locations": [ { "map": "eternacity", "x": 360, "y": 374}], "sections": [
+{ "name": "Eterna City\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "eternacity", "x": 360, "y": 374}], "sections": [
 { "name": "Bike from Rad Rickshaw", "ref": "Eterna City/Bike from Rad Rickshaw"},
 { "name": "Bike from Rad Rickshaw\u200b", "ref": "Eterna City/Bike from Rad Rickshaw\u200b"}]},
 { "name": "Galactic Warehouse\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "galacticwharehouseb2f", "x": 319, "y": 71}], "sections": [
@@ -821,7 +821,7 @@
 { "name": "Route 217 North\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "route217north", "x": 136, "y": 792}], "sections": [
 { "name": "HM08 Above Hikers House", "ref": "Route 217 North/HM08 Above Hikers House"},
 { "name": "HM08 Above Hikers House\u200b", "ref": "Route 217 North/HM08 Above Hikers House\u200b"}]},
-{ "name": "Snowpoint Temple\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "snowpointtempleb3f", "x": 40, "y": 186}], "sections": [
+{ "name": "Snowpoint Temple\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "snowpointtempleb3f", "x": 40, "y": 186}], "sections": [
 { "name": "B3F - TM94 (Overworld Item)", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)"},
 { "name": "B3F - TM94 (Overworld Item)\u200b", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)\u200b"}]},
 { "name": "Oreburgh Gate\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "oreburghgateb1f", "x": 936, "y": 196}], "sections": [
@@ -839,4 +839,5 @@
 { "name": "Oreburgh Gate\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
 { "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
-]]
+]
+]
