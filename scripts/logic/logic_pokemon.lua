@@ -94,7 +94,7 @@ end
 
 function feebas_fishing_encounters()
     if has("bag") and (has("oldrod") or has("goodrod") or has("superrod")) then
-        elseif has("poketch") and has("dowsingmachine") and has("pokesonar") and surf() then
+        if has("poketch") and has("dowsingmachine") and has("pokesonar") and surf() then
             return AccessibilityLevel.Normal
         else
             return AccessibilityLevel.SequenceBreak
