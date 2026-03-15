@@ -832,5 +832,11 @@
 { "name": "Super Rod from Fisherman\u200b", "ref": "Fight Area/Super Rod from Fisherman\u200b"}]},
 { "name": "Mt. Coronet Upper Floors", "map_locations": [ { "map": "spearpillar", "x": 94, "y": 616}], "sections": [
 { "name": "Spear Pillar - Nighttime", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Nighttime"},
-{ "name": "Spear Pillar - Nighttime\u200b", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Nighttime\u200b"}]},]
+{ "name": "Spear Pillar - Nighttime\u200b", "ref": "Mt. Coronet Upper Floors/Spear Pillar - Nighttime\u200b"}]},
+{ "name": "Mt. Coronet Upper Floors", "map_locations": [ { "map": "galacticwharehouse1f", "x": 208, "y": 109}], "sections": [
+{ "name": "HM02 with Looker", "ref": "Galactic Warehouse/HM02 with Looker"},
+{ "name": "HM02 with Looker\u200b", "ref": "Galactic Warehouse/HM02 with Looker\u200b"}]},
+{ "name": "Galactic Warehouse", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
+{ "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
+{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]},]
 }]]
