@@ -468,7 +468,7 @@
 { "name": "B1F - Bottom Right Item", "ref": "Snowpoint Temple/B1F - Bottom Right Item"},
 { "name": "B3F - Hidden Item on Rock Between Staircases", "ref": "Snowpoint Temple/B3F - Hidden Item on Rock Between Staircases"},
 { "name": "B3F - TM94 (Overworld Item)", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)"},
-{ "name": "B3F - TM94 (Overworld Item)\u200b", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)\u200b"}]},
+{ "name": "B3F - TM94 (Overworld Item)\u200b", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)\u200b"},
 { "name": "B4F - Item Past Ice Tile", "ref": "Snowpoint Temple/B4F - Item Past Ice Tile"}]},
 { "name": "Maniac Tunnel", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}, {"map": "route214north_barriers", "x": 128, "y": 476}], "sections": [
 { "name": "Item Next to Entrance", "ref": "Maniac Tunnel/Item Next to Entrance"},
@@ -521,7 +521,7 @@
 { "name": "Item in Room with Two Tables", "ref": "Galactic HQ/Item in Room with Two Tables"},
 { "name": "Linking Cord (In First Basement)", "ref": "Galactic HQ/Linking Cord (In First Basement)"},
 { "name": "Linking Cord (In First Basement)\u200b", "ref": "Galactic HQ/Linking Cord (In First Basement)\u200b"}]},
-{ "name": "Secret Lab - Item Next to Three Machines", "ref": "Galactic HQ/Secret Lab - Item Next to Three Machines"}]},
+{ "name": "Secret Lab - Item Next to Three Machines", "ref": "Galactic HQ/Secret Lab - Item Next to Three Machines"},
 { "name": "Galactic Building", "map_locations": [ { "map": "eternacity", "x": 280, "y": 126}], "sections": [
 { "name": "1F - Galactic Grunt 1", "ref": "Galactic Building/1F - Galactic Grunt 1"},
 { "name": "1F - Galactic Grunt 2", "ref": "Galactic Building/1F - Galactic Grunt 2"},
@@ -838,5 +838,6 @@
 { "name": "HM02 with Looker\u200b", "ref": "Galactic Warehouse/HM02 with Looker\u200b"}]},
 { "name": "Galactic Warehouse", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
-{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]},]
-}]]
+{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
+]
+]
