@@ -556,7 +556,7 @@
 {"name": "Route 217 North​​​​​​​​​", "sections": [{"ref": "Route 217 North/Spell Tag from Ghost Woman", "name": "Spell Tag from Ghost Woman"}], "map_locations": [{"map": "route217north", "x": 456, "y": 464}]},
 {"name": "Route 222​​​​​​​​​​​", "sections": [{"ref": "Route 222/Gift From Rich Boy Above Pikachu House", "name": "Gift From Rich Boy Above Pikachu House"}], "map_locations": [{"map": "route222east", "x": 328, "y": 200}]},
 {"name": "Eterna City​​​​​​​​​", "sections": [{"ref": "Eterna City/Gift from Old Woman in Condominiums", "name": "Gift from Old Woman in Condominiums"}], "map_locations": [{"map": "eternacity", "x": 440, "y": 484}]},
-{"name": "Route 218​​​", "sections": [{"ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father", "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father"}], "map_locations": [{"map": "route218", "x": 91, "y": 286}]},
+{"name": "Canalave City Gate​​​", "sections": [{"ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father", "name": "Pokedex Upgrade from Dawn or Lucas Father"}], "map_locations": [{"map": "route218", "x": 104, "y": 304}]},
 {"name": "Sandgem Town", "sections": [{"ref": "Sandgem Town/Pokemon Center Basement - Pal Pad", "name": "Pokemon Center Basement - Pal Pad"}], "map_locations": [{"map": "sandgemtown", "x": 272, "y": 134}]},
 {"name": "Solaceon Ruins​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/Unown File A", "name": "Unown File A"}], "map_locations": [{"map": "solaceonruins1f", "x": 28, "y": 72}]},
 {"name": "Solaceon Ruins​​​​​​​​​", "sections": [{"ref": "Solaceon Ruins/Unown File B", "name": "Unown File B"}], "map_locations": [{"map": "solaceonruins1f", "x": 28, "y": 100}]},
