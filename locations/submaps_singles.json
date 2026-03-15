@@ -517,9 +517,6 @@
 {"name": "Route 201", "sections": [{"ref": "Route 201/Potion from Poke Mart Employee", "name": "Potion from Poke Mart Employee"}], "map_locations": [{"map": "route201", "x": 711, "y": 98}]},
 {"name": "Route 202​", "sections": [{"ref": "Route 202/Poke Balls from Lucas or Dawn", "name": "Poke Balls from Lucas or Dawn"}], "map_locations": [{"map": "route202", "x": 295, "y": 432}]},
 {"name": "Jubilife City​​​", "sections": [{"ref": "Jubilife City/Vs. Recorder from Looker", "name": "Vs. Recorder from Looker"}], "map_locations": [{"map": "jubilifecity", "x": 752, "y": 473}]},
-{"name": "Jubilife City​​​​", "sections": [{"ref": "Jubilife City/Coupon from East Clown", "name": "Coupon from East Clown"}], "map_locations": [{"map": "jubilifecity", "x": 878, "y": 420}]},
-{"name": "Jubilife City​​​​​", "sections": [{"ref": "Jubilife City/Coupon from Clown in front of Poketch HQ", "name": "Coupon from Clown in front of Poketch HQ"}], "map_locations": [{"map": "jubilifecity", "x": 255, "y": 229}]},
-{"name": "Jubilife City​​​​​​", "sections": [{"ref": "Jubilife City/Coupon from Clown in front of Jubilife TV", "name": "Coupon from Clown in front of Jubilife TV"}], "map_locations": [{"map": "jubilifecity", "x": 559, "y": 197}]},
 {"name": "Eterna City​​​​​", "sections": [{"ref": "Eterna City/Bike from Rad Rickshaw", "name": "Bike from Rad Rickshaw"}], "map_locations": [{"map": "eternacity", "x": 360, "y": 374}]},
 {"name": "Oreburgh City​​​​", "sections": [{"ref": "Oreburgh City/Lass in Northwest Building", "name": "Lass in Northwest Building"}], "map_locations": [{"map": "oreburghcity", "x": 248, "y": 162}]},
 {"name": "Oreburgh City​​​​​", "sections": [{"ref": "Oreburgh City/Gift from Overalls Man for Showing Geodude in North House", "name": "Gift from Overalls Man for Showing Geodude in North House"}], "map_locations": [{"map": "oreburghcity", "x": 359, "y": 162}]},
@@ -1090,5 +1087,6 @@
 {"name": "Canalave City​​​​​​​​​​​", "sections": [{"ref": "Canalave City/Library - Witness the Explosion (Event)", "name": "Library - Witness the Explosion (Event)"}], "map_locations": [{"map": "canalavecity", "x": 96, "y": 148}]},
 {"name": "Lake Acuity​​​", "sections": [{"ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)", "name": "Lake - Watch Jupiter defeat your rival (Event)"}], "map_locations": [{"map": "acuitylake", "x": 112, "y": 520}]},
 {"name": "Mt. Coronet Upper Floors​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Mt. Coronet Upper Floors/Distortion World - Clear the Distortion World (Event)", "name": "Distortion World - Clear the Distortion World (Event)"}], "map_locations": [{"map": "distortionworld", "x": 176, "y": 158}]},
-{"name": "Stark Mountain​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)", "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)"}], "map_locations": [{"map": "starkmountainheatransroom", "x": 120, "y": 243}]}
+{"name": "Stark Mountain​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Stark Mountain/Cavern - Defeat Team Galactic in Stark Mountain (Event)", "name": "Cavern - Defeat Team Galactic in Stark Mountain (Event)"}], "map_locations": [{"map": "starkmountainheatransroom", "x": 120, "y": 243}]},
+{"name": "Galactic HQ", "sections": [{"ref": "Galactic HQ/Hidden Item Near Entrance in Green Warp Room", "name": "Hidden Item Near Entrance in Green Warp Room"}], "map_locations": [{"map": "veilstonecity", "x": 776, "y": 164}]}
 ]}]

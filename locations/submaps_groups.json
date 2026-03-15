@@ -479,7 +479,6 @@
 { "name": "Hidden Item in Box in Room with Two Tables", "ref": "Galactic HQ/Hidden Item in Box in Room with Two Tables"},
 { "name": "Hidden Item in Room Next to Cyrus", "ref": "Galactic HQ/Hidden Item in Room Next to Cyrus"},
 { "name": "Hidden Item in Room with Four Boxes", "ref": "Galactic HQ/Hidden Item in Room with Four Boxes"},
-{ "name": "Hidden Item Near Entrance in Green Warp Room", "ref": "Galactic HQ/Hidden Item Near Entrance in Green Warp Room"},
 { "name": "Item Behind Box", "ref": "Galactic HQ/Item Behind Box"},
 { "name": "Item in Room with Four Boxes", "ref": "Galactic HQ/Item in Room with Four Boxes"},
 { "name": "Item in Room with Two Generators", "ref": "Galactic HQ/Item in Room with Two Generators"},
@@ -712,5 +711,14 @@
 { "name": "Hidden Item in White Rock on South Ledge", "ref": "Mt. Coronet Tunnel/Hidden Item in White Rock on South Ledge"},
 { "name": "Galactic Grunt 1", "ref": "Mt. Coronet Tunnel/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Mt. Coronet Tunnel/Galactic Grunt 2"},
-{ "name": "Galactic Grunt 3", "ref": "Mt. Coronet Tunnel/Galactic Grunt 3"}]}]
+{ "name": "Galactic Grunt 3", "ref": "Mt. Coronet Tunnel/Galactic Grunt 3"}]},
+{ "name": "East Clown", "map_locations": [ { "map": "jubilifecity", "x": 878, "y": 420}], "sections": [
+{ "name": "Coupon from East Clown", "ref": "Jubilife City/Coupon from East Clown"},
+{ "name": "Coupon from East Clown​", "ref": "Jubilife City/Coupon from East Clown​"}]},
+{ "name": "Clown at Jubilife TV", "map_locations": [ { "map": "jubilifecity", "x": 559, "y": 197}], "sections": [
+{ "name": "Coupon from Clown in front of Jubilife TV", "ref": "Jubilife City/Coupon from Clown in front of Jubilife TV"},
+{ "name": "Coupon from Clown in front of Jubilife TV​", "ref": "Jubilife City/Coupon from Clown in front of Jubilife TV​"}]},
+{ "name": "Clown at Jubilife TV", "map_locations": [ { "map": "jubilifecity", "x": 255, "y": 229}], "sections": [
+{ "name": "Coupon from Clown in front of Poketch HQ", "ref": "Jubilife City/Coupon from Clown in front of Poketch HQ"},
+{ "name": "Coupon from Clown in front of Poketch HQ​", "ref": "Jubilife City/Coupon from Clown in front of Poketch HQ​"}]}]
 }]]
