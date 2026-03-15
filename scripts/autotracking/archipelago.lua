@@ -388,13 +388,13 @@ function onNotify(key, value, old_value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == KEY1_ID then
-            updateVanillaKeyItems1(value)
+            updateVanillaKeyItems(1, value)
         elseif key == KEY2_ID then
-            updateVanillaKeyItems2(value)
+            updateVanillaKeyItems(2, value)
         elseif key == KEY3_ID then
-            updateVanillaKeyItems3(value)
+            updateVanillaKeyItems(3, value)
         elseif key == KEY4_ID then
-            updateVanillaKeyItems4(value)
+            updateVanillaKeyItems(4, value)
         elseif key == HINT_ID then
             updateHints(value)
         elseif key == CAUGHT_ID then
@@ -411,13 +411,13 @@ function onNotifyLaunch(key, value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == KEY1_ID then
-            updateVanillaKeyItems1(value)
+            updateVanillaKeyItems(1, value)
         elseif key == KEY2_ID then
-            updateVanillaKeyItems2(value)
+            updateVanillaKeyItems(2, value)
         elseif key == KEY3_ID then
-            updateVanillaKeyItems3(value)
+            updateVanillaKeyItems(3, value)
         elseif key == KEY4_ID then
-            updateVanillaKeyItems4(value)
+            updateVanillaKeyItems(4, value)
         elseif key == HINT_ID then
             updateHints(value)
         elseif key == CAUGHT_ID then
@@ -438,102 +438,45 @@ function updateEvents(value)
     end
 end
 
-function updateVanillaKeyItems1(value)
-    if value ~= nil then
-        for i, obj in ipairs(FLAG_ITEM1_CODES) do
-            local bit = value >> (i - 1) & 1
-            if obj.codes and (obj.option == nil or has(obj.option)) then
-                for j, code in ipairs(obj.codes) do
-                    local item = Tracker:FindObjectForCode(code)
-                    if item then
-                        if code == "pokedex" then
-                            if bit == 1 then
-                                item.CurrentStage = (item.CurrentStage or 0) + 1
-                            end
-                        elseif code == "coupons" or code == "unownfile" then
-                            if bit == 1 then
-                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
-                            end
-                        else
-                            item.Active = item.Active or bit
-                        end
-                    end
-                end
+local flippedBits = flippedBits or {}
+
+function countBitsForCode(targetCode)
+    local total = 0
+    for _, regBits in pairs(flippedBits) do
+        for _, code in pairs(regBits) do
+            if code == targetCode then
+                total = total + 1
             end
         end
     end
+    return total
 end
 
-function updateVanillaKeyItems2(value)
-    if value ~= nil then
-        for i, obj in ipairs(FLAG_ITEM2_CODES) do
-            local bit = value >> (i - 1) & 1
+function updateVanillaKeyItems(register, value)
+    if value == nil then return end
+
+    local list = _G["FLAG_ITEM" .. tostring(register) .. "_CODES"]
+
+    flippedBits[register] = flippedBits[register] or {}
+
+    for i, obj in ipairs(list) do
+        local bit = (value >> (i - 1)) & 1
+
+        if bit == 1 and not flippedBits[register][i] then
             if obj.codes and (obj.option == nil or has(obj.option)) then
-                for j, code in ipairs(obj.codes) do
+                for _, code in ipairs(obj.codes) do
+                    flippedBits[register][i] = code
+
                     local item = Tracker:FindObjectForCode(code)
                     if item then
                         if code == "pokedex" then
-                            if bit == 1 then
-                                item.CurrentStage = (item.CurrentStage or 0) + 1
-                            end
+                            local total = countBitsForCode("pokedex")
+                            item.CurrentStage = math.min(total, 3)
                         elseif code == "coupons" or code == "unownfile" then
-                            if bit == 1 then
-                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
-                            end
+                            local total = countBitsForCode(code)
+                            item.AcquiredCount = total
                         else
-                            item.Active = item.Active or bit
-                        end
-                    end
-                end
-            end
-        end
-    end
-end
-
-function updateVanillaKeyItems3(value)
-    if value ~= nil then
-        for i, obj in ipairs(FLAG_ITEM3_CODES) do
-            local bit = value >> (i - 1) & 1
-            if obj.codes and (obj.option == nil or has(obj.option)) then
-                for j, code in ipairs(obj.codes) do
-                    local item = Tracker:FindObjectForCode(code)
-                    if item then
-                        if code == "pokedex" then
-                            if bit == 1 then
-                                item.CurrentStage = (item.CurrentStage or 0) + 1
-                            end
-                        elseif code == "coupons" or code == "unownfile" then
-                            if bit == 1 then
-                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
-                            end
-                        else
-                            item.Active = item.Active or bit
-                        end
-                    end
-                end
-            end
-        end
-    end
-end
-
-function updateVanillaKeyItems4(value)
-    if value ~= nil then
-        for i, obj in ipairs(FLAG_ITEM4_CODES) do
-            local bit = value >> (i - 1) & 1
-            if obj.codes and (obj.option == nil or has(obj.option)) then
-                for j, code in ipairs(obj.codes) do
-                    local item = Tracker:FindObjectForCode(code)
-                    if item then
-                        if code == "pokedex" then
-                            if bit == 1 then
-                                item.CurrentStage = (item.CurrentStage or 0) + 1
-                            end
-                        elseif code == "coupons" or code == "unownfile" then
-                            if bit == 1 then
-                                item.AcquiredCount = (item.AcquiredCount or 0) + 1
-                            end
-                        else
-                            item.Active = item.Active or bit
+                            item.Active = true
                         end
                     end
                 end
