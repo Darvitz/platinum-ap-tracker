@@ -702,5 +702,15 @@
 { "name": "Hidden Item in SW White Rock", "ref": "Mt. Coronet B1F/Hidden Item in SW White Rock"},
 { "name": "Hidden Item on Left White Rock", "ref": "Mt. Coronet R216 Path/Hidden Item on Left White Rock"},
 { "name": "Iceberg Ruins - Item in Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Item in Center"},
-{ "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]}]
+{ "name": "Iceberg Ruins - Hidden Item Up and Left of Center", "ref": "Mt. Coronet R216 Path/Iceberg Ruins - Hidden Item Up and Left of Center"}]},
+{ "name": "Mt. Coronet Tunnel", "map_locations": [ { "map": "mtcoronetsouthoutside", "x": 537, "y": 189}], "sections": [
+{ "name": "Hidden Item Behind Breakable Rock on Left", "ref": "Mt. Coronet Tunnel/Hidden Item Behind Breakable Rock on Left"},
+{ "name": "Hidden Item on Corner White Rock Before Exit", "ref": "Mt. Coronet Tunnel/Hidden Item on Corner White Rock Before Exit"},
+{ "name": "Hidden Item Above Big White Rock", "ref": "Mt. Coronet Tunnel/Hidden Item Above Big White Rock"},
+{ "name": "Hidden Item Before Exit", "ref": "Mt. Coronet Tunnel/Hidden Item Before Exit"},
+{ "name": "Hidden Item on Right Path", "ref": "Mt. Coronet Tunnel/Hidden Item on Right Path"},
+{ "name": "Hidden Item in White Rock on South Ledge", "ref": "Mt. Coronet Tunnel/Hidden Item in White Rock on South Ledge"},
+{ "name": "Galactic Grunt 1", "ref": "Mt. Coronet Tunnel/Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Mt. Coronet Tunnel/Galactic Grunt 2"},
+{ "name": "Galactic Grunt 3", "ref": "Mt. Coronet Tunnel/Galactic Grunt 3"}]}]
 }]]
