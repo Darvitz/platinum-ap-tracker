@@ -8494,7 +8494,8 @@
                 "visibility_rules": [
                     "show_items, opt_coupons_off"
                 ],
-                "hosted_item": "coupons"
+                "hosted_item": "coupons, coupon_1",
+                "clear_as_group": true
             },
             {
                 "name": "Coupon from Clown in front of Poketch HQ",
@@ -8514,7 +8515,8 @@
                 "visibility_rules": [
                     "show_items, opt_coupons_off"
                 ],
-                "hosted_item": "coupons"
+                "hosted_item": "coupons, coupon_2",
+                "clear_as_group": true
             },
             {
                 "name": "Coupon from Clown in front of Jubilife TV",
@@ -8534,7 +8536,8 @@
                 "visibility_rules": [
                     "show_items, opt_coupons_off"
                 ],
-                "hosted_item": "coupons"
+                "hosted_item": "coupons, coupon_3",
+                "clear_as_group": true
             },
             {
                 "name": "Poketch from CEO",
