@@ -135,9 +135,9 @@
 { "name": "Poketch Company - Link Searcher App", "ref": "Jubilife City/Poketch Company - Link Searcher App"},
 { "name": "Poketch Company - Move Tester App", "ref": "Jubilife City/Poketch Company - Move Tester App"}]},
 { "name": "Veilstone Dept. Store", "map_locations": [ { "map": "veilstonecity", "x": 472, "y": 368}], "sections": [
-{ "name": "Department Store 2F - Counter App", "ref": "Veilstone City/Department Store 2F - Counter App"},
-{ "name": "Department Store 5F - Sticky Barb", "ref": "Veilstone City/Department Store 5F - Sticky Barb"},
-{ "name": "Department Store 1F - Turtwig Mask", "ref": "Veilstone City/Department Store 1F - Turtwig Mask"}]},
+{ "name": "1F - Turtwig Mask", "ref": "Veilstone City/Department Store 1F - Turtwig Mask"},
+{ "name": "2F - Counter App", "ref": "Veilstone City/Department Store 2F - Counter App"},
+{ "name": "5F - Sticky Barb", "ref": "Veilstone City/Department Store 5F - Sticky Barb"}]},
 { "name": "App Developer", "map_locations": [ { "map": "sunyshorecity", "x": 905, "y": 424}], "sections": [
 { "name": "Roulette App From Developer", "ref": "Sunyshore City/Roulette App From Developer"},
 { "name": "Dot Artist App From Developer", "ref": "Sunyshore City/Dot Artist App From Developer"},
@@ -153,8 +153,8 @@
 { "name": "Berry Searcher App from Berry Masters Daughter", "ref": "Route 208/Berry Searcher App from Berry Masters Daughter"},
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
-{ "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
-{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
+{ "name": "Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"},
+{ "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"}]},
 { "name": "Secret Lab", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
 { "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
 { "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
@@ -496,7 +496,7 @@
 { "name": "Item in Room With Boxes and Green Warp", "ref": "Galactic Warehouse/Item in Room With Boxes and Green Warp"},
 { "name": "Item Next to Table", "ref": "Galactic Warehouse/Item Next to Table"},
 { "name": "Item Sitting in Puddle", "ref": "Galactic Warehouse/Item Sitting in Puddle"}]},
-{ "name": "Galactic Headquarters", "map_locations": [ { "map": "veilstonecity", "x": 728, "y": 164}], "sections": [
+{ "name": "\u200bGalactic HQ", "map_locations": [ { "map": "veilstonecity", "x": 728, "y": 164}], "sections": [
 { "name": "1F - Galactic Grunt", "ref": "Galactic HQ/1F - Galactic Grunt"},
 { "name": "1F - Scientist Fredrick", "ref": "Galactic HQ/1F - Scientist Fredrick"},
 { "name": "2F - Galactic Grunt 1", "ref": "Galactic HQ/2F - Galactic Grunt 1"},
@@ -788,9 +788,9 @@
 { "name": "Gift from Cynthia", "map_locations": [ { "map": "route210south", "x": 284, "y": 228}], "sections": [
 { "name": "Old Charm from Cynthia", "ref": "Route 210 South/Old Charm from Cynthia"},
 { "name": "Old Charm from Cynthia\u200b", "ref": "Route 210 South/Old Charm from Cynthia\u200b"}]},
-{ "name": "Gate to Canalave City", "map_locations": [ { "map": "route218", "x": 91, "y": 286}], "sections": [
-{ "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father", "ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father"},
-{ "name": "Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b", "ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b"}]},
+{ "name": "Canalave City Gate", "map_locations": [ { "map": "route218", "x": 104, "y": 304}], "sections": [
+{ "name": "Pokedex Upgrade from Dawn or Lucas Father", "ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father"},
+{ "name": "Pokedex Upgrade from Dawn or Lucas Father\u200b", "ref": "Route 218/Gate to Canalave - Pokedex Upgrade from Dawn or Lucas Father\u200b"}]},
 { "name": "Solaceon Ruins - Top Right", "map_locations": [ { "map": "solaceonruinsb4f", "x": 111, "y": 133}], "sections": [
 { "name": "B5F - FRIENDSHIP Room Top Right Item", "ref": "Solaceon Ruins/B5F - FRIENDSHIP Room Top Right Item"},
 { "name": "B5F - FRIENDSHIP Room Top Right Item\u200b", "ref": "Solaceon Ruins/B5F - FRIENDSHIP Room Top Right Item\u200b"}]},
