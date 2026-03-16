@@ -1,4 +1,4 @@
-[[
+[
     {
         "name": "Submap-Groups",
         "children": [
@@ -154,7 +154,7 @@
 { "name": "Random Berry", "ref": "Route 208/Random Berry"}]},
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
 { "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
-{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"},
+{ "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"}]},
 { "name": "Secret Lab", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
 { "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
 { "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
@@ -658,7 +658,7 @@
 { "name": "Lake - Galactic Grunt 3", "ref": "Lake Verity/Lake - Galactic Grunt 3"},
 { "name": "Lake - Galactic Grunt 4", "ref": "Lake Verity/Lake - Galactic Grunt 4"},
 { "name": "Lake - Commander Mars", "ref": "Lake Verity/Lake - Commander Mars"},
-{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"}
+{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"},
 { "name": "Land Encounters", "ref": "Lake Verity/Land Encounters"},
 { "name": "Radar Encounters", "ref": "Lake Verity/Radar Encounters"},
 { "name": "Ruby Encounters", "ref": "Lake Verity/Ruby Encounters"},
@@ -838,5 +838,5 @@
 { "name": "HM02 with Looker\u200b", "ref": "Galactic Warehouse/HM02 with Looker\u200b"}]},
 { "name": "Oreburgh Gate - Gift from Hiker", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
-{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}]}
-]]
+{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
+]}]
