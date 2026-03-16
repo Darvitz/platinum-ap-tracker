@@ -155,7 +155,9 @@
 { "name": "Galactic Boss Cyrus", "map_locations": [ { "map": "galactichqcyrusoffice", "x": 128, "y": 117}], "sections": [
 { "name": "Master Ball from Cyrus", "ref": "Galactic HQ/Master Ball from Cyrus"},
 { "name": "4F - Galactic Boss Cyrus", "ref": "Galactic HQ/4F - Galactic Boss Cyrus"},
-{ "name": "Defeat Cyrus (Event)", "ref": "Galactic HQ/Defeat Cyrus (Event)"}]},
+{ "name": "Secret Lab", "map_locations": [ {"map": "galactichqmachineroom", "x": 576, "y": 72}], "sections": [
+{ "name": "Commander Saturn", "ref": "Galactic HQ/Commander Saturn"},
+{ "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Release the Lake Guardians (Event)"}]},
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
 { "name": "Galactic Grunt 1", "ref": "Iron Island/Galactic Grunt 1"},
 { "name": "Galactic Grunt 2", "ref": "Iron Island/Galactic Grunt 2"}]},
@@ -311,7 +313,7 @@
 { "name": "B3F - Item in Front of Iron Ruins", "ref": "Iron Island/B3F - Item in Front of Iron Ruins"},
 { "name": "Iron Ruins - Hidden Item on Left", "ref": "Iron Island/Iron Ruins - Hidden Item on Left"},
 { "name": "Iron Ruins - Item in Center", "ref": "Iron Island/Iron Ruins - Item in Center"}]},
-{ "name": "Oreburgh Gate\u200b", "map_locations": [ { "map": "oreburghcity", "x": 25, "y": 182}], "sections": [
+{ "name": "Oreburgh Gate\u200b", "map_locations": [ { "map": "oreburghcity", "x": 25, "y": 182}, {"map": "route203", "x": 888, "y": 182}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
 { "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"},
 { "name": "1F - Camper Curtis", "ref": "Oreburgh Gate/1F - Camper Curtis"},
@@ -468,16 +470,16 @@
 { "name": "B3F - TM94 (Overworld Item)", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)"},
 { "name": "B3F - TM94 (Overworld Item)\u200b", "ref": "Snowpoint Temple/B3F - TM94 (Overworld Item)\u200b"},
 { "name": "B4F - Item Past Ice Tile", "ref": "Snowpoint Temple/B4F - Item Past Ice Tile"}]},
-{ "name": "Maniac Tunnel\u200b\u200b", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}], "sections": [
+{ "name": "Maniac Tunnel\u200b\u200b", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}, {"map": "route214north_barriers", "x": 128, "y": 476}], "sections": [
 { "name": "Item Next to Entrance", "ref": "Maniac Tunnel/Item Next to Entrance"},
 { "name": "Unown File !", "ref": "Solaceon Ruins/Unown File !"},
 { "name": "Unown File ?", "ref": "Solaceon Ruins/Unown File ?"}]},
-{ "name": "Pokemon Mansion\u200b\u200b", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}], "sections": [
+{ "name": "Pokemon Mansion\u200b\u200b", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}, {"map": "route212north_barriers", "x": 384, "y": 566}], "sections": [
 { "name": "Hidden Item in East Bedroom Trash", "ref": "Pokemon Mansion/Hidden Item in East Bedroom Trash"},
 { "name": "Item in Mr. Backlots Office", "ref": "Pokemon Mansion/Item in Mr. Backlots Office"},
 { "name": "Item in West Bedroom", "ref": "Pokemon Mansion/Item in West Bedroom"},
 { "name": "Soothe Bell from Maid in Center Bedroom", "ref": "Pokemon Mansion/Soothe Bell from Maid in Center Bedroom"}]},
-{ "name": "Ravaged Path\u200b\u200b", "map_locations": [ { "map": "route204south", "x": 168, "y": 54}], "sections": [
+{ "name": "Ravaged Path\u200b\u200b", "map_locations": [ { "map": "route204south", "x": 168, "y": 54}, {"map": "route204north", "x": 312, "y": 454}], "sections": [
 { "name": "First Item", "ref": "Ravaged Path/First Item"},
 { "name": "Item at Waters End", "ref": "Ravaged Path/Item at Waters End"},
 { "name": "Item Behind Long Boulder Trail", "ref": "Ravaged Path/Item Behind Long Boulder Trail"},
@@ -588,7 +590,7 @@
 { "name": "1F - Hidden Item in Center Boulder", "ref": "Wayward Cave/1F - Hidden Item in Center Boulder"},
 { "name": "1F - Hidden Item in Corner With Breakable Rock", "ref": "Wayward Cave/1F - Hidden Item in Corner With Breakable Rock"},
 { "name": "1F - Hidden Item in Southeast Corner", "ref": "Wayward Cave/1F - Hidden Item in Southeast Corner"}]},
-{ "name": "Eterna Forest", "map_locations": [ { "map": "route205north", "x": 40, "y": 204}], "sections": [
+{ "name": "Eterna Forest", "map_locations": [ { "map": "route205north", "x": 40, "y": 204}, {"map": "route205center", "x": 238, "y": 76}], "sections": [
 { "name": "Bug Catcher Donald", "ref": "Eterna Forest/Bug Catcher Donald"},
 { "name": "Bug Catcher Jack", "ref": "Eterna Forest/Bug Catcher Jack"},
 { "name": "Bug Catcher Phillip", "ref": "Eterna Forest/Bug Catcher Phillip"},
@@ -656,7 +658,15 @@
 { "name": "Lake - Galactic Grunt 3", "ref": "Lake Verity/Lake - Galactic Grunt 3"},
 { "name": "Lake - Galactic Grunt 4", "ref": "Lake Verity/Lake - Galactic Grunt 4"},
 { "name": "Lake - Commander Mars", "ref": "Lake Verity/Lake - Commander Mars"},
-{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"}]},
+{ "name": "Lake - Defeat Mars (Event)", "ref": "Lake Verity/Lake - Defeat Mars (Event)"}
+{ "name": "Land Encounters", "ref": "Lake Verity/Land Encounters"},
+{ "name": "Radar Encounters", "ref": "Lake Verity/Radar Encounters"},
+{ "name": "Ruby Encounters", "ref": "Lake Verity/Ruby Encounters"},
+{ "name": "Sapphire Encounters", "ref": "Lake Verity/Sapphire Encounters"},
+{ "name": "Surf Encounters", "ref": "Lake Verity/Surf Encounters"},
+{ "name": "Old Rod Encounters", "ref": "Lake Verity/Old Rod Encounters"},
+{ "name": "Good Rod Encounters", "ref": "Lake Verity/Good Rod Encounters"},
+{ "name": "Super Rod Encounters", "ref": "Lake Verity/Super Rod Encounters"}]},
 { "name": "Lake Acuity Shore", "map_locations": [ { "map": "acuitylakefront", "x": 336, "y": 42}], "sections": [
 { "name": "Lake - Item in NE Corner of Lake", "ref": "Lake Acuity/Lake - Item in NE Corner of Lake"},
 { "name": "Lake - Watch Jupiter defeat your rival (Event)", "ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)"}]},
@@ -694,7 +704,7 @@
 { "name": "B1F - Hidden Item Against Northwest Wall", "ref": "Wayward Cave/B1F - Hidden Item Against Northwest Wall"},
 { "name": "B1F - Hidden Item in Rock Before First Bike Slope", "ref": "Wayward Cave/B1F - Hidden Item in Rock Before First Bike Slope"},
 { "name": "Final Room - Item", "ref": "Wayward Cave/Final Room - Item"}]},
-{ "name": "Mt. Coronet South", "map_locations": [ { "map": "route207", "x": 873, "y": 165}], "sections": [
+{ "name": "Mt. Coronet South", "map_locations": [ { "map": "route207", "x": 873, "y": 165}, {"map": "route208", "x": 119, "y": 373}], "sections": [
 { "name": "Item Across Upper Pond", "ref": "Mt. Coronet 1F South/Item Across Upper Pond"},
 { "name": "Item Across Lower Pond", "ref": "Mt. Coronet 1F South/Item Across Lower Pond"},
 { "name": "Hidden Item on Center Boulder", "ref": "Mt. Coronet 1F South/Hidden Item on Center Boulder"},
@@ -710,7 +720,7 @@
 { "name": "3F - Hidden Item in Top Left in Room After Mural", "ref": "Mt. Coronet 2F-3F/3F - Hidden Item in Top Left in Room After Mural"},
 { "name": "3F - Galactic Grunt 1", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 1"},
 { "name": "3F - Galactic Grunt 2", "ref": "Mt. Coronet 2F-3F/3F - Galactic Grunt 2"}]},
-{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}], "sections": [
+{ "name": "Mt. Coronet North", "map_locations": [ { "map": "route211west", "x": 473, "y": 356}, {"map": "route211east", "x": 39, "y": 309}], "sections": [
 { "name": "Item Behind Two Breakable Rocks", "ref": "Mt. Coronet 1F North/Item Behind Two Breakable Rocks"},
 { "name": "Item in Corner Above Ledge", "ref": "Mt. Coronet 1F North/Item in Corner Above Ledge"},
 { "name": "Item Below East Exit", "ref": "Mt. Coronet 1F North/Item Below East Exit"},
