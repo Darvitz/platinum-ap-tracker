@@ -2,19 +2,15 @@ name: Validate JSON
 
 on:
   pull_request:
-    branches:
-      - "**"
 
 jobs:
   validate-json:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Validate JSON files
-        uses: OrRosenblatt/validate-json-action@main
+        uses: OrRosenblatt/validate-json-action@1.1.0
         with:
-          json-schema: false
-          files: "**/*.json"
+          json: '**/*.json'
