@@ -639,15 +639,5 @@
         "name": "Honey",
         "type": "toggle",
         "codes": "honey"
-    },
-    {
-        "name": "Honey x3",
-        "type": "toggle",
-        "codes": "honeyx3"
-    },
-    {
-        "name": "Honey x10",
-        "type": "toggle",
-        "codes": "honeyx10"
     }
 ]
