@@ -485,7 +485,6 @@ function updateHints()
                     if location:sub(1, 1) == "@" and Tracker:FindObjectForCode(location).ChestCount == 1 then
                     
                         if has("hint_tracking_on_plus") then
-                            print(hint.item_flags)
                             if hint.item_flags == 1 then
                                 Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
                             else
