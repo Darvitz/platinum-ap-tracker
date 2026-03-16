@@ -6,11 +6,15 @@ on:
       - "**"
 
 jobs:
-  verify-json-validation:
+  validate-json:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_JSONS: "**/*.json"
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        uses: OrRosenblatt/validate-json-action@v1
+        with:
+          json-schema: false
+          files: "**/*.json"
