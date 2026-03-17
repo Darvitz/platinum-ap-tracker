@@ -1,5 +1,33 @@
 [
     {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "/images/settings/encounter_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_tracking, encounter_tracking_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Strict",
+                "img": "/images/settings/encounter_tracking.png",
+                "codes": "encounter_tracking, encounter_tracking_strict",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Loose",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_loose",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Location Visibility",
         "type": "progressive",
         "loop": true,

@@ -3746,7 +3746,7 @@
             {
                 "name": "Black Glasses from Man in Shop (Day)",
                 "access_rules": [
-                    "@celestic_town, daytime, poketch"
+                    "@celestic_town, $day"
                 ],
                 "visibility_rules": [
                     "show_items, "
@@ -3756,7 +3756,7 @@
             {
                 "name": "Black Glasses from Man in Shop (Night)",
                 "access_rules": [
-                    "@celestic_town, nighttime, poketch"
+                    "@celestic_town, $night"
                 ],
                 "visibility_rules": [
                     "show_items, "
@@ -7008,7 +7008,7 @@
             {
                 "name": "Policeman Bobby",
                 "access_rules": [
-                    "@route_212_north_top, nighttime, poketch"
+                    "@route_212_north_top, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7019,7 +7019,7 @@
             {
                 "name": "Policeman Alex",
                 "access_rules": [
-                    "@route_212_north, nighttime, poketch"
+                    "@route_212_north, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7030,7 +7030,7 @@
             {
                 "name": "Policeman Dylan",
                 "access_rules": [
-                    "@route_212_north, nighttime, poketch"
+                    "@route_212_north, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7041,7 +7041,7 @@
             {
                 "name": "Policeman Caleb",
                 "access_rules": [
-                    "@route_212_north, nighttime, poketch"
+                    "@route_212_north, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7298,7 +7298,7 @@
             {
                 "name": "Policeman Danny",
                 "access_rules": [
-                    "@route_212_south, nighttime, poketch"
+                    "@route_212_south, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -11545,7 +11545,7 @@
             {
                 "name": "Policeman Thomas",
                 "access_rules": [
-                    "@route_222, nighttime, poketch"
+                    "@route_222, $night"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",

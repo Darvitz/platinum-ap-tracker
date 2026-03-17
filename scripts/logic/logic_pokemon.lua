@@ -3,7 +3,7 @@ function land_encounters()
 end
 
 function day_encounters()
-    if has("daytime") and has("poketch") then
+    if day() then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -11,7 +11,7 @@ function day_encounters()
 end
 
 function night_encounters()
-    if has("nighttime") and has("poketch") then
+    if night() then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.None
@@ -167,6 +167,69 @@ function evo_item_shop()
         return AccessibilityLevel.Normal
     else
         local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
-        return veilstone
+        return math.max(veilstone, AccessibilityLevel.SequenceBreak)
     end    
+end
+
+--== Evolution Logic ==--
+
+function levelup()
+    return AccessibilityLevel.Normal
+    -- yep. any level is always in logic.
+end
+
+
+function evolve_item(value)
+    if not has(value) or not has("bag") then return end
+    
+    if has("evomethod_item_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function evolve_trade_item(value)
+    if not has(value) or not has("linkingcord") or not has("bag") then return end
+    
+    if has("evomethod_item_on") then
+        return evo_item_shop()
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function evolve_area(area)
+    local evo_area = Tracker:FindObjectForCode("@"..area).AccessibilityLevel
+    if has("evomethod_area_on") then
+        return evo_area
+    else
+        math.min(evo_area, AccessibilityLevel.SequenceBreak)
+    end
+end
+
+function evolve_mildly(which)
+    if has("evomethod_mildly_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function evolve_highly(which)
+    if has("evomethod_highly_on") then
+        local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
+        if which == tyrogue then
+            return math.max(veilstone, AccessibilityLevel.SequenceBreak)
+        elseif which == beauty then
+            local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
+            return math.min(veilstone, hearthome, has_level("poffincase"))
+        end
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function evolve_friendship()
+    return AccessibilityLevel.Normal
 end
