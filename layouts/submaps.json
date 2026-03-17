@@ -1072,15 +1072,6 @@
                   "route221east"
                 ]
               }
-            },
-            {
-              "title": "Pal Park",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "palpark"
-                ]
-              }
             }
           ]
         }

@@ -74,7 +74,6 @@ MAP_MAPPING = {
   [247] = {"Dungeons", "Victory Road", "Side Cave", "Basement"}, --247: "victory_road_1f_room_2",
   [248] = {"Dungeons", "Victory Road", "Side Cave", "Entrance"}, --248: "victory_road_1f_room_1",
   [249] = {"Dungeons", "Victory Road", "Side Cave", "Exit"}, --249: "victory_road_1f_room_3",
-  [251] = {"Routes", "R221", "Pal Park"}, --251: "pal_park",
   [253] = {"Cities", "Hearthome City", "Amity Square"}, --253: "amity_square",
   [254] = {"Dungeons", "Ravaged Path"}, --254: "ravaged_path",
   [256] = {"Cities", "Floaroma Town", "Meadow"}, --256: "floaroma_meadow",
