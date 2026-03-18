@@ -500,7 +500,7 @@
 { "name": "Old Rod Encounters", "ref": "Twinleaf Town/Old Rod Encounters" },
 { "name": "Good Rod Encounters", "ref": "Twinleaf Town/Good Rod Encounters" },
 { "name": "Super Rod Encounters", "ref": "Twinleaf Town/Super Rod Encounters" }]},
-{ "name": "Encounters​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "map_locations": [ { "map": "route205south", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Valley Windworks/Land Encounters" },
+{ "name": "Encounters​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "map_locations": [ { "map": "valleywindworksoutside", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Valley Windworks/Land Encounters" },
 { "name": "Swarm Encounters", "ref": "Valley Windworks/Swarm Encounters" },
 { "name": "Radar Encounters", "ref": "Valley Windworks/Radar Encounters" },
 { "name": "Surf Encounters", "ref": "Valley Windworks/Surf Encounters" },
