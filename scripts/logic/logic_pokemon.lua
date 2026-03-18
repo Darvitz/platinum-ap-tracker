@@ -201,9 +201,9 @@ function odd_keystone_encounters()
 
     if has("encmethod_oddkeystone_on") then
         return AccessibilityLevel.Normal
-    end
-    
-    return AccessibilityLevel.SequenceBreak
+    else
+        return AccessibilityLevel.SequenceBreak
+	end
 end
 
 function evo_item_shop()
