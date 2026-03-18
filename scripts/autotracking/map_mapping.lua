@@ -186,7 +186,7 @@ MAP_MAPPING = {
 }
 
 MAP_SPLIT_MAPPING = {
-  -- YZ Split Maps
+  -- XZ Split Maps
   [172] = {
     [26] = {
       [17] = {"Cities", "Pokémon League", "North"}, --172: "pokemon_league",
