@@ -1,5 +1,10 @@
 [
     {
+        "img": "/images/settings/dex_related/encountermethods.png",
+        "codes": "encountermethods_dummy",
+        "type": "static"
+    },
+    {
         "name": "Encounter Method: Swarms",
         "type": "progressive",
         "loop": true,
@@ -234,11 +239,6 @@
         "type": "static"
     },
     {
-        "img": "/images/settings/dex_related/feebasfishing.png",
-        "codes": "feebasfishing_dummy",
-        "type": "static"
-    },
-    {
         "name": "Encounter Method: Roamers",
         "type": "progressive",
         "loop": true,
@@ -317,7 +317,7 @@
         "type": "static"
     },
     {
-        "name": "Encounter Method: Munchlax Tree",
+        "name": "Encounter Method: Odd Keystone",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 1,
@@ -475,11 +475,6 @@
     {
         "img": "/images/settings/dex_related/mildlyannoying.png",
         "codes": "mildlyannoying_dummy",
-        "type": "static"
-    },
-    {
-        "img": "/images/settings/dex_related/geographical.png",
-        "codes": "geographical_dummy",
         "type": "static"
     },
     {
