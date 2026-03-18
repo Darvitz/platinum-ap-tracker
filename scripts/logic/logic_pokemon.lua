@@ -3,105 +3,109 @@ function land_encounters()
 end
 
 function day_encounters()
-    if day() then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not day() then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_timeofday_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function night_encounters()
-    if night() then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not night() then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_timeofday_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function radar_encounters()
-    if has("radar") and has("bag") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("radar") or not has("bag") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_radar_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function firered_encounters()
-    if has("fireredcartridge") and has("poketch") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("fireredcartridge") or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function leafgreen_encounters()
-    if has("leafgreencartridge") and has("poketch") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("leafgreencartridge") or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function ruby_encounters()
-    if has("rubycartridge") and has("poketch") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("rubycartridge") or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function sapphire_encounters()
-    if has("sapphirecartridge") and has("poketch") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("sapphirecartridge") or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function emerald_encounters()
-    if has("emeraldcartridge") and has("poketch") then
-        return AccessibilityLevel.Normal
-    else
-        return AccessibilityLevel.None
-    end
+    if not has("emeraldcartridge") or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function swarm_encounters()
-    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
-    if has("opt_start_with_swarms_on") and has("poffincase") and has("bag") then
-        return AccessibilityLevel.Normal
-    elseif has("poffincase") and has("bag") and has("national_dex") then
-        return cynthia
-    else
+
+    if not has("poffincase") or not has("bag") then
         return AccessibilityLevel.None
+    end
+
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    
+    if has("encmethod_swarm_on") then
+        if has("opt_start_with_swarms_on") then
+            return AccessibilityLevel.Normal
+        elseif has("national_dex") then
+            return cynthia
+        else
+            return AccessibilityLevel.None
+        end
+    else
+        if has("opt_start_with_swarms_on") then
+            return AccessibilityLevel.SequenceBreak
+        elseif has("national_dex") then
+            return math.min(cynthia, AccessibilityLevel.SequenceBreak)
+        else
+            return AccessibilityLevel.None
+        end
     end
 end
 
 function surf_encounters()
-    return surf()
-end
-
-function roamer_encounters()
-    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
-    if has("opt_can_reset_legendaries_in_ap_helper_on") and has("poketch") and has("markingmap") then
+    if not surf() then return AccessibilityLevel.None end
+    
+    if has("encmethod_surf_on") then
         return AccessibilityLevel.Normal
-    elseif has("poketch") and has("markingmap") then
-        return cynthia
     else
         return AccessibilityLevel.SequenceBreak
     end
 end
 
-function feebas_fishing_encounters()
-    if has("bag") and (has("oldrod") or has("goodrod") or has("superrod")) then
-        if has("poketch") and has("dowsingmachine") and has("pokesonar") and surf() then
-            return AccessibilityLevel.Normal
-        else
-            return AccessibilityLevel.SequenceBreak
-        end
-    else
-        return AccessibilityLevel.None
+function roamer_encounters()
+    if not has("poketch") or not has("markingmap") then return AccessibilityLevel.None end
+    
+    local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
+    if has("encmethod_roamer_on") then
+        return math.max(has("opt_can_reset_legendaries_in_ap_helper_on"), cynthia, AccessibilityLevel.SequenceBreak)    
     end
+    
+    return AccessibilityLevel.SequenceBreak
+end
+
+function feebas_fishing_encounters()
+    if not has("bag") or not (has("oldrod") or has("goodrod") or has("superrod")) or not surf() then return AccessibilityLevel.None end
+
+    if has("encmethod_feebasfishing_on") and has("poketch") and has("dowsingmachine") and has("pokesonar") then
+        return AccessibilityLevel.Normal
+    end
+    
+    return AccessibilityLevel.SequenceBreak
 end
 
 function soft_honey()
@@ -114,51 +118,73 @@ end
 
 function regular_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    return math.max(meadow, soft_honey())
+    if has("encmethod_honeytree_on") then
+        return math.max(meadow, soft_honey())
+    else
+        if math.max(meadow, soft_honey()) >= 5 then
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
+    return AccessibilityLevel.None
 end
 
 function munchlax_honey_tree_encounters()
     local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
-    if has("treecamera") and has("poketch") and has("dowsingmachine") then
+    if has("treecamera") and has("poketch") and has("dowsingmachine") and has("encmethod_munchlaxtree_on") then
         return math.max(meadow, soft_honey())
     else
-        return AccessibilityLevel.None
+        if math.max(meadow, soft_honey()) >= 5 then
+            return AccessibilityLevel.SequenceBreak
+        end
     end
+    return AccessibilityLevel.None
 end
 
 function great_marsh_observatory_encounters()
-    return AccessibilityLevel.Normal
+    if has("encmethod_greatmarsh_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function great_marsh_observatory_national_dex_encounters()
-    if has("national_dex") then
+    if not has("national_dex") then return AccessibilityLevel.None end
+    
+    if has("encmethod_greatmarsh_on") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function oldrod_encounters()
-    if has("oldrod") and has("bag") then
+    if not has("bag") or not has("oldrod") then return AccessibilityLevel.None end
+
+    if has("encmethod_fishing_on") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function goodrod_encounters()
-    if has("goodrod") and has("bag") then
+    if not has("bag") or not has("goodrod") then return AccessibilityLevel.None end
+
+    if has("encmethod_fishing_on") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 function superrod_encounters()
-    if has("superrod") and has("bag") then
+    if not has("bag") or not has("superrod") then return AccessibilityLevel.None end
+
+    if has("encmethod_fishing_on") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.None
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
