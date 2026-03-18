@@ -1074,6 +1074,12 @@
         "img": "images/maps/sendoffspring.png"
     },
     {
+        "name": "valleywindworksoutside",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/valleywindworks.png"
+    },
+    {
         "name": "valleywindworksbuilding",
         "location_size": 14,
         "location_border_thickness": 2,
