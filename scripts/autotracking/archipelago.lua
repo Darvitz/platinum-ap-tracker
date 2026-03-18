@@ -505,7 +505,17 @@ function onMap(mapBounce)
     if has("automap_on") and mapBounce.data ~= nil then
         local mapID = mapBounce.data.mapNumber
         
-        if MAP_SPLIT_MAPPING[mapID] ~= nil then
+        if MAP_XZYSPLIT_MAPPING[mapID] ~= nil then
+            local matrixX = mapBounce.data.matrixX
+            local matrixZ = mapBounce.data.matrixZ
+            local playerY = mapBounce.data.playerY
+            local tabs = MAP_XZYSPLIT_MAPPING[mapID] and MAP_XZYSPLIT_MAPPING[mapID][matrixX] and MAP_XZYSPLIT_MAPPING[mapID][matrixX][matrixZ] and MAP_XZYSPLIT_MAPPING[mapID][matrixX][matrixZ][playerY]
+            if tabs then
+                for i, tab in ipairs(tabs) do
+                    Tracker:UiHint("ActivateTab", tab)
+                end
+            end
+        elseif MAP_SPLIT_MAPPING[mapID] ~= nil then
             local matrixX = mapBounce.data.matrixX
             local matrixZ = mapBounce.data.matrixZ
             local tabs = MAP_SPLIT_MAPPING[mapID] and MAP_SPLIT_MAPPING[mapID][matrixX] and MAP_SPLIT_MAPPING[mapID][matrixX][matrixZ]

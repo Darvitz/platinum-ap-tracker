@@ -1,7 +1,6 @@
 MAP_MAPPING = {
   [3] = {"Cities", "Jubilife City"}, --3: "jubilife_city",
   [33] = {"Cities", "Canalave City", "City"}, --33: "canalave_city",
-  [35] = {"Cities", "Canalave City", "Gym"}, --35: "canalave_city_gym",
   [45] = {"Cities", "Oreburgh City", "City"}, --45: "oreburgh_city",
   [47] = {"Cities", "Oreburgh City", "Gym"}, --47: "oreburgh_city_gym",
   [65] = {"Cities", "Eterna City", "City"}, --65: "eterna_city",
@@ -187,7 +186,7 @@ MAP_MAPPING = {
 }
 
 MAP_SPLIT_MAPPING = {
-  -- Split Maps
+  -- YZ Split Maps
   [172] = {
     [26] = {
       [17] = {"Cities", "Pokémon League", "North"}, --172: "pokemon_league",
@@ -369,6 +368,20 @@ MAP_SPLIT_MAPPING = {
     }
   }
 
+}
+
+MAP_XZYSPLIT_MAPPING = {
+  -- XZY Split Maps
+  [35] = {
+    [0] = {
+	  [0] = {
+        [0] = {"Cities", "Canalave City", "Gym", "1F"}, --35: "canalave_city_gym",
+        [20] = {"Cities", "Canalave City", "Gym", "2F"}, --35: "canalave_city_gym",
+        [40] = {"Cities", "Canalave City", "Gym", "3F"}, --35: "canalave_city_gym",
+        [60] = {"Cities", "Canalave City", "Gym", "4F"}, --35: "canalave_city_gym",
+      }
+    }
+  }
 }
 
 -- TODO: Zoom Maps
