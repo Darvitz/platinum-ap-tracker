@@ -148,6 +148,14 @@ function great_marsh_observatory_encounters()
     end
 end
 
+function trophy_garden_encounters()
+    if has("encmethod_trophygarden_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
 function great_marsh_observatory_national_dex_encounters()
     if not has("national_dex") then return AccessibilityLevel.None end
     
@@ -186,6 +194,16 @@ function superrod_encounters()
     else
         return AccessibilityLevel.SequenceBreak
     end
+end
+
+function odd_keystone_encounters()
+    if not has("oddkeystone") then return AccessibilityLevel.None end
+
+    if has("encmethod_oddkeystone_on") then
+        return AccessibilityLevel.Normal
+    end
+    
+    return AccessibilityLevel.SequenceBreak
 end
 
 function evo_item_shop()

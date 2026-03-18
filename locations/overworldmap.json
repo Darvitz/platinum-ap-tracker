@@ -810,6 +810,30 @@
                 "visibility_rules": [
                     "show_mons"
                 ]
+            },
+            {
+                "name": "Observatory Encounters",
+                "item_count": 8,
+                "chest_unopened_img": "/images/locations/encounters/observatory.png",
+                "chest_opened_img": "/images/locations/encounters/observatory_cleared.png",
+                "access_rules": [
+                    "@great_marsh_1, ^$great_marsh_observatory_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "National Dex Observatory Encounters",
+                "item_count": 8,
+                "chest_unopened_img": "/images/locations/encounters/observatorynat.png",
+                "chest_opened_img": "/images/locations/encounters/observatorynat_cleared.png",
+                "access_rules": [
+                    "@great_marsh_1, ^$great_marsh_observatory_national_dex_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
             }
         ],
         "map_locations": [
@@ -9116,6 +9140,18 @@
                 "visibility_rules": [
                     "show_mons"
                 ]
+            },
+            {
+                "name": "Odd Keystone Encounter",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/odd_keystone.png",
+                "chest_opened_img": "/images/locations/encounters/odd_keystone_cleared.png",
+                "access_rules": [
+                    "@route_209, ^$odd_keystone_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
             }
         ],
         "map_locations": [
@@ -16416,6 +16452,18 @@
                 "visibility_rules": [
                     "show_mons"
                 ]
+            },
+            {
+                "name": "Trophy Garden - Trophy Garden Encounters",
+                "item_count": 16,
+                "chest_unopened_img": "/images/locations/encounters/trophy_garden.png",
+                "chest_opened_img": "/images/locations/encounters/trophy_garden_cleared.png",
+                "access_rules": [
+                    "@trophy_garden, ^$trophy_garden_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
             }
         ],
         "map_locations": [
@@ -20262,6 +20310,18 @@
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
                     "@mt_coronet_b1f, ^$superrod_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Feebas Fishing Encounter",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/feebas_fishing.png",
+                "chest_opened_img": "/images/locations/encounters/feebas_fishing_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_b1f, ^$feebas_fishing_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"

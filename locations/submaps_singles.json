@@ -213,6 +213,7 @@
 {"name": "Route 219​", "sections": [{"ref": "Route 219/Hidden Item on Island", "name": "Hidden Item on Island"}], "map_locations": [{"map": "route219", "x": 248, "y": 408}]},
 {"name": "Route 202", "sections": [{"ref": "Route 202/Item in Northwest", "name": "Item in Northwest"}], "map_locations": [{"map": "route202", "x": 24, "y": 104}]},
 {"name": "Jubilife City", "sections": [{"ref": "Jubilife City/Hidden Item Next to Entrance", "name": "Hidden Item Next to Entrance"}], "map_locations": [{"map": "jubilifecity", "x": 658, "y": 744}]},
+{"name": "​Route 209 Encounter", "sections": [{"ref": "Route 209/Odd Keystone Encounter", "name": "Odd Keystone Encounter"}], "map_locations": [{"map": "route209south", "x": 880, "y": 160}]},
 {"name": "Route 209", "sections": [{"ref": "Route 209/Item in Corner of Big Grass Patch", "name": "Item in Corner of Big Grass Patch"}], "map_locations": [{"map": "route209south", "x": 248, "y": 72}]},
 {"name": "Route 209​", "sections": [{"ref": "Route 209/Item Across From Pikachu Cosplayer", "name": "Item Across From Pikachu Cosplayer"}], "map_locations": [{"map": "route209south", "x": 728, "y": 264}]},
 {"name": "Route 209​​", "sections": [{"ref": "Route 209/Item Behind Cut Tree", "name": "Item Behind Cut Tree"}], "map_locations": [{"map": "route209north", "x": 456, "y": 328}]},
