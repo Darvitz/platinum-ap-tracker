@@ -1,5 +1,5 @@
 {
-    "key_encounters_grid": {
+    "key_evolution_grid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -7,35 +7,51 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "margin": "48,0,0,0",
+                "margin": "16,0,0,0",
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "0, 0",
-                        "h_alignment": "center",
-                        "item_height": 48,
-                        "item_width": 48,
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_height": 32,
+                        "item_width": 32,
                         "rows": [
                             [
-                                "oldrod",
-                                "goodrod",
-                                "superrod",
-                                "markingmap",
-                                "treecamera"
+                                "tm93rollout",
+                                "waterstone",
+                                "sunstone",
+                                "dawnstone",
+                                "kingsrock",
+                                "dragonscale",
+                                "poffincase",
+                                "linkingcord"
                             ],
                             [
-                                "sapphirecartridge",
-                                "rubycartridge",
-                                "fireredcartridge",
-                                "leafgreencartridge",
-                                "emeraldcartridge"
+                                "tm94ancientpower",
+                                "thunderstone",
+                                "leafstone",
+                                "metalcoat",
+                                "deepseascale",
+								"electirizer",
+								"reapercloth"
                             ],
                             [
-                                "pokesonar",
-                                "oddkeystone",
-                                "radar",
-                                "num_seen_reg",
-                                "num_seen_nat"
+                                "tm95doublehit",
+                                "firestone",
+                                "duskstone",
+                                "upgrade",
+								"deepseatooth",
+								"magmarizer",
+                                "razorclaw"
+                            ],
+                            [
+                                "tm96mimic",
+                                "moonstone",
+                                "shinystone",
+								"dubiousdisc",
+                                "protector",
+                                "ovalstone",
+                                "razorfang"
                             ]
                         ]
                     }
