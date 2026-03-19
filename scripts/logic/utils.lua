@@ -117,7 +117,7 @@ function dump_table(o, depth)
         trainersanity_trainers = true,
         trainer_party_blacklist = true,
         generated_encounters = true,
-        dexsanity_specs = true,
+        dexsanity_specs = false,
         generated_munchlax_trees = true,
     }
 

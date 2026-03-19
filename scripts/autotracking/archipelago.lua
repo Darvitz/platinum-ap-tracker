@@ -186,6 +186,14 @@ function onClear(slot_data)
                     Tracker:FindObjectForCode("opt_trainer_" .. value).Active = true
                 end
             end
+        elseif k == "dexsanity_specs" then
+            local rolled_dexsanity = {}
+            for _, num in ipairs(v) do
+                rolled_dexsanity[num] = true
+            end
+            for i = 1, 493 do
+                Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = rolled_dexsanity[i] == true
+            end
         end
     end
     
