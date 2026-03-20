@@ -28,7 +28,7 @@
 { "name": "Old Rod Encounters", "ref": "Fuego Ironworks/Outside - Old Rod Encounters" },
 { "name": "Good Rod Encounters", "ref": "Fuego Ironworks/Outside - Good Rod Encounters" },
 { "name": "Super Rod Encounters", "ref": "Fuego Ironworks/Outside - Super Rod Encounters" }]},
-{ "name": "Great Marsh Observatory Encounters", "map_locations": [ { "map": "greatmarsh", "size": 24, "x": 624, "y": 1120, "shape": "diamond" } ], "sections": [ { "name": "Observatory Encounters", "ref": "Great Marsh/Observatory Encounters" },
+{ "name": "Great Marsh Observatory Encounters", "map_locations": [ { "map": "greatmarsh", "size": 24, "x": 626, "y": 1116, "shape": "diamond" } ], "sections": [ { "name": "Observatory Encounters", "ref": "Great Marsh/Observatory Encounters" },
 { "name": "National Dex Observatory Encounters", "ref": "Great Marsh/National Dex Observatory Encounters" }]},
 { "name": "Area 1 - Encounters", "map_locations": [ { "map": "greatmarsh", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Great Marsh/Area 1 - Land Encounters" },
 { "name": "Night Encounters", "ref": "Great Marsh/Area 1 - Night Encounters" },
