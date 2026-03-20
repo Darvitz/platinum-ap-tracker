@@ -2213,6 +2213,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
+                    "@pokemon_league_south_south, ^$surf_encounters",
                     "@pokemon_league, ^$surf_encounters"
                 ],
                 "visibility_rules": [
@@ -2225,6 +2226,7 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
+                    "@pokemon_league_south_south, ^$oldrod_encounters",
                     "@pokemon_league, ^$oldrod_encounters"
                 ],
                 "visibility_rules": [
@@ -2237,6 +2239,7 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
+                    "@pokemon_league_south_south, ^$goodrod_encounters",
                     "@pokemon_league, ^$goodrod_encounters"
                 ],
                 "visibility_rules": [
@@ -2249,6 +2252,7 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
+                    "@pokemon_league_south_south, ^$superrod_encounters",
                     "@pokemon_league, ^$superrod_encounters"
                 ],
                 "visibility_rules": [
@@ -2970,7 +2974,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
-                    "@route_226, ^$surf_encounters"
+                    "@route_226_east, ^$surf_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -2982,7 +2986,7 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
-                    "@route_226, ^$oldrod_encounters"
+                    "@route_226_east, ^$oldrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -2994,7 +2998,7 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
-                    "@route_226, ^$goodrod_encounters"
+                    "@route_226_east, ^$goodrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3006,7 +3010,7 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
-                    "@route_226, ^$superrod_encounters"
+                    "@route_226_east, ^$superrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3135,6 +3139,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
+                    "@route_227_lower, ^$land_encounters",
                     "@route_227, ^$land_encounters"
                 ],
                 "visibility_rules": [
@@ -3147,6 +3152,7 @@
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
                 "access_rules": [
+                    "@route_227_lower, ^$swarm_encounters",
                     "@route_227, ^$swarm_encounters"
                 ],
                 "visibility_rules": [
@@ -3159,6 +3165,7 @@
                 "chest_unopened_img": "/images/locations/encounters/radar.png",
                 "chest_opened_img": "/images/locations/encounters/radar_cleared.png",
                 "access_rules": [
+                    "@route_227_lower, ^$radar_encounters",
                     "@route_227, ^$radar_encounters"
                 ],
                 "visibility_rules": [
@@ -3171,6 +3178,7 @@
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
                 "access_rules": [
+                    "@route_227_lower, ^$night_encounters",
                     "@route_227, ^$night_encounters"
                 ],
                 "visibility_rules": [
@@ -3183,7 +3191,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
-                    "@route_227, ^$surf_encounters"
+                    "@route_227_pit, ^$surf_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3195,7 +3203,7 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
-                    "@route_227, ^$oldrod_encounters"
+                    "@route_227_pit, ^$oldrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3207,7 +3215,7 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
-                    "@route_227, ^$goodrod_encounters"
+                    "@route_227_pit, ^$goodrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -3219,7 +3227,7 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
-                    "@route_227, ^$superrod_encounters"
+                    "@route_227_pit, ^$superrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -4634,7 +4642,7 @@
                     "@lake_verity"
                 ],
                 "visibility_rules": [
-                    "show_items, "
+                    "show_items"
                 ],
                 "hosted_item": "event_clear_lakeverity"
             },
@@ -15894,6 +15902,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
+                    "@route_214_top, ^$surf_encounters",
                     "@route_214, ^$surf_encounters"
                 ],
                 "visibility_rules": [
@@ -15906,6 +15915,7 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
+                    "@route_214_top, ^$oldrod_encounters",
                     "@route_214, ^$oldrod_encounters"
                 ],
                 "visibility_rules": [
@@ -15918,6 +15928,7 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
+                    "@route_214_top, ^$goodrod_encounters",
                     "@route_214, ^$goodrod_encounters"
                 ],
                 "visibility_rules": [
@@ -15930,6 +15941,7 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
+                    "@route_214_top, ^$superrod_encounters",
                     "@route_214, ^$superrod_encounters"
                 ],
                 "visibility_rules": [

@@ -2437,6 +2437,12 @@
         ]
     },
     {
+        "name": "route_227_pit",
+        "access_rules": [
+            "@route_227, $rock_climb"
+        ]
+    },
+    {
         "name": "route_227_house",
         "access_rules": [
             "@route_227"
