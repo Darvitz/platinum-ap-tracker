@@ -149,6 +149,7 @@ function great_marsh_observatory_encounters()
 end
 
 function trophy_garden_encounters()
+    if not has("national_dex") then return AccessibilityLevel.None end
     if has("encmethod_trophygarden_on") then
         return AccessibilityLevel.Normal
     else
