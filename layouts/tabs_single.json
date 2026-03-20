@@ -60,6 +60,15 @@
                         "key": "mtcoronet"
                     }
                 }
+            },
+            {
+                "title": "",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Credits"
+                    ]
+                }
             }
         ]
     }

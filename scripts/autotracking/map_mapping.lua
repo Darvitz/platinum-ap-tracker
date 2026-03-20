@@ -25,6 +25,7 @@ MAP_MAPPING = {
   [156] = {"Cities", "Sunyshore City", "Gym", "3rd Room"}, --156: "sunyshore_city_gym_room_3",
   [165] = {"Cities", "Snowpoint City", "City"}, --165: "snowpoint_city",
   [167] = {"Cities", "Snowpoint City", "Gym"}, --167: "snowpoint_city_gym",
+  [187] = {""}, --187: "hall of fame", tabs to credits
   [188] = {"Cities", "Fight Area"}, --188: "fight_area",
   [198] = {"Cities", "Oreburgh City", "Mine", "B1F"}, --198: "oreburgh_mine_b1f",
   [199] = {"Cities", "Oreburgh City", "Mine", "B2F"}, --199: "oreburgh_mine_b2f",
