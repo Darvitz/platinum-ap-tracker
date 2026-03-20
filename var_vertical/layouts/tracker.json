@@ -1,27 +1,64 @@
 {
     "tracker_default": {
         "type": "container",
-        "background": "#00000000",
+        "background": "#171717",
         "content": {
             "type": "dock",
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
+                    "dropshadow": false,
                     "dock": "left",
-                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "margin": "100,100",
+                            "background": "#171717",
                             "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "v_key_items_grid"
-                            }
+                            "content": [
+                                {
+                                    "type": "array",
+                                    "margin": "2,-28, 2, 2",
+                                    "content": [
+                                        {
+                                            "type": "tabbed",
+                                            "h_alignment": "center",
+                                            "dock": "left",
+                                            "tabs": [
+                                                {
+                                                    "title": "Key Items",
+                                                    "h_alignment": "center",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "v_key_items_grid"
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Encounter Items",
+                                                    "h_alignment": "center",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "v_key_encounters_grid"
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Evolution Items",
+                                                    "h_alignment": "center",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "v_key_evolution_grid"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Events",
                             "dock": "top",
                             "content": {
@@ -31,6 +68,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Tools",
                             "dock": "top",
                             "content": {
@@ -40,10 +78,14 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Pokésearch",
                             "dock": "top",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
                                 "key": "dexsearch_grid"
                             }
                         }
