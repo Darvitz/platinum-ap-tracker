@@ -562,7 +562,7 @@
 {"name": "Oreburgh City​​​​​", "sections": [{"ref": "Oreburgh City/Gift from Overalls Man for Showing Geodude in North House", "name": "Gift from Overalls Man for Showing Geodude in North House"}], "map_locations": [{"map": "oreburghcity", "x": 359, "y": 162}]},
 {"name": "Oreburgh City​​​​​​", "sections": [{"ref": "Oreburgh City/Youngster in Southeast Building", "name": "Youngster in Southeast Building"}], "map_locations": [{"map": "oreburghcity", "x": 904, "y": 384}]},
 {"name": "Oreburgh City​​​​​​​", "sections": [{"ref": "Oreburgh City/Gift from Worker by Mine Entrance", "name": "Gift from Worker by Mine Entrance"}], "map_locations": [{"map": "oreburghcity", "x": 908, "y": 738}]},
-{"name": "Jubilife City​​​​", "sections": [{"ref": "Jubilife City/Gift from Girl in Condominiums", "name": "Gift from Girl in Condominiums"}], "map_locations": [{"map": "jubilifecity", "x": 847, "y": 234}]},
+{"name": "Jubilife City​​​​", "sections": [{"ref": "Jubilife City/Gift from Girl in Condominiums", "name": "Gift from Girl in Condominiums"}], "map_locations": [{"map": "jubilifecity", "x": 848, "y": 234}]},
 {"name": "Route 204​​​​​", "sections": [{"ref": "Route 204/North - Woman Behind Cut Tree", "name": "North - Woman Behind Cut Tree"}], "map_locations": [{"map": "route204north", "x": 488, "y": 72}]},
 {"name": "Floaroma Town", "sections": [{"ref": "Floaroma Town/Girl in Northwest House", "name": "Girl in Northwest House"}], "map_locations": [{"map": "floaromatown", "x": 185, "y": 222}]},
 {"name": "Fuego Ironworks​​​​​​​​​​​​", "sections": [{"ref": "Fuego Ironworks/Star Piece from Mr. Fuego", "name": "Star Piece from Mr. Fuego"}], "map_locations": [{"map": "fuegoironworks", "x": 392, "y": 239}]},
