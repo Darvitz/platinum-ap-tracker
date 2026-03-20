@@ -16485,7 +16485,7 @@
             {
                 "name": "Galactic Grunt 1",
                 "access_rules": [
-                    "@floaroma_meadow"
+                    "@floaroma_meadow_south"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -16496,7 +16496,7 @@
             {
                 "name": "Galactic Grunt 2",
                 "access_rules": [
-                    "@floaroma_meadow"
+                    "@floaroma_meadow_south"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
