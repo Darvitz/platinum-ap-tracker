@@ -82,14 +82,24 @@ function onClear(slot_data)
     for area_slot_key, slot_counts in pairs(AREA_SLOTS) do
 
         local base_area = area_slot_key:gsub("_land$", "")
+        local is_special_case = (base_area == "old_chateau_back_middle_east_room")
+        local special_types = { "land", "anycartridge" }
 
         local cursor = 0
 
         for type_index, count in ipairs(slot_counts) do
             if count > 0 then
 
-                local area_type = AREA_TYPES[type_index]
+                local area_type
 
+                -- There is specifically one room in old Chateau which has a slot
+                -- whose access rules is ANY cartridge.
+                if is_special_case then
+                    area_type = special_types[type_index]
+                else
+                    area_type = AREA_TYPES[type_index]
+                end
+                
                 local grouped_key
                 if area_type == "land" then
                     grouped_key = area_slot_key

@@ -50,6 +50,13 @@ function emerald_encounters()
     return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
 end
 
+function any_cartridge_encounters()
+    if not (has("fireredcartridge") or has("leafgreencartridge") or has("ruby_encounters") or has("sapphire_encounters") or has("emerald_encounters")) or not has("poketch") then return AccessibilityLevel.None end
+    
+    return math.max(has_level("encmethod_cartridge_on"), AccessibilityLevel.SequenceBreak)
+end
+
+
 function swarm_encounters()
 
     if not has("poffincase") or not has("bag") then

@@ -14898,60 +14898,12 @@
                 ]
             },
             {
-                "name": "2F Middle East Room - Ruby Encounters",
+                "name": "2F Middle East Room - Any Cartridge Encounters",
                 "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/ruby.png",
-                "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
+                "chest_unopened_img": "/images/locations/encounters/gba.png",
+                "chest_opened_img": "/images/locations/encounters/gba_cleared.png",
                 "access_rules": [
-                    "@old_chateau_back_middle_east_room, ^$ruby_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "2F Middle East Room - Sapphire Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/sapphire.png",
-                "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
-                "access_rules": [
-                    "@old_chateau_back_middle_east_room, ^$sapphire_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "2F Middle East Room - Emerald Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/emerald.png",
-                "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
-                "access_rules": [
-                    "@old_chateau_back_middle_east_room, ^$emerald_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "2F Middle East Room - FireRed Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/firered.png",
-                "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
-                "access_rules": [
-                    "@old_chateau_back_middle_east_room, ^$firered_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "2F Middle East Room - LeafGreen Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/leafgreen.png",
-                "chest_opened_img": "/images/locations/encounters/leafgreen_cleared.png",
-                "access_rules": [
-                    "@old_chateau_back_middle_east_room, ^$leafgreen_encounters"
+                    "@old_chateau_back_middle_east_room, ^$any_cartridge_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
