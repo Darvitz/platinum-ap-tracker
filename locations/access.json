@@ -2222,7 +2222,7 @@
         "name": "route_214_top",
         "access_rules": [
             "@route_214, $pastoria_barriers",
-            "@route_214_gate_to_veilstone_city, $pastoria_barriers"
+            "@route_214_gate_to_veilstone_city"
         ]
     },
     {
