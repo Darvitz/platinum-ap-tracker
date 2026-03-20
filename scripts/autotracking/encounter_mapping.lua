@@ -515,9 +515,9 @@ ENCOUNTER_MAPPING = {
   ["feebas_fishing"] = "@Mt. Coronet B1F/Feebas Fishing Encounter",
   ["great_marsh_observatory"] = "@Great Marsh/Observatory Encounters",
   ["great_marsh_observatory_national_dex"] = "@Great Marsh/National Dex Observatory Encounters",
-  ["munchlax_honey_tree"] = "@Special Encounters/Honey Tree Encounters",
+  ["regular_honey_tree"] = "@Special Encounters/Honey Tree Encounters",
   ["odd_keystone"] = "@Route 209/Odd Keystone Encounter",
-  ["regular_honey_tree"] = "@Special Encounters/Munchlax Tree Encounter",
+  ["munchlax_honey_tree"] = "@Special Encounters/Munchlax Tree Encounter",
   ["trophy_garden"] = "@Pokemon Mansion/Trophy Garden - Trophy Garden Encounters",
   ["roamers"] = "@Special Encounters/Roamers"
 }
