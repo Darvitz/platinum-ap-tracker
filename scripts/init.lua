@@ -39,7 +39,6 @@ Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/quick_settings.json")
 Tracker:AddLayouts("layouts/dexsearch.json")
-Tracker:AddLayouts("layouts/pokemonlogic.json")
 
 -- Locations
 Tracker:AddLocations("locations/access.json")
