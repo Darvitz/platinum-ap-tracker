@@ -22,6 +22,56 @@
         ]
     },
     {
+        "name": "Special Encounters",
+        "sections": [
+            {
+                "name": "Honey Tree Encounters",
+                "item_count": 6,
+                "chest_unopened_img": "/images/locations/encounters/regular_honey_tree.png",
+                "chest_opened_img": "/images/locations/encounters/regular_honey_tree_cleared.png",
+                "access_rules": [
+                    "@tracker_honey, ^$regular_honey_tree_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Munchlax Tree Encounter",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/munchlax_honey_tree.png",
+                "chest_opened_img": "/images/locations/encounters/munchlax_honey_tree_cleared.png",
+                "access_rules": [
+                    "@tracker_honey, ^$munchlax_honey_tree_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Roamers",
+                "item_count": 6,
+                "chest_unopened_img": "/images/locations/encounters/land.png",
+                "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@virt_roamers, ^$roamer_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Sinnoh",
+                "x": 16,
+                "y": 16,
+                "size": 24,
+                "shape": "diamond"
+            }
+        ]
+    },
+    {
         "name": "Sendoff Spring",
         "chest_unopened_img": "/images/locations/ball.png",
         "chest_opened_img": "/images/locations/ballopen.png",

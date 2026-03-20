@@ -149,6 +149,15 @@ function onClear(slot_data)
         table.insert(ENCOUNTERS_GROUPED[base], value)
     end
 
+    local roamers = slot_data.generated_roamers
+    
+    for key, value in pairs(roamers) do
+        local base = key:match("^(.*)_%d+$")
+    
+        ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
+        table.insert(ENCOUNTERS_GROUPED[base], value)
+    end
+
     -- and now we flip this on the head by instead matching pokemon -> region instead of region -> pokemon
     
     POKEMON_TO_LOCATIONS = {}

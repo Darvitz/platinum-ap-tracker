@@ -110,14 +110,14 @@ function dump_table(o, depth)
         encounter_species_blacklist = true,
         starter_whitelist = true,
         starter_blacklist = true,
-        generated_roamers = true,
+        generated_roamers = false,
         roamer_blacklist = true,
         seed = true,
-        generated_special_encounters = false,
+        generated_special_encounters = true,
         trainersanity_trainers = true,
         trainer_party_blacklist = true,
         generated_encounters = true,
-        dexsanity_specs = false,
+        dexsanity_specs = true,
         generated_munchlax_trees = true,
     }
 

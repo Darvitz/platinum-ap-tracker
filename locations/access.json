@@ -3528,5 +3528,31 @@
         "access_rules": [
             "@wayward_cave_1f_secret"
         ]
+    },
+    {
+        "name": "tracker_honey",
+        "access_rules": [
+            "@route_213_honey_tree", // 11
+            "@route_221", // 15
+            "@route_212_south", // 10
+            "@route_212_north_top", // 9
+            "@route_208", // 4
+            "@route_209", // 5
+            "@route_210_south", // 6
+            "@route_210_north", // 7
+            "@route_218_honey_tree", // 14
+            "@route_222", // 16
+            "@route_205_south", // 0
+            "@valley_windworks_outside", // 17
+            "@fuego_ironworks_outside", // 19
+            "@route_205_north", // 1
+            "@route_214", // 12
+            "@floaroma_meadow_south", // 20
+            "@route_206_upper", // 2
+            "@route_207", // 3
+            "@eterna_forest_outside", // 18
+            "@route_211_east", // 8
+            "@route_215" // 13
+        ]
     }
 ]
