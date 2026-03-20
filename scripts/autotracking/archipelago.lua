@@ -83,7 +83,7 @@ function onClear(slot_data)
 
         local base_area = area_slot_key:gsub("_land$", "")
         local is_special_case = (base_area == "old_chateau_back_middle_east_room")
-        local special_types = { "land", "anycartridge" }
+        local special_types = { "land", "any_cartridge" }
 
         local cursor = 0
 
@@ -149,14 +149,7 @@ function onClear(slot_data)
         table.insert(ENCOUNTERS_GROUPED[base], value)
     end
 
-    local roamers = slot_data.generated_roamers
-    
-    for key, value in pairs(roamers) do
-        local base = key:match("^(.*)_%d+$")
-    
-        ENCOUNTERS_GROUPED[base] = ENCOUNTERS_GROUPED[base] or {}
-        table.insert(ENCOUNTERS_GROUPED[base], value)
-    end
+    ENCOUNTERS_GROUPED["roamers"] = slot_data.generated_roamers
 
     -- and now we flip this on the head by instead matching pokemon -> region instead of region -> pokemon
     
