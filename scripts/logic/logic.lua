@@ -199,7 +199,7 @@ function amity_square()
         end
     end
 
-    if has("pokedex", 3) then
+    if has("national_dex") then
         if has("caught_39") or has("caught_255") or has("caught_") or has("caught_") then
             return AccessibilityLevel.Normal
         end
