@@ -571,7 +571,7 @@
 {"name": "Eterna City​​​​​​​", "sections": [{"ref": "Eterna City/Explorer Kit from Underground Man", "name": "Explorer Kit from Underground Man"}], "map_locations": [{"map": "eternacity", "x": 360, "y": 260}]},
 {"name": "Eterna City​​​​​​​​", "sections": [{"ref": "Eterna City/Up-Grade from Prof Oak", "name": "Up-Grade from Prof Oak"}], "map_locations": [{"map": "eternacity", "x": 168, "y": 656}]},
 {"name": "Eterna City - Prof Oak", "sections": [{"ref": "Eterna City/Up-Grade from Prof Oak\u200b", "name": "Up-Grade from Prof Oak\u200b"}], "map_locations": [{"map": "eternacity", "x": 168, "y": 656}]},
-{"name": "Route 206 North​​​", "sections": [{"ref": "Route 206 North/North Gate - Reward For 35 Pokemon Seen", "name": "North Gate - Reward For 35 Pokemon Seen"}], "map_locations": [{"map": "route206", "x": 224, "y": 72}]},
+{"name": "Route 206 North​​​", "sections": [{"ref": "Route 206 North/North Gate - Reward For 35 Pokemon Seen", "name": "North Gate - Reward For 35 Pokemon Seen"}], "map_locations": [{"map": "route206", "x": 224, "y": 72}, {"map": "eternacity", "x": 272, "y": 820}]},
 {"name": "Route 208​​​​​", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree", "name": "Black Belt Near Honey Tree"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
 {"name": "Route 208 - Black Belt", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree\u200b", "name": "Black Belt Near Honey Tree\u200b"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
 {"name": "Hearthome City​", "sections": [{"ref": "Hearthome City/Poffin Case from Fan Club Chairman", "name": "Poffin Case from Fan Club Chairman"}], "map_locations": [{"map": "hearthomecity", "x": 648, "y": 466}]},

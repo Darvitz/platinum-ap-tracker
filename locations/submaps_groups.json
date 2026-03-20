@@ -160,8 +160,8 @@
 { "name": "Commander Saturn", "ref": "Galactic HQ/Secret Lab - Commander Saturn"},
 { "name": "Release the Lake Guardians (Event)", "ref": "Galactic HQ/Secret Lab - Release the Lake Guardians (Event)"}]},
 { "name": "Iron Island Grunts", "map_locations": [ { "map": "ironislandb2fleft", "x": 318, "y": 518}], "sections": [
-{ "name": "Galactic Grunt 1", "ref": "Iron Island/Galactic Grunt 1"},
-{ "name": "Galactic Grunt 2", "ref": "Iron Island/Galactic Grunt 2"}]},
+{ "name": "Galactic Grunt 1", "ref": "Iron Island/B2F Left - Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Iron Island/B2F Left - Galactic Grunt 2"}]},
 { "name": "Cynthia rewards defeating Grunt", "map_locations": [ { "map": "route213valorlakefront", "x": 1331, "y": 563}], "sections": [
 { "name": "Galactic Grunt", "ref": "Valor Lakefront/Galactic Grunt"},
 { "name": "Secret Potion from Cynthia", "ref": "Valor Lakefront/Secret Potion from Cynthia"},
@@ -305,8 +305,8 @@
 { "name": "B2F Left - Item Up Right Walkway", "ref": "Iron Island/B2F Left - Item Up Right Walkway"},
 { "name": "B2F Left - Worker Brendon", "ref": "Iron Island/B2F Left - Worker Brendon"},
 { "name": "B2F Left - Worker Quentin", "ref": "Iron Island/B2F Left - Worker Quentin"},
-{ "name": "Galactic Grunt 1", "ref": "Iron Island/Galactic Grunt 1"},
-{ "name": "Galactic Grunt 2", "ref": "Iron Island/Galactic Grunt 2"},
+{ "name": "B2F Left - Galactic Grunt 1", "ref": "Iron Island/B2F Left - Galactic Grunt 1"},
+{ "name": "B2F Left - Galactic Grunt 2", "ref": "Iron Island/B2F Left - Galactic Grunt 2"},
 { "name": "B2F Right - Hidden Item on Right Side of Pit", "ref": "Iron Island/B2F Right - Hidden Item on Right Side of Pit"},
 { "name": "B2F Right - Item in Top Right", "ref": "Iron Island/B2F Right - Item in Top Right"},
 { "name": "B2F Right - Item on Left Side of Pit", "ref": "Iron Island/B2F Right - Item on Left Side of Pit"},
@@ -729,6 +729,12 @@
 { "name": "Pastoria City - Outside of Gym", "map_locations": [ { "map": "pastoriacity", "x": 216, "y": 388}], "sections": [
 { "name": "Rival", "ref": "Pastoria City/Rival"},
 { "name": "Marsh Pass from Wake (After Defeating Gym)", "ref": "Pastoria City/Marsh Pass from Wake (After Defeating Gym)"}]},
+{ "name": "Floaroma Meadow - Front", "map_locations": [ { "map": "floaromatown", "x": 48, "y": 54}], "sections": [
+{ "name": "Galactic Grunt 1", "ref": "Floaroma Meadow/Galactic Grunt 1"},
+{ "name": "Galactic Grunt 2", "ref": "Floaroma Meadow/Galactic Grunt 2"},
+{ "name": "Works Key after Galactic Grunts", "ref": "Floaroma Meadow/Works Key after Galactic Grunts"},
+{ "name": "Works Key after Galactic Grunts\u200b", "ref": "Floaroma Meadow/Works Key after Galactic Grunts\u200b"},
+{ "name": "Gift from Man after Grunts", "ref": "Floaroma Meadow/Gift from Man after Grunts"}]},
 { "name": "Floaroma Meadow - Back", "map_locations": [ { "map": "fuegoironworksoutside", "x": 336, "y": 614}], "sections": [
 { "name": "Top Left Item Ball", "ref": "Floaroma Meadow/Top Left Item Ball"},
 { "name": "Right Most Item Ball", "ref": "Floaroma Meadow/Right Most Item Ball"},
