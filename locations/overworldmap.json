@@ -16523,10 +16523,14 @@
             " "
         ],
         "sections": [
+            // So, we originally gave amity square the access rule for entry.
+            // but apparently Inspect cannot be transferred via regions.
+            // this might be a bug.
+            // see https://discord.com/channels/937157230963339364/937163459534127174/1484633634886652024
             {
                 "name": "Left - Item Near Center Warp",
                 "access_rules": [
-                    "@amity_square"
+                    "@amity_square, ^$amity_square"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -16536,7 +16540,7 @@
             {
                 "name": "Left - Item on Middle of Island",
                 "access_rules": [
-                    "@amity_square"
+                    "@amity_square, ^$amity_square"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -16546,7 +16550,7 @@
             {
                 "name": "Right - Item Reached with East Warps",
                 "access_rules": [
-                    "@amity_square"
+                    "@amity_square, ^$amity_square"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -16556,7 +16560,7 @@
             {
                 "name": "Right - Item Behind Bench",
                 "access_rules": [
-                    "@amity_square"
+                    "@amity_square, ^$amity_square"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -16566,7 +16570,7 @@
             {
                 "name": "Berry or Accessory from Man in Random Spot",
                 "access_rules": [
-                    "@amity_square"
+                    "@amity_square, ^$amity_square"
                 ],
                 "visibility_rules": [
                     "show_items, opt_npcgifts_on"

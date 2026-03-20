@@ -17,8 +17,8 @@
     {
         "name": "amity_square",
         "access_rules": [
-            "@hearthome_city_east_gate_to_amity_square, $amity_square",
-            "@hearthome_city_west_gate_to_amity_square, $amity_square"
+            "@hearthome_city_east_gate_to_amity_square",
+            "@hearthome_city_west_gate_to_amity_square"
         ]
     },
     {
