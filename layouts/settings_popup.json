@@ -1,38 +1,86 @@
 {
-    "settings_popup": {
-        "type": "dock",
-        "content": {
+  "settings_popup": {
+    "type": "dock",
+    "content": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "General",
+          "content": {
             "type": "array",
             "orientation": "vertical",
             "h_alignment": "left",
             "content": [
-                {
-                    "type": "group",
-                    "header": "Sanities",
-                    "content": {
-                        "type": "layout",
-                        "key": "sanity_grid"
-                    }
-                },
-			    {
-                    "type": "group",
-                    "header": "Logic",
-                    "content": {
-                        "type": "layout",
-                        "key": "logic_grid"
-                    }
-                },
-			    {
-                    "type": "group",
-                    "header": "Roadblocks",
-                    "content": {
-                        "type": "layout",
-                        "key": "roadblock_grid"
-                    }
+              {
+                "type": "group",
+                "header": "Sanities",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "sanity_grid"
                 }
+              },
+              {
+                "type": "group",
+                "header": "Logic",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "logic_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Roadblocks",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "roadblock_grid"
+                }
+              }
             ]
+          }
+        },
+        {
+          "title": "Dex Logic",
+          "content": {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+              {
+                "type": "group",
+                "header": "Encounter Logic",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "enc_logic_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Evolution Logic",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "evo_logic_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Information",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "information_grid"
+                }
+              }
+            ]
+          }
         }
-    },
+      ]
+    }
+  },
     "sanity_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
@@ -106,6 +154,70 @@
                 "opt_early_sunyshore",
                 "opt_pastoria_barriers",
                 "regional_dex_goal"
+            ]
+        ]
+    },
+    "enc_logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "40,48",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "encmethod_surf",
+                "encmethod_fishing",
+                "encmethod_radar",
+				"encmethod_swarm"
+            ],
+            [
+				"encmethod_timeofday",
+				"encmethod_cartridge",
+				"encmethod_greatmarsh",
+				"encmethod_feebasfishing"
+            ],
+            [
+				"encmethod_roamer",
+				"encmethod_honeytree",
+				"encmethod_munchlaxtree"
+            ],
+            [
+				"encmethod_trophygarden",
+				"encmethod_oddkeystone"
+            ]
+        ]
+    },
+    "evo_logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "40,48",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "evomethod_level",
+                "evomethod_happiness",
+                "evomethod_item",
+				"evomethod_geographical"
+            ],
+            [
+				"evomethod_mildlyannoying",
+				"evomethod_highlyannoying"
+            ]
+        ]
+    },
+    "information_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "176,128",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "info",
             ]
         ]
     }
