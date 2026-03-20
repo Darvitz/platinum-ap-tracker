@@ -1,9 +1,9 @@
 [
     {
-        "name": "info_sheet",
+        "name": "Credits",
         "location_size": 14,
         "location_border_thickness": 1,
-        "img": "images/settings/dex_related/informationsheet.png"
+        "img": "images/credits.png"
     },
     {
         "name": "Sinnoh",
