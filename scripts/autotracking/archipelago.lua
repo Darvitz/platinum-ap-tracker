@@ -508,6 +508,7 @@ function updateHints()
                             if hint.item_flags == 1 then
                                 Tracker:FindObjectForCode(location).Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
                             else
+                                Tracker:FindObjectForCode(location).Highlight = 0
                                 Tracker:FindObjectForCode(location).AvailableChestCount = 0
                             end
                         else
