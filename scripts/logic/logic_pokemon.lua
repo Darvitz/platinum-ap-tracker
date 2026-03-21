@@ -99,7 +99,7 @@ function roamer_encounters()
     
     local cynthia = Tracker:FindObjectForCode("@pokemon_league_hall_of_fame").AccessibilityLevel
     if has("encmethod_roamer_on") then
-        return math.max(has("opt_can_reset_legendaries_in_ap_helper_on"), cynthia, AccessibilityLevel.SequenceBreak)    
+        return math.max(has_level("opt_can_reset_legendaries_in_ap_helper_on"), cynthia, AccessibilityLevel.SequenceBreak)    
     end
     
     return AccessibilityLevel.SequenceBreak
