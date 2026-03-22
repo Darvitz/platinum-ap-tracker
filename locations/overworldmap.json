@@ -13171,17 +13171,6 @@
                 "item_count": 1
             },
             {
-                "name": "Sailor Zachariah",
-                "access_rules": [
-                    "@route_223, $surf"
-                ],
-                "visibility_rules": [
-                    "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328162"
-                ],
-                "item_count": 1
-            },
-            {
                 "name": "Surf Encounters",
                 "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
@@ -13298,6 +13287,17 @@
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
                     "show_items, opt_trainer_327872"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Sailor Zachariah",
+                "access_rules": [
+                    "@route_223, $surf"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_trainer_full",
+                    "show_items, opt_trainer_328162"
                 ],
                 "item_count": 1
             },
