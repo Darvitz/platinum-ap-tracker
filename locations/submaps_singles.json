@@ -382,7 +382,7 @@
 {"name": "Route 214​​​​​​", "sections": [{"ref": "Route 214/Hidden Item in Corner Above Beauty", "name": "Hidden Item in Corner Above Beauty"}], "map_locations": [{"map": "route214south", "x": 470, "y": 148}]},
 {"name": "Route 214​​​​​​​", "sections": [{"ref": "Route 214/Hidden Item in Corner of Long Grass", "name": "Hidden Item in Corner of Long Grass"}], "map_locations": [{"map": "route214south", "x": 280, "y": 520}]},
 {"name": "Route 214 - Razor Fang", "sections": [{"ref": "Route 214/Hidden Item in Corner of Long Grass\u200b", "name": "Hidden Item in Corner of Long Grass\u200b"}], "map_locations": [{"map": "route214south", "x": 280, "y": 520}]},
-{"name": "Maniac Tunnel", "sections": [{"ref": "Maniac Tunnel/Item Next to Entrance", "name": "Item Next to Entrance"}], "map_locations": [{"map": "maniactunnel1", "x": 72, "y": 66}]},
+{"name": "Maniac Tunnel", "sections": [{"ref": "Maniac Tunnel/Item Next to Entrance", "name": "Item Next to Entrance"}], "map_locations": [{"map": "maniactunnel1", "x": 72, "y": 66}, , {"map": "maniactunnel2", "x": 934, "y": 66}, {"map": "maniactunnel3", "x": 1430, "y": 66}]},
 {"name": "Veilstone City", "sections": [{"ref": "Veilstone City/Item on Rock Climb Platform", "name": "Item on Rock Climb Platform"}], "map_locations": [{"map": "veilstonecity", "x": 296, "y": 489}]},
 {"name": "Veilstone City​", "sections": [{"ref": "Veilstone City/Item Next to Galactic Building", "name": "Item Next to Galactic Building"}], "map_locations": [{"map": "veilstonecity", "x": 616, "y": 110}]},
 {"name": "Veilstone City​​", "sections": [{"ref": "Veilstone City/Item Between Galactic Warehouses", "name": "Item Between Galactic Warehouses"}], "map_locations": [{"map": "veilstonecity", "x": 344, "y": 152}]},
