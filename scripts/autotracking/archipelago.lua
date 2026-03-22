@@ -141,7 +141,7 @@ function onClear(slot_data)
     -- want to ever give me these in the original table? :(
     
     local special = slot_data.generated_special_encounters
-    
+    print(dump_table(special))
     for key, value in pairs(special) do
         local base = key:match("^(.*)_%d+$")
     

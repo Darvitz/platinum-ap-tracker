@@ -262,7 +262,12 @@ function updatePokemon()
     
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         regionObjects[region_key] = Tracker:FindObjectForCode(location)
-        baseCounts[region_key] = #ENCOUNTERS_GROUPED[region_key]
+        if ENCOUNTERS_GROUPED[region_key] ~= nil then
+            print("Remember to remove this once it is fixed in the apworld")
+            baseCounts[region_key] = #ENCOUNTERS_GROUPED[region_key]
+        else
+            print(region_key.." is nil!")
+        end
         pendingDecrements[region_key] = 0
     end
     
@@ -295,7 +300,12 @@ function updatePokemon()
         end
     end
     for region_key, object in pairs(regionObjects) do
-        object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+        if baseCounts[region_key] ~= nil then
+            print("Remember to remove this once it is fixed in the apworld")
+            object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+        else
+            print(region_key.." is nil!")
+        end
     end
 end
 
