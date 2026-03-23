@@ -124,7 +124,7 @@ function soft_honey()
 end
 
 function regular_honey_tree_encounters()
-    local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
+    local meadow = Tracker:FindObjectForCode("@floaroma_meadow_south").AccessibilityLevel
     if has("encmethod_honeytree_on") then
         return math.max(meadow, soft_honey())
     else
@@ -136,7 +136,7 @@ function regular_honey_tree_encounters()
 end
 
 function munchlax_honey_tree_encounters()
-    local meadow = Tracker:FindObjectForCode("@floaroma_meadow").AccessibilityLevel
+    local meadow = Tracker:FindObjectForCode("@floaroma_meadow_south").AccessibilityLevel
     if has("treecamera") and has("poketch") and has("dowsingmachine") and has("encmethod_munchlaxtree_on") then
         return math.max(meadow, soft_honey())
     else
