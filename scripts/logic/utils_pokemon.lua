@@ -263,7 +263,7 @@ function updatePokemon()
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         regionObjects[region_key] = Tracker:FindObjectForCode(location)
         if ENCOUNTERS_GROUPED[region_key] ~= nil then
-            print("Remember to remove this once it is fixed in the apworld")
+            -- Remember to remove this once it is fixed in the apworld
             baseCounts[region_key] = #ENCOUNTERS_GROUPED[region_key]
         else
             print(region_key.." is nil!")
@@ -287,6 +287,24 @@ function updatePokemon()
             should_decrement = true
         end
         
+        if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
+            local padded_dex_number = 262144 + dex_number
+            
+            for _, hint in pairs(SAVED_HINTS) do
+                if hint.finding_player == PLAYER_ID then
+                    for _, check in pairs(SAVED_HINTS) do
+                        if padded_dex_number == check.location then
+                            if check.item_flags ~= 1 and check.item_flags ~= 3 and check.item_flags ~= 5 then
+                                should_decrement = true
+                                break
+                            end
+                        end
+                    end
+                end
+                if should_decrement then break end
+            end
+        end
+        
         if should_decrement then
             for _, location in pairs(locations) do
                 local object_name = ENCOUNTER_MAPPING[location]
@@ -301,7 +319,7 @@ function updatePokemon()
     end
     for region_key, object in pairs(regionObjects) do
         if baseCounts[region_key] ~= nil then
-            print("Remember to remove this once it is fixed in the apworld")
+            -- Remember to remove this once it is fixed in the apworld
             object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
         else
             print(region_key.." is nil!")
