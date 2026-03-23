@@ -248,10 +248,6 @@ function updatePokemon()
     --This is for when Static & Trades are in logic
     --Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
     
-    if CAUGHT == nil or SEEN == nil then
-        return
-    end
-    
     if has("encounter_tracking_off") then
         return
     end
@@ -289,15 +285,13 @@ function updatePokemon()
         
         if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
             local padded_dex_number = 262144 + dex_number
-            
+                
             for _, hint in pairs(SAVED_HINTS) do
                 if hint.finding_player == PLAYER_ID then
-                    for _, check in pairs(SAVED_HINTS) do
-                        if padded_dex_number == check.location then
-                            if check.item_flags ~= 1 and check.item_flags ~= 3 and check.item_flags ~= 5 then
-                                should_decrement = true
-                                break
-                            end
+                    if padded_dex_number == hint.location then
+                        if hint.item_flags ~= 1 and hint.item_flags ~= 3 and hint.item_flags ~= 5 then
+                            should_decrement = true
+                            break
                         end
                     end
                 end

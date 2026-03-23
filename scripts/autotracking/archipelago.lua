@@ -86,7 +86,6 @@ function onClear(slot_data)
     -------------------------------------------------
 
     local generated = slot_data.generated_encounters
-    print(dump_table(generated))
     ENCOUNTERS_GROUPED = {}
 
     local used_keys = {}
@@ -496,6 +495,7 @@ function toggleHints()
         resetHints()
         updateHints()
     elseif has("hint_tracking_on_plus") then
+        print("I am toggling")
         updatePokemon()
         updateHints()
     end
