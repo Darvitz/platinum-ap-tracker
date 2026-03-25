@@ -1964,7 +1964,7 @@
             "@eterna_forest_outside",
             "@floaroma_meadow",
             "@floaroma_town, $surf",
-            "@floaroma_town, workskey",
+            "@floaroma_town, event_clear_windworks",
             "@fuego_ironworks_outside",
             "@route_205_house"
         ]
