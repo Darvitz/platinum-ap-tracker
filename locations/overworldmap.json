@@ -404,18 +404,6 @@
                 ]
             },
             {
-                "name": "Area 1 - Surf Encounters",
-                "item_count": 2,
-                "chest_unopened_img": "/images/locations/encounters/surf.png",
-                "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
-                "access_rules": [
-                    "@great_marsh_1, ^$surf_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
                 "name": "Area 1 - Old Rod Encounters",
                 "item_count": 1,
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
@@ -656,54 +644,6 @@
                 ]
             },
             {
-                "name": "Area 4 - Surf Encounters",
-                "item_count": 2,
-                "chest_unopened_img": "/images/locations/encounters/surf.png",
-                "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
-                "access_rules": [
-                    "@great_marsh_4, ^$surf_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 4 - Old Rod Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/oldrod.png",
-                "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_4, ^$oldrod_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 4 - Good Rod Encounters",
-                "item_count": 2,
-                "chest_unopened_img": "/images/locations/encounters/goodrod.png",
-                "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_4, ^$goodrod_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 4 - Super Rod Encounters",
-                "item_count": 3,
-                "chest_unopened_img": "/images/locations/encounters/superrod.png",
-                "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_4, ^$superrod_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
                 "name": "Area 5 - Land Encounters",
                 "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
@@ -734,54 +674,6 @@
                 "chest_opened_img": "/images/locations/encounters/firered_cleared.png",
                 "access_rules": [
                     "@great_marsh_5, ^$firered_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 5 - Surf Encounters",
-                "item_count": 2,
-                "chest_unopened_img": "/images/locations/encounters/surf.png",
-                "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
-                "access_rules": [
-                    "@great_marsh_5, ^$surf_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 5 - Old Rod Encounters",
-                "item_count": 1,
-                "chest_unopened_img": "/images/locations/encounters/oldrod.png",
-                "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_5, ^$oldrod_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 5 - Good Rod Encounters",
-                "item_count": 2,
-                "chest_unopened_img": "/images/locations/encounters/goodrod.png",
-                "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_5, ^$goodrod_encounters"
-                ],
-                "visibility_rules": [
-                    "show_mons"
-                ]
-            },
-            {
-                "name": "Area 5 - Super Rod Encounters",
-                "item_count": 3,
-                "chest_unopened_img": "/images/locations/encounters/superrod.png",
-                "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
-                "access_rules": [
-                    "@great_marsh_5, ^$superrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
