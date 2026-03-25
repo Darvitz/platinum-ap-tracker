@@ -19,7 +19,7 @@ ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePok
 ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
 
 -- Other
-ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", updateHints)
+ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)
 
 -- Debug
 --ScriptHost:AddWatchForCode("debug", "*", debug)

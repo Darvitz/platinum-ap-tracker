@@ -248,10 +248,6 @@ function updatePokemon()
     --This is for when Static & Trades are in logic
     --Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
     
-    if CAUGHT == nil or SEEN == nil then
-        return
-    end
-    
     if has("encounter_tracking_off") then
         return
     end
@@ -262,7 +258,12 @@ function updatePokemon()
     
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         regionObjects[region_key] = Tracker:FindObjectForCode(location)
-        baseCounts[region_key] = #ENCOUNTERS_GROUPED[region_key]
+        if ENCOUNTERS_GROUPED[region_key] ~= nil then
+            -- Remember to remove this once it is fixed in the apworld
+            baseCounts[region_key] = #ENCOUNTERS_GROUPED[region_key]
+        else
+            print(region_key.." is nil!")
+        end
         pendingDecrements[region_key] = 0
     end
     
@@ -282,6 +283,22 @@ function updatePokemon()
             should_decrement = true
         end
         
+        if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
+            local padded_dex_number = 262144 + dex_number
+                
+            for _, hint in pairs(SAVED_HINTS) do
+                if hint.finding_player == PLAYER_ID then
+                    if padded_dex_number == hint.location then
+                        if hint.item_flags ~= 1 and hint.item_flags ~= 3 and hint.item_flags ~= 5 then
+                            should_decrement = true
+                            break
+                        end
+                    end
+                end
+                if should_decrement then break end
+            end
+        end
+        
         if should_decrement then
             for _, location in pairs(locations) do
                 local object_name = ENCOUNTER_MAPPING[location]
@@ -295,7 +312,12 @@ function updatePokemon()
         end
     end
     for region_key, object in pairs(regionObjects) do
-        object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+        if baseCounts[region_key] ~= nil then
+            -- Remember to remove this once it is fixed in the apworld
+            object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+        else
+            print(region_key.." is nil!")
+        end
     end
 end
 

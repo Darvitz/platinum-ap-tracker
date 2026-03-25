@@ -3,7 +3,6 @@ local variant = Tracker.ActiveVariantUID
 -- Items
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/encounter_items.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/settings_pokemon.json")
 Tracker:AddItems("items/tools.json")
