@@ -3,9 +3,6 @@ name: Validate JSONC Files
 on:
   pull_request:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   validate-jsonc:
     name: Validate JSONC files
@@ -13,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install json5 (JSONC parser)
         run: npm install -g json5
