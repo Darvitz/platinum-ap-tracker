@@ -160,21 +160,21 @@
         ]
     },
     {
-        "name": "Randomize Poketech Apps",
+        "name": "Randomize Poketch Apps",
         "type": "progressive",
         "initial_stage_idx": 1,
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Randomize Poketech Apps - OFF",
+                "name": "Randomize Poketch Apps - OFF",
                 "img": "images/settings/opt_poketchapps.png",
                 "img_mods": "@disabled",
                 "codes": "opt_poketchapps, opt_poketchapps_off",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Poketech Apps - ON",
+                "name": "Randomize Poketch Apps - ON",
                 "img": "images/settings/opt_poketchapps.png",
                 "codes": "opt_poketchapps, opt_poketchapps_on",
                 "inherit_codes": false
@@ -552,7 +552,7 @@
         "type": "consumable",
         "img": "/images/settings/regional_dex_goal.png",
         "min_quantity": 1,
-        "max_quantity": 80,
+        "max_quantity": 210,
         "initial_quantity": 60,
         "overlay_background": "#000000",
         "codes": "regional_dex_goal"
