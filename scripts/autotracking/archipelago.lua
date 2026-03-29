@@ -233,18 +233,11 @@ function onClear(slot_data)
             KEY4     = makeID("tracked_unrandomized_required_locations_3_"),
             HINT       = "_read_hints_" .. suffix,
         }
+        
         for _, id in pairs(IDs) do
             Archipelago:SetNotify({id})
             Archipelago:Get({id})
         end
-        --for i = 1, 4 do
-        --    _G["KEY"..i.."_ID"] =
-        --        "pokemon_platinum_tracked_unrandomized_required_locations_"
-        --        ..TEAM_NUMBER.."_"..PLAYER_ID.."_"..(i - 1)
-        --
-        --    Archipelago:SetNotify({_G["KEY"..i.."_ID"]})
-        --    Archipelago:Get({_G["KEY"..i.."_ID"]})
-        --end
     end
 end
 
@@ -414,10 +407,12 @@ function onNotify(key, value, old_value)
             updateVanillaKeyItems(4, value)
         elseif key == IDs.HINT then
             SAVED_HINTS = value
-            toggleHints()
+            updateHints()
         elseif key == IDs.CAUGHT then
             updateCaught(value)
         elseif key == IDs.SEEN then
+            print("Seen got called")
+            print(value)
             updateSeen(value)
         end
     end
@@ -452,12 +447,12 @@ function toggleHints()
         updatePokemon()
         resetHints()
     elseif has("hint_tracking_on") then
-        updatePokemon()
         resetHints()
         updateHints()
-    elseif has("hint_tracking_on_plus") then
         updatePokemon()
+    elseif has("hint_tracking_on_plus") then
         updateHints()
+        updatePokemon()
     end
 end
 
@@ -498,7 +493,6 @@ function updateHints()
     CLEARED_HINTS = {}
 
     local tracking_plus = has("hint_tracking_on_plus")
-
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
@@ -534,21 +528,23 @@ function updateHints()
 
             local locations = (type(mapped) == "table") and mapped or { mapped }
 
-            for _, location in ipairs(locations) do
-                if location:sub(1, 1) == "@" then
-                    local obj = Tracker:FindObjectForCode(location)
-
-                    if tracking_plus then
-                        if incoming_val == 3 then
-                            obj.Highlight = incoming_val
+            if hint.found == false then
+                for _, location in ipairs(locations) do
+                    if location:sub(1, 1) == "@" then
+                        local obj = Tracker:FindObjectForCode(location)
+    
+                        if tracking_plus then
+                            if incoming_val == 3 then
+                                obj.Highlight = incoming_val
+                            else
+                                local current_total = CLEARED_HINTS[location] or 0
+                                CLEARED_HINTS[location] = current_total + 1
+                            end
                         else
-                            local current_total = CLEARED_HINTS[location] or 0
-                            CLEARED_HINTS[location] = current_total + 1
-                        end
-                    else
-                        local current_val = obj.Highlight
-                        if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
-                            obj.Highlight = incoming_val
+                            local current_val = obj.Highlight
+                            if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
+                                obj.Highlight = incoming_val
+                            end
                         end
                     end
                 end

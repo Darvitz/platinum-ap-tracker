@@ -211,8 +211,9 @@ REGIONAL_IDS = {
     [490] = true,
 }
 
+CAUGHT = {}
 function updateCaught(value)
-    CAUGHT = value
+    CAUGHT = value or {}
     Tracker:FindObjectForCode("num_caught").AcquiredCount = #CAUGHT
     for i = 1, 493 do
         if table_contains(value, i) then
@@ -224,8 +225,9 @@ function updateCaught(value)
     updatePokemon()
 end
 
+SEEN = {}
 function updateSeen(value)
-    SEEN = value
+    SEEN = value or {}
     
     NUM_SEEN_NAT = 0
     NUM_SEEN_REG = 0
