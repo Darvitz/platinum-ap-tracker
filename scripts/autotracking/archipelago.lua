@@ -411,8 +411,6 @@ function onNotify(key, value, old_value)
         elseif key == IDs.CAUGHT then
             updateCaught(value)
         elseif key == IDs.SEEN then
-            print("Seen got called")
-            print(value)
             updateSeen(value)
         end
     end
