@@ -226,6 +226,21 @@
         ]
     },
     {
+        "name": "Pokedex 1",
+        "type": "toggle",
+        "codes": "pokedex_1"
+    },
+    {
+        "name": "Pokedex 2",
+        "type": "toggle",
+        "codes": "pokedex_2"
+    },
+    {
+        "name": "Pokedex 3",
+        "type": "toggle",
+        "codes": "pokedex_3"
+    },
+    {
         "name": "Poketch",
         "type": "toggle",
         "img": "images/items/poketch.png",

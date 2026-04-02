@@ -227,10 +227,10 @@ function onClear(slot_data)
             EVENT      = makeID("tracked_events_"),
             SEEN       = makeID("seen_pokemon_"),
             CAUGHT     = makeID("caught_pokemon_"),
-            KEY1       = makeID("tracked_unrandomized_required_locations_0_"),
-            KEY2      = makeID("tracked_unrandomized_required_locations_1_"),
-            KEY3      = makeID("tracked_unrandomized_required_locations_2_"),
-            KEY4     = makeID("tracked_unrandomized_required_locations_3_"),
+            KEY1       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_0",
+            KEY2       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_1",
+            KEY3       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_2",
+            KEY4       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_3",
             HINT       = "_read_hints_" .. suffix,
         }
         
@@ -427,9 +427,9 @@ end
 
 function updateVanillaKeyItems(register, value)
     if value == nil then return end
-    
+
     local list = _G["FLAG_ITEM" .. tostring(register) .. "_CODES"]
-    
+
     for i, obj in ipairs(list) do
         local bit = (value >> (i - 1)) & 1
         if obj.codes and (not obj.option or has(obj.option)) then
@@ -438,6 +438,10 @@ function updateVanillaKeyItems(register, value)
             end
         end
     end
+
+    syncCoupons()
+    syncUnownFile()
+    syncPokedex()
 end
 
 function toggleHints()
@@ -574,7 +578,6 @@ function updateHints()
 end
 
 function onMap(mapBounce)
-    print("Bounced")
     if has("automap_on") and mapBounce.data ~= nil then
         local mapID = mapBounce.data.mapNumber
         
@@ -605,8 +608,8 @@ function onMap(mapBounce)
                 end
             end
         else
-            print("No Mapping found for:")
-            print(dump_table(mapBounce))
+            --print("No Mapping found for:")
+            --print(dump_table(mapBounce))
         end
     end
 end

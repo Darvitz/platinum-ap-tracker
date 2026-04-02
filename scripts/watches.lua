@@ -21,6 +21,19 @@ ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
 -- Other
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)
 
+-- Vanilla Item Syncs
+for _, code in ipairs({"coupon_1", "coupon_2", "coupon_3"}) do
+    ScriptHost:AddWatchForCode(code, code, syncCoupons)
+end
+
+for _, code in ipairs(UNOWN_ITEMS) do
+    ScriptHost:AddWatchForCode(code, code, syncUnownFile)
+end
+
+for _, code in ipairs({"pokedex_1", "pokedex_2", "pokedex_3"}) do
+    ScriptHost:AddWatchForCode(code, code, syncPokedex)
+end
+
 -- Debug
 --ScriptHost:AddWatchForCode("debug", "*", debug)
 --ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)

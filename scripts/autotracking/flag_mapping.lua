@@ -81,7 +81,7 @@ FLAG_ITEM2_CODES = {
   {option="opt_overworld_off", codes={"magmarizer"}},
   {option="opt_hidden_off", codes={"razorfang"}},
   {option="opt_hms_off", codes={"hm08rockclimb"}},
-  {option="opt_pokedex_off", codes={"pokedex"}},
+  {option="opt_pokedex_off", codes={"pokedex_2"}},
   {option="opt_rods_off", codes={"oldrod"}},
   {option="opt_overworld_off", codes={"razorclaw"}},
   {option="opt_overworld_off", codes={"upgrade"}},
@@ -98,8 +98,8 @@ FLAG_ITEM3_CODES = {
   {option="opt_hidden_off", codes={"thunderstone"}},
   {option="opt_hidden_off", codes={"waterstone"}},
   {option="opt_keyitems_off", codes={"radar"}},
-  {option="opt_pokedex_off", codes={"pokedex"}},
-  {option="opt_pokedex_off", codes={"pokedex"}},
+  {option="opt_pokedex_off", codes={"pokedex_1"}},
+  {option="opt_pokedex_off", codes={"pokedex_3"}},
   {option="opt_badges_off", codes={"iciclebadge"}},
   {option="opt_overworld_off", codes={"tm94ancientpower"}},
   {option="opt_hidden_off", codes={"firestone"}},
@@ -158,4 +158,14 @@ FLAG_ITEM4_CODES = {
   {option="opt_overworld_off", codes={"duskstone"}},
   {option="opt_timeitems_off", codes={"daytime"}},
   {option="opt_hidden_off", codes={"duskstone"}},
+}
+
+UNOWN_ITEMS = {
+    "unownfile_a", "unownfile_b", "unownfile_c", "unownfile_d",
+    "unownfile_e", "unownfile_ex", "unownfile_f", "unownfile_g",
+    "unownfile_h", "unownfile_i", "unownfile_j", "unownfile_k",
+    "unownfile_l", "unownfile_m", "unownfile_n", "unownfile_o",
+    "unownfile_p", "unownfile_q", "unownfile_qu", "unownfile_r",
+    "unownfile_s", "unownfile_t", "unownfile_u", "unownfile_v",
+    "unownfile_w", "unownfile_x", "unownfile_y", "unownfile_z"
 }

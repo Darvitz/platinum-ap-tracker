@@ -10862,7 +10862,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex"
+                "hosted_item": "pokedex, pokedex_2"
             },
             {
                 "name": "Fisherman Miguel",
@@ -20596,7 +20596,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex"
+                "hosted_item": "pokedex, pokedex_1"
             },
             {
                 "name": "Lab - National Pokedex from Prof Oak",
@@ -20616,7 +20616,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex"
+                "hosted_item": "pokedex, pokedex_3"
             },
             {
                 "name": "Lab - Poke Radar from Rowan",
