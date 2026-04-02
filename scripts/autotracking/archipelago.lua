@@ -416,7 +416,7 @@ function onNotify(key, value, old_value)
     end
 end
 
-function updateEvents(register, value)
+function updateEvents(value)
     if value ~= nil then
         for i, code in ipairs(FLAG_EVENT_CODES) do
             local bit = (value >> (i - 1)) & 1
