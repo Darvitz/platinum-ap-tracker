@@ -253,7 +253,7 @@ end
 
 function evolve_area(area)
     local evo_area = Tracker:FindObjectForCode("@"..area).AccessibilityLevel
-    if has("evomethod_area_on") then
+    if has("evomethod_geographical_on") then
         return evo_area
     else
         math.min(evo_area, AccessibilityLevel.SequenceBreak)
