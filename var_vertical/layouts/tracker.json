@@ -28,7 +28,6 @@
                                             "tabs": [
                                                 {
                                                     "title": "Key Items",
-                                                    "h_alignment": "center",
                                                     "content": {
                                                         "type": "layout",
                                                         "key": "v_key_items_grid"
@@ -36,7 +35,6 @@
                                                 },
                                                 {
                                                     "title": "Encounter Items",
-                                                    "h_alignment": "center",
                                                     "content": {
                                                         "type": "layout",
                                                         "key": "v_key_encounters_grid"
@@ -44,7 +42,6 @@
                                                 },
                                                 {
                                                     "title": "Evolution Items",
-                                                    "h_alignment": "center",
                                                     "content": {
                                                         "type": "layout",
                                                         "key": "v_key_evolution_grid"

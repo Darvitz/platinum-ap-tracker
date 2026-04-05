@@ -112,11 +112,11 @@
     {
         "name": "",
         "type": "progressive",
-        "codes": "dexsearch_digit1",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
+                "codes": "dexsearch_digit1",
                 "img": "/images/digits/0--.png"
             },
             {
@@ -136,11 +136,11 @@
     {
         "name": "",
         "type": "progressive",
-        "codes": "dexsearch_digit2",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
+                "codes": "dexsearch_digit2",
                 "img": "/images/digits/-0-.png"
             },
             {
@@ -175,11 +175,11 @@
     {
         "name": "",
         "type": "progressive",
-        "codes": "dexsearch_digit3",
         "loop": true,
         "allow_disabled": false,
         "stages": [
             {
+                "codes": "dexsearch_digit3",
                 "img": "/images/digits/--0.png"
             },
             {
@@ -214,7 +214,6 @@
     {
         "name": "Click here to search",
         "type": "progressive",
-        "codes": "go",
         "allow_disabled": false,
         "stages": [
             {
@@ -263,12 +262,12 @@
     {
         "name": "Searched by ID",
         "type": "progressive",
-        "codes": "search_ID_result",
         "allow_disabled": false,
         "stages": [
             {
                 "name": "Not searched yet",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/0.png",
+                "codes": "search_ID_result",
             },
             {
                 "name": "Searched for Bulbasaur",
