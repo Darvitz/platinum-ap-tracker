@@ -131,5 +131,26 @@
         "img": "/images/events/event_clear_starkmountain.png",
         "img_mods": "",
         "codes":"event_clear_starkmountain"
-    }
+    },
+    {
+        "name": "Release Cresselia",
+        "type": "toggle",
+        "img": "/images/events/event_roamer_1.png",
+        "img_mods": "",
+        "codes":"event_roamer_1"
+    }, 
+    {
+        "name": "Release Mesprit",
+        "type": "toggle",
+        "img": "/images/events/event_roamer_0.png",
+        "img_mods": "",
+        "codes":"event_roamer_0"
+    },
+    {
+        "name": "Release The Legendary Birds",
+        "type": "toggle",
+        "img": "/images/events/event_roamer_345.png",
+        "img_mods": "",
+        "codes":"event_roamer_3"
+    },
 ]

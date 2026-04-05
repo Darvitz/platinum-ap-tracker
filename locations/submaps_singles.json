@@ -64,7 +64,6 @@
 {"name": "Survival Area​​", "sections": [{"ref": "Survival Area/Hidden Item in Corner of SW Trees", "name": "Hidden Item in Corner of SW Trees"}], "map_locations": [{"map": "survivalarea", "x": 174, "y": 394}]},
 {"name": "Great Marsh​​​​​​​​", "sections": [{"ref": "Great Marsh/Area 5 - Item in Southwest Area", "name": "Area 5 - Item in Southwest Area"}], "map_locations": [{"map": "greatmarsh", "x": 280, "y": 1044}]},
 {"name": "Great Marsh​​​​​​​​​", "sections": [{"ref": "Great Marsh/Area 5 - Hidden Item in Bottom Right Corner of SW Muddy Grass", "name": "Area 5 - Hidden Item in Bottom Right Corner of SW Muddy Grass"}], "map_locations": [{"map": "greatmarsh", "x": 280, "y": 1144}]},
-{"name": "Fullmoon Island", "sections": [{"ref": "Fullmoon Island/Item in Clearing after Cresselia has Fled", "name": "Item in Clearing after Cresselia has Fled"}], "map_locations": [{"map": "fullmoonislandinside", "x": 200, "y": 156}]},
 {"name": "Victory Road​​​​​​​​​​​​​​", "sections": [{"ref": "Victory Road/B1F - Item on Ledge", "name": "B1F - Item on Ledge"}], "map_locations": [{"map": "victoryroadb1f", "x": 208, "y": 286}]},
 {"name": "Victory Road​​​​​​​​​​​​​​​", "sections": [{"ref": "Victory Road/B1F - Item in Top Right", "name": "B1F - Item in Top Right"}], "map_locations": [{"map": "victoryroadb1f", "x": 528, "y": 262}]},
 {"name": "Victory Road​​​​​​​​​​​​​​​​", "sections": [{"ref": "Victory Road/B1F - Item in Bottom Right", "name": "B1F - Item in Bottom Right"}], "map_locations": [{"map": "victoryroadb1f", "x": 560, "y": 524}]},
@@ -569,8 +568,6 @@
 {"name": "Eterna Forest​​​​​​​​​", "sections": [{"ref": "Eterna Forest/Soothe Bell from Cheryl", "name": "Soothe Bell from Cheryl"}], "map_locations": [{"map": "eternaforest", "x": 1172, "y": 386}]},
 {"name": "Eterna City​​​​​​", "sections": [{"ref": "Eterna City/Pokemon Center - Friendship Checker App from Woman", "name": "Pokemon Center - Friendship Checker App from Woman"}], "map_locations": [{"map": "eternacity", "x": 280, "y": 260}]},
 {"name": "Eterna City​​​​​​​", "sections": [{"ref": "Eterna City/Explorer Kit from Underground Man", "name": "Explorer Kit from Underground Man"}], "map_locations": [{"map": "eternacity", "x": 360, "y": 260}]},
-{"name": "Eterna City​​​​​​​​", "sections": [{"ref": "Eterna City/Up-Grade from Prof Oak", "name": "Up-Grade from Prof Oak"}], "map_locations": [{"map": "eternacity", "x": 168, "y": 656}]},
-{"name": "Eterna City - Prof Oak", "sections": [{"ref": "Eterna City/Up-Grade from Prof Oak\u200b", "name": "Up-Grade from Prof Oak\u200b"}], "map_locations": [{"map": "eternacity", "x": 168, "y": 656}]},
 {"name": "Route 206 North​​​", "sections": [{"ref": "Route 206 North/North Gate - Reward For 35 Pokemon Seen", "name": "North Gate - Reward For 35 Pokemon Seen"}], "map_locations": [{"map": "route206", "x": 224, "y": 72}, {"map": "eternacity", "x": 272, "y": 820}]},
 {"name": "Route 208​​​​​", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree", "name": "Black Belt Near Honey Tree"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
 {"name": "Route 208 - Black Belt", "sections": [{"ref": "Route 208/Black Belt Near Honey Tree\u200b", "name": "Black Belt Near Honey Tree\u200b"}], "map_locations": [{"map": "route208", "x": 856, "y": 556}]},
@@ -1161,5 +1158,6 @@
 {"name": "Lake Acuity​​​", "sections": [{"ref": "Lake Acuity/Lake - Watch Jupiter defeat your rival (Event)", "name": "Lake - Watch Jupiter defeat your rival (Event)"}], "map_locations": [{"map": "acuitylake", "x": 112, "y": 520}]},
 {"name": "Mt. Coronet Upper Floors​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Mt. Coronet Upper Floors/Distortion World - Clear the Distortion World (Event)", "name": "Distortion World - Clear the Distortion World (Event)"}], "map_locations": [{"map": "distortionworld", "x": 176, "y": 158}]},
 {"name": "Stark Mountain​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Stark Mountain/Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)", "name": "Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)"}], "map_locations": [{"map": "starkmountainheatransroom", "x": 120, "y": 243}]},
+{"name": "Lake Verity​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Lake Verity/Release Mesprit (Event)", "name": "Release Mesprit (Event)"}], "map_locations": [{"map": "veritylake", "x": 424, "y": 278}]},
 {"name": "Galactic HQ​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"ref": "Galactic HQ/1F - Hidden Item Near Entrance in Green Warp Room", "name": "1F - Hidden Item Near Entrance in Green Warp Room"}], "map_locations": [{"map": "veilstonecity", "x": 776, "y": 164}]}    
 ]}]
