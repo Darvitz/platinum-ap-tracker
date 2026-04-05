@@ -9453,6 +9453,7 @@
             },
             {
                 "name": "Pokemon History App from Ruin Maniac",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@solaceon_town, pokedex, {}",
                     "@solaceon_town, pokedex, num_seen_reg:50"
@@ -16572,6 +16573,7 @@
             // see https://discord.com/channels/937157230963339364/937163459534127174/1484633634886652024
             {
                 "name": "Left - Item Near Center Warp",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -16582,6 +16584,7 @@
             },
             {
                 "name": "Left - Item on Middle of Island",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -16592,6 +16595,7 @@
             },
             {
                 "name": "Right - Item Reached with East Warps",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -16602,6 +16606,7 @@
             },
             {
                 "name": "Right - Item Behind Bench",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -16612,6 +16617,7 @@
             },
             {
                 "name": "Berry or Accessory from Man in Random Spot",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -17222,6 +17228,7 @@
         "sections": [
             {
                 "name": "North Gate - Reward For 35 Pokemon Seen",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@route_206_cycling_road_north_gate, pokedex, {}",
                     "@route_206_cycling_road_north_gate, pokedex, num_seen_nat:35"
@@ -19807,6 +19814,7 @@
             },
             {
                 "name": "Gift from Overalls Man for Showing Geodude in North House",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@oreburgh_city_north_house_2f, ^$has_mon|74"
                 ],
@@ -20642,6 +20650,7 @@
             },
             {
                 "name": "Lab - National Pokedex from Prof Oak",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -20652,6 +20661,7 @@
             },
             {
                 "name": "Lab - National Pokedex from Prof Oak\u200b",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -20662,6 +20672,7 @@
             },
             {
                 "name": "Lab - Poke Radar from Rowan",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -20672,6 +20683,7 @@
             },
             {
                 "name": "Lab - Poke Radar from Rowan\u200b",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@sandgem_town_pokemon_research_lab, pokedex, ^$see_regional_mons"
                 ],
@@ -20731,6 +20743,7 @@
             },
             {
                 "name": "Kitchen Timer App from Girl",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@pal_park_lobby, ^$has_mon|143"
                 ],
@@ -20741,6 +20754,7 @@
             },
             {
                 "name": "Color Changer App from Girl",
+                "inspectable_sequence_break": true,
                 "access_rules": [
                     "@pal_park_lobby, ^$has_mon|352, ^$has_mon|143"
                 ],
