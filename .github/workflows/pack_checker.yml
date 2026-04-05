@@ -9,5 +9,4 @@ jobs:
       - uses: PopTracker/pack-checker-action@v1
         with:
           strict: true
-          pack: .
           check-legacy-compat: true
