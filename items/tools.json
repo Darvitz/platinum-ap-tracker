@@ -225,7 +225,7 @@
                 "name": "Click here to search",
                 "img": "/images/tools/go.png",
                 "codes": "search_active",
-                "inherit_codes": "false",
+                "inherit_codes": false,
                 "img_mods": "@disabled"
             }
         ]

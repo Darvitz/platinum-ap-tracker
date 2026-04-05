@@ -1,7 +1,8 @@
 {
   "settings_popup": {
     "type": "dock",
-    "content": {
+    "content": [
+      {
       "type": "tabbed",
       "tabs": [
         {
@@ -79,7 +80,8 @@
           }
         }
       ]
-    }
+      }
+    ]
   },
     "sanity_grid": {
         "type": "itemgrid",

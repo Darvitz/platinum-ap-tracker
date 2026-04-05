@@ -8,7 +8,8 @@
             "content": [
                 {
                     "type": "dock",
-                    "content": {
+                    "content": [
+                        {
                         "type": "tabbed",
                         "tabs": [
                             {
@@ -21,7 +22,8 @@
                                 }
                             }
                         ]
-                    }
+                        }
+                    ]
                 }
             ]
         }
