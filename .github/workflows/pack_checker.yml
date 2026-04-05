@@ -1,0 +1,13 @@
+name: Run Pack Checker
+on:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: PopTracker/pack-checker-action@v1
+        with:
+          strict: true
+          schema: path/to/schema
+          pack: path/to/pack
+          check-legacy-compat: true
