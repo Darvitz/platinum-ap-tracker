@@ -509,7 +509,9 @@ ENCOUNTER_MAPPING = {
   ["odd_keystone"] = "@Route 209/Odd Keystone Encounter",
   ["munchlax_honey_tree"] = "@Special Encounters/Munchlax Tree Encounter",
   ["trophy_garden"] = "@Pokemon Mansion/Trophy Garden - Trophy Garden Encounters",
-  ["roamers"] = "@Special Encounters/Roamers"
+  ["roamer_0"] = "@Special Encounters/Roamer - Mesprit",
+  ["roamer_1"] = "@Special Encounters/Roamer - Cresselia",
+  ["roamer_345"] = "@Special Encounters/Roamers - Legendary Birds",
 }
 
 AREA_TYPES = {

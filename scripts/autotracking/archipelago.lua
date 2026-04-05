@@ -158,7 +158,9 @@ function onClear(slot_data)
         table.insert(ENCOUNTERS_GROUPED[base], value)
     end
 
-    ENCOUNTERS_GROUPED["roamers"] = slot_data.generated_roamers
+    ENCOUNTERS_GROUPED["roamer_0"] = {slot_data.generated_roamers[1]}
+    ENCOUNTERS_GROUPED["roamer_1"] = {slot_data.generated_roamers[2]}
+    ENCOUNTERS_GROUPED["roamer_345"] = {slot_data.generated_roamers[3], slot_data.generated_roamers[4], slot_data.generated_roamers[5]}
 
     -- and now we flip this on the head by instead matching pokemon -> region instead of region -> pokemon
     
