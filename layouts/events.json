@@ -37,11 +37,8 @@
                             ],
                             [
                                 "event_clear_starkmountain",
-                                "event_roamer_1",
-                                "event_roamer_0",
-                                "event_roamer_3",
-                                "event_clear_distortion",
-                                "event_defeat_cynthia"
+                                "event_defeat_cynthia",
+                                "event_clear_distortion"
                             ]
                         ]
                     }
