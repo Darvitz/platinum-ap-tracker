@@ -899,5 +899,8 @@
 { "name": "Release The Legendary Birds (Event)", "ref": "Eterna City/Release The Legendary Birds (Event)"}]},
 { "name": "Oreburgh Gate - Gift from Hiker", "map_locations": [ { "map": "oreburghgate1f", "x": 88, "y": 244}], "sections": [
 { "name": "HM06 from Hiker", "ref": "Oreburgh Gate/HM06 from Hiker"},
-{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]}
+{ "name": "HM06 from Hiker\u200b", "ref": "Oreburgh Gate/HM06 from Hiker\u200b"}]},
+{ "name": "Rock Peak Ruins", "map_locations": [ {"map": "route228north", "x": 280, "y": 354}], "sections": [
+{ "name": "Item in Center", "ref": "Route 228/Rock Peak Ruins - Item in Center"},
+{ "name": "Hidden Item Near Top Right", "ref": "Route 228/Rock Peak Ruins - Hidden Item Near Top Right"}]}
 ]}]
