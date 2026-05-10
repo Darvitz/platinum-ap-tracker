@@ -393,9 +393,21 @@
             },
             {
                 "name": "Area 1 - Land Encounters",
-                "item_count": 6,
+                "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@great_marsh_1, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+			{
+                "name": "Area 1 - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@great_marsh_1, ^$land_encounters"
                 ],
@@ -465,9 +477,21 @@
             },
             {
                 "name": "Area 2 - Land Encounters",
-                "item_count": 6,
+                "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@great_marsh_2, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+			{
+                "name": "Area 2 - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@great_marsh_2, ^$land_encounters"
                 ],
@@ -2344,9 +2368,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 9,
+                "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_224, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_224, ^$land_encounters"
                 ],
@@ -2898,9 +2934,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 6,
+                "item_count": 5,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_226, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_226, ^$land_encounters"
                 ],
@@ -3707,9 +3755,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 7,
+                "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_230, ^$land_encounters, $surf"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_230, ^$land_encounters, $surf"
                 ],
@@ -4139,9 +4199,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 7,
+                "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_229, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_229, ^$land_encounters"
                 ],
@@ -5772,9 +5844,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 4,
+                "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_213, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_213, ^$land_encounters"
                 ],
@@ -8590,9 +8674,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 4,
+                "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_202, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_202, ^$land_encounters"
                 ],
@@ -10600,9 +10696,21 @@
             },
             {
                 "name": "North - Land Encounters",
-                "item_count": 6,
+                "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_204_north, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "North - Morning Encounters",
+                "item_count": 2,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_204_north, ^$land_encounters"
                 ],
@@ -10696,9 +10804,21 @@
             },
             {
                 "name": "South - Land Encounters",
-                "item_count": 6,
+                "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_204_south, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "South - Morning Encounters",
+                "item_count": 2,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_204_south, ^$land_encounters"
                 ],
@@ -10941,9 +11061,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 4,
+                "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_218, ^$land_encounters, $surf"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_218, ^$land_encounters, $surf"
                 ],
@@ -12289,9 +12421,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_222, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_222, ^$land_encounters"
                 ],
@@ -12700,9 +12844,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 5,
+                "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@valor_lakefront, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@valor_lakefront, ^$land_encounters"
                 ],
@@ -14406,9 +14562,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 10,
+                "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@eterna_forest, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+			{
+                "name": "Morning Encounters",
+                "item_count": 2,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@eterna_forest, ^$land_encounters"
                 ],
@@ -15560,9 +15728,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_205_north, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 2,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_205_north, ^$land_encounters"
                 ],
@@ -17423,9 +17603,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 5,
+                "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_206_upper, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_206_upper, ^$land_encounters"
                 ],
@@ -17696,9 +17888,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 4,
+                "item_count": 3,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_207_south, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_207_south, ^$land_encounters"
                 ],
@@ -20323,9 +20527,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 5,
+                "item_count": 4,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_203, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_203, ^$land_encounters"
                 ],
@@ -20543,9 +20759,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 3,
+                "item_count": 2,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@route_201, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@route_201, ^$land_encounters"
                 ],
@@ -20871,9 +21099,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_1f_north_room_2, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_1f_north_room_2, ^$land_encounters"
                 ],
@@ -21011,9 +21251,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_b1f, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_b1f, ^$land_encounters"
                 ],
@@ -21404,9 +21656,21 @@
             },
             {
                 "name": "4F Bottom - Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_4f_rooms_1_and_2, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "4F Bottom - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_4f_rooms_1_and_2, ^$land_encounters"
                 ],
@@ -21488,11 +21752,23 @@
             },
             {
                 "name": "4F Top - Land Encounters",
-                "item_count": 9,
+                "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
                     "@mt_coronet_4f_room_3, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "4F Top - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_1f_north_room_2, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -21524,9 +21800,21 @@
             },
             {
                 "name": "5F - Land Encounters",
-                "item_count": 9,
+                "item_count": 8,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_5f, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "5F - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_5f, ^$land_encounters"
                 ],
@@ -21560,9 +21848,21 @@
             },
             {
                 "name": "6F - Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_6f, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "6F - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_6f, ^$land_encounters"
                 ],
@@ -21720,9 +22020,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 7,
+                "item_count": 6,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_1f_tunnel_room, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_1f_tunnel_room, ^$land_encounters"
                 ],
@@ -21885,9 +22197,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_1f_north_room_1, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_1f_north_room_1, ^$land_encounters"
                 ],
@@ -22305,9 +22629,21 @@
             },
             {
                 "name": "2F - Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_2f, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "2F - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_2f, ^$land_encounters"
                 ],
@@ -22341,9 +22677,21 @@
             },
             {
                 "name": "3F - Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_3f, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "3F - Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_3f, ^$land_encounters"
                 ],
@@ -22462,9 +22810,21 @@
             },
             {
                 "name": "Land Encounters",
-                "item_count": 8,
+                "item_count": 7,
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
+                "access_rules": [
+                    "@mt_coronet_1f_south, ^$land_encounters"
+                ],
+                "visibility_rules": [
+                    "show_mons"
+                ]
+            },
+            {
+                "name": "Morning Encounters",
+                "item_count": 1,
+                "chest_unopened_img": "/images/locations/encounters/morning.png",
+                "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
                     "@mt_coronet_1f_south, ^$land_encounters"
                 ],
