@@ -28,7 +28,10 @@ SLOT_CODES = {
     can_reset_legendaries_in_ap_helper = {code = "opt_can_reset_legendaries_in_ap_helper"},
     cartridges = {code = "opt_cartridges"},
     hm_reader = {code = "opt_hmreader"},
-    time_items = {code = "opt_timeitems"}
+    time_items = {code = "opt_timeitems"},
+    boat_canalave_pastoria = {code = "opt_boat_canalave_pastoria"},
+    boat_canalave_snowpoint = {code = "opt_boat_canalave_snowpoint"},
+    boat_pastoria_snowpoint = {code = "opt_boat_pastoria_snowpoint"}
 }
 
 HM_CODES = {

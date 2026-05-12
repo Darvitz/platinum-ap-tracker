@@ -143,6 +143,36 @@ function pastoria_barriers()
     return has("opt_pastoria_barriers_off") or surf()
 end
 
+function boat_canalave_pastoria()
+    if has("opt_boat_canalave_pastoria_off") then
+        return false
+    elseif has("opt_boat_canalave_pastoria_on") then
+        return true
+    elseif has("opt_boat_canalave_pastoria_ssticket") then
+        return has("ssticket")
+    end
+end
+
+function boat_canalave_snowpoint()
+    if has("opt_boat_canalave_snowpoint_off") then
+        return false
+    elseif has("opt_boat_canalave_snowpoint_on") then
+        return true
+    elseif has("opt_boat_canalave_snowpoint_ssticket") then
+        return has("ssticket")
+    end
+end
+
+function boat_pastoria_snowpoint()
+    if has("opt_boat_pastoria_snowpoint_off") then
+        return false
+    elseif has("opt_boat_pastoria_snowpoint_on") then
+        return true
+    elseif has("opt_boat_pastoria_snowpoint_ssticket") then
+        return has("ssticket")
+    end
+end
+
 function marsh_pass()
     return has("opt_marsh_pass_off") or has("marshpass")
 end

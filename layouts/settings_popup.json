@@ -156,6 +156,11 @@
                 "opt_early_sunyshore",
                 "opt_pastoria_barriers",
                 "regional_dex_goal"
+            ],
+            [
+                "opt_boat_canalave_pastoria",
+                "opt_boat_canalave_snowpoint",
+                "opt_boat_pastoria_snowpoint"
             ]
         ]
     },

@@ -93,7 +93,9 @@
             "@canalave_city_southeast_house",
             "@canalave_city_west_house",
             "@canalave_library_1f",
-            "@route_218_gate_to_canalave_city"
+            "@route_218_gate_to_canalave_city",
+            "@pastoria_city, $boat_canalave_pastoria",
+            "@snowpoint_city, $boat_canalave_snowpoint"
         ]
     },
     {
@@ -1559,7 +1561,9 @@
             "@pastoria_city_pokecenter_1f",
             "@pastoria_city_southwest_house",
             "@route_212_south",
-            "@route_213_gate_to_pastoria_city"
+            "@route_213_gate_to_pastoria_city",
+            "@canalave_city, $boat_canalave_pastoria",
+            "@snowpoint_city, $boat_pastoria_snowpoint"
         ]
     },
     {
@@ -2594,7 +2598,9 @@
             "@snowpoint_city_mart",
             "@snowpoint_city_pokecenter_1f",
             "@snowpoint_city_west_house",
-            "@snowpoint_temple_1f"
+            "@snowpoint_temple_1f",
+            "@canalave_city, $boat_canalave_snowpoint, ^$north_sinnoh_fly",
+            "@pastoria_city, $boat_pastoria_snowpoint, ^$north_sinnoh_fly"
         ]
     },
     {
