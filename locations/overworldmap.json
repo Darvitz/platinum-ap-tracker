@@ -10966,9 +10966,9 @@
         ],
         "sections": [
             {
-                "name": "Item in Northeast Corner",
+                "name": "East - Item in Northeast Corner",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_east, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -10976,9 +10976,9 @@
                 "item_count": 1
             },
             {
-                "name": "Item Below Fisherman",
+                "name": "East - Item Below Fisherman",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_east, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -10986,9 +10986,9 @@
                 "item_count": 1
             },
             {
-                "name": "Item on Pier",
+                "name": "East - Item on Pier",
                 "access_rules": [
-                    "@route_218"
+                    "@route_218_east"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -11016,9 +11016,9 @@
                 "hosted_item": "pokedex, pokedex_2"
             },
             {
-                "name": "Fisherman Miguel",
+                "name": "East - Fisherman Miguel",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_east, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -11027,9 +11027,9 @@
                 "item_count": 1
             },
             {
-                "name": "Fisherman Luc",
+                "name": "East - Fisherman Luc",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_east, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -11038,9 +11038,9 @@
                 "item_count": 1
             },
             {
-                "name": "Guitarist Tony",
+                "name": "West - Guitarist Tony",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_west"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -11049,9 +11049,9 @@
                 "item_count": 1
             },
             {
-                "name": "Sailor Skyler",
+                "name": "West - Sailor Skyler",
                 "access_rules": [
-                    "@route_218, $surf"
+                    "@route_218_west"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -11065,7 +11065,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$land_encounters, $surf"
+                    "@route_218_west, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11077,7 +11077,7 @@
                 "chest_unopened_img": "/images/locations/encounters/morning.png",
                 "chest_opened_img": "/images/locations/encounters/morning_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$land_encounters, $surf"
+                    "@route_218_west, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11089,7 +11089,7 @@
                 "chest_unopened_img": "/images/locations/encounters/swarm.png",
                 "chest_opened_img": "/images/locations/encounters/swarm_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$swarm_encounters, $surf"
+                    "@route_218_west, ^$swarm_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11101,7 +11101,7 @@
                 "chest_unopened_img": "/images/locations/encounters/surf.png",
                 "chest_opened_img": "/images/locations/encounters/surf_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$surf_encounters"
+                    "@route_218_west, ^$surf_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11113,7 +11113,8 @@
                 "chest_unopened_img": "/images/locations/encounters/oldrod.png",
                 "chest_opened_img": "/images/locations/encounters/oldrod_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$oldrod_encounters"
+                    "@route_218_east, ^$oldrod_encounters",
+                    "@route_218_west, ^$oldrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11125,7 +11126,8 @@
                 "chest_unopened_img": "/images/locations/encounters/goodrod.png",
                 "chest_opened_img": "/images/locations/encounters/goodrod_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$goodrod_encounters"
+                    "@route_218_east, ^$goodrod_encounters",
+                    "@route_218_west, ^$goodrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -11137,7 +11139,8 @@
                 "chest_unopened_img": "/images/locations/encounters/superrod.png",
                 "chest_opened_img": "/images/locations/encounters/superrod_cleared.png",
                 "access_rules": [
-                    "@route_218, ^$superrod_encounters"
+                    "@route_218_east, ^$superrod_encounters",
+                    "@route_218_west, ^$superrod_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
