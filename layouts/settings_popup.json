@@ -96,12 +96,13 @@
 				"opt_badges",
                 "opt_overworld",
                 "opt_hidden",
-                "opt_npcgifts"
+                "opt_npcgifts",
+                "opt_keyitems"
             ],
             [
-                "opt_keyitems",
                 "opt_cartridges",
                 "opt_trainer_full",
+                "opt_dexsanity",
                 "opt_rods",
                 "opt_poketchapps"
             ],
