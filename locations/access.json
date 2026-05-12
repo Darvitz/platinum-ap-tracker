@@ -2015,7 +2015,7 @@
         "access_rules": [
             "@mt_coronet_1f_south",
             "@route_206",
-            "@route_207_south, bicycle"
+            "@route_207_south, $route_207_barricade_up"
         ]
     },
     {
@@ -2028,7 +2028,7 @@
         "name": "route_207_south",
         "access_rules": [
             "@oreburgh_city",
-            "@route_207"
+            "@route_207, $route_207_barricade_down"
         ]
     },
     {

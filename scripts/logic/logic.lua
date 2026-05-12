@@ -173,6 +173,78 @@ function boat_pastoria_snowpoint()
     end
 end
 
+function route_207_barricade_up()
+    if has("opt_route_207_barricade_none") then
+        return true
+    elseif has("opt_route_207_barricade_bicycle_slope") then
+        return has("bicycle")
+    elseif has("opt_route_207_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_207_barricade_impassable") then
+        return false
+    elseif has("opt_route_207_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_207_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_207_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_207_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_207_barricade_bicycle_slope_and_cut_tree") then
+        return has("bicycle") and cut()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_rock_smash") then
+        return has("bicycle") and rock_smash()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_strength_boulder") then
+        return has("bicycle") and strength()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_psyduck") then
+        return has("bicycle") and has("secretpotion")
+    elseif has("opt_route_207_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_207_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_207_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_207_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    end
+end
+
+function route_207_barricade_down()
+    if has("opt_route_207_barricade_none") then
+        return true
+    elseif has("opt_route_207_barricade_bicycle_slope") then
+        return true
+    elseif has("opt_route_207_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_207_barricade_impassable") then
+        return false
+    elseif has("opt_route_207_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_207_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_207_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_207_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_207_barricade_bicycle_slope_and_cut_tree") then
+        return cut()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_strength_boulder") then
+        return strength()
+    elseif has("opt_route_207_barricade_bicycle_slope_and_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_207_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_207_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_207_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_207_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    end
+end
+
 function marsh_pass()
     return has("opt_marsh_pass_off") or has("marshpass")
 end

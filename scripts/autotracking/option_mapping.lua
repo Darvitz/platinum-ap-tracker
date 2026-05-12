@@ -31,7 +31,28 @@ SLOT_CODES = {
     time_items = {code = "opt_timeitems"},
     boat_canalave_pastoria = {code = "opt_boat_canalave_pastoria"},
     boat_canalave_snowpoint = {code = "opt_boat_canalave_snowpoint"},
-    boat_pastoria_snowpoint = {code = "opt_boat_pastoria_snowpoint"}
+    boat_pastoria_snowpoint = {code = "opt_boat_pastoria_snowpoint"},
+    route_207_barricade = {
+        code = "opt_route_207_barricade",
+        mapping = {
+            [0]  = 0,   -- none
+            [1]  = 1,   -- bicycle_slope
+            [2]  = 2,   -- rock_climb
+            [4]  = 3,   -- impassable
+            [8]  = 4,   -- cut_tree
+            [12] = 5,   -- rock_smash
+            [16] = 6,   -- strength_boulder
+            [20] = 7,   -- psyduck
+            [9]  = 8,   -- bicycle_slope_and_cut_tree
+            [13] = 9,   -- bicycle_slope_and_rock_smash
+            [17] = 10,  -- bicycle_slope_and_strength_boulder
+            [21] = 11,  -- bicycle_slope_and_psyduck
+            [10] = 12,  -- rock_climb_and_cut_tree
+            [14] = 13,  -- rock_climb_and_rock_smash
+            [18] = 14,  -- rock_climb_and_strength_boulder
+            [22] = 15,  -- rock_climb_and_psyduck
+        }
+    }
 }
 
 HM_CODES = {
