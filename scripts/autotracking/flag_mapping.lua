@@ -37,6 +37,28 @@ FLAG_ITEM1_CODES = {
   {option="opt_rods_off", codes={"superrod"}},
   {option="opt_overworld_off", codes={"leafstone"}},
   {option="opt_keyitems_off", codes={"workskey"}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+  {option="{}", codes={""}},
+}
+  
+FLAG_ITEM2_CODES = {
+  {option="{}", codes={""}},
   {option="opt_overworld_off", codes={"firestone"}},
   {option="opt_overworld_off", codes={"tm93rollout"}},
   {option="opt_overworld_off", codes={"dubiousdisc"}},
@@ -56,9 +78,6 @@ FLAG_ITEM1_CODES = {
   {option="opt_coupons_off", codes={"coupon_3"}},
   {option="opt_cartridges_off", codes={"fireredcartridge"}},
   {option="opt_cartridges_off", codes={"leafgreencartridge"}},
-}
-
-FLAG_ITEM2_CODES = {
   {option="opt_poketchapps_off", codes={"poketch"}},
   {option="opt_cartridges_off", codes={"sapphirecartridge"}},
   {option="opt_overworld_off", codes={"dawnstone"}},
@@ -71,6 +90,9 @@ FLAG_ITEM2_CODES = {
   {option="opt_cartridges_off", codes={"emeraldcartridge"}},
   {option="opt_badges_off", codes={"fenbadge"}},
   {option="{}", codes={""}},
+}
+
+FLAG_ITEM3_CODES = {
   {option="opt_poketchapps_off", codes={"markingmap"}},
   {option="opt_poketchapps_off", codes={"dowsingmachine"}},
   {option="opt_npcgifts_off", codes={"oddkeystone"}},
@@ -91,9 +113,6 @@ FLAG_ITEM2_CODES = {
   {option="opt_overworld_off", codes={"dawnstone"}},
   {option="opt_overworld_off", codes={"dubiousdisc"}},
   {option="opt_hidden_off", codes={"leafstone"}},
-}
-
-FLAG_ITEM3_CODES = {
   {option="opt_overworld_off", codes={"razorfang"}},
   {option="opt_overworld_off", codes={"protector"}},
   {option="opt_overworld_off", codes={"shinystone"}},
@@ -106,6 +125,9 @@ FLAG_ITEM3_CODES = {
   {option="opt_badges_off", codes={"iciclebadge"}},
   {option="opt_overworld_off", codes={"tm94ancientpower"}},
   {option="opt_hidden_off", codes={"firestone"}},
+}
+
+FLAG_ITEM4_CODES = {
   {option="opt_hidden_off", codes={"waterstone"}},
   {option="opt_hidden_off", codes={"thunderstone"}},
   {option="opt_hms_off", codes={"hm05defog"}},
@@ -126,9 +148,6 @@ FLAG_ITEM3_CODES = {
   {option="opt_hidden_off", codes={"unownfile_e"}},
   {option="opt_hidden_off", codes={"unownfile_ex"}},
   {option="opt_hidden_off", codes={"unownfile_f"}},
-}
-
-FLAG_ITEM4_CODES = {
   {option="opt_hidden_off", codes={"unownfile_g"}},
   {option="opt_hidden_off", codes={"unownfile_h"}},
   {option="opt_hidden_off", codes={"unownfile_i"}},
@@ -141,6 +160,9 @@ FLAG_ITEM4_CODES = {
   {option="opt_hidden_off", codes={"unownfile_p"}},
   {option="opt_hidden_off", codes={"unownfile_q"}},
   {option="opt_hidden_off", codes={"unownfile_qu"}},
+}
+
+FLAG_ITEM5_CODES = {
   {option="opt_hidden_off", codes={"unownfile_r"}},
   {option="opt_hidden_off", codes={"unownfile_s"}},
   {option="opt_hidden_off", codes={"unownfile_t"}},
