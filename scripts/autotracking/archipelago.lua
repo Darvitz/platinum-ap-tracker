@@ -239,6 +239,7 @@ function onClear(slot_data)
             KEY2       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_1",
             KEY3       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_2",
             KEY4       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_3",
+            KEY5       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_4",
             HINT       = "_read_hints_" .. suffix,
         }
         
@@ -413,6 +414,8 @@ function onNotify(key, value, old_value)
             updateVanillaKeyItems(3, value)
         elseif key == IDs.KEY4 then
             updateVanillaKeyItems(4, value)
+        elseif key == IDs.KEY5 then
+            updateVanillaKeyItems(5, value)
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()
