@@ -399,7 +399,7 @@
             "@fight_area_middle_house",
             "@fight_area_pokecenter_1f",
             "@fight_area_south_house",
-            "@route_225_gate_to_fight_area",
+            "@route_225_gate_to_fight_area, national_dex",
             "@route_230, national_dex, $surf",
             "@snowpoint_city, ssticket"
         ]
@@ -2434,7 +2434,6 @@
     {
         "name": "route_226_west",
         "access_rules": [
-            "@route_226_house",
             "@route_226_mid",
             "@survival_area"
         ]

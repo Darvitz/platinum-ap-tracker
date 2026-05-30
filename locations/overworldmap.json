@@ -20686,7 +20686,7 @@
             {
                 "name": "Super Rod from Fisherman",
                 "access_rules": [
-                    "@fight_area, national_dex"
+                    "@route_225_gate_to_fight_area"
                 ],
                 "visibility_rules": [
                     "show_items, opt_rods_on"
