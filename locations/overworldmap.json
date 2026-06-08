@@ -1039,7 +1039,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328234"
+                    "show_items, $partial_trainersanity, opt_trainer_328234"
                 ],
                 "item_count": 1
             },
@@ -1050,7 +1050,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328237"
+                    "show_items, $partial_trainersanity, opt_trainer_328237"
                 ],
                 "item_count": 1
             },
@@ -1061,7 +1061,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328243"
+                    "show_items, $partial_trainersanity, opt_trainer_328243"
                 ],
                 "item_count": 1
             },
@@ -1072,7 +1072,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328247"
+                    "show_items, $partial_trainersanity, opt_trainer_328247"
                 ],
                 "item_count": 1
             },
@@ -1083,7 +1083,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328253"
+                    "show_items, $partial_trainersanity, opt_trainer_328253"
                 ],
                 "item_count": 1
             },
@@ -1094,7 +1094,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328265"
+                    "show_items, $partial_trainersanity, opt_trainer_328265"
                 ],
                 "item_count": 1
             },
@@ -1105,7 +1105,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328273"
+                    "show_items, $partial_trainersanity, opt_trainer_328273"
                 ],
                 "item_count": 1
             },
@@ -1116,7 +1116,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328274"
+                    "show_items, $partial_trainersanity, opt_trainer_328274"
                 ],
                 "item_count": 1
             },
@@ -1252,7 +1252,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327913"
+                    "show_items, $partial_trainersanity, opt_trainer_327913"
                 ],
                 "item_count": 1
             },
@@ -1285,7 +1285,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327906"
+                    "show_items, $partial_trainersanity, opt_trainer_327906"
                 ],
                 "item_count": 1
             },
@@ -1296,7 +1296,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327914"
+                    "show_items, $partial_trainersanity, opt_trainer_327914"
                 ],
                 "item_count": 1
             },
@@ -1371,7 +1371,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327908"
+                    "show_items, $partial_trainersanity, opt_trainer_327908"
                 ],
                 "item_count": 1
             },
@@ -1382,7 +1382,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327911"
+                    "show_items, $partial_trainersanity, opt_trainer_327911"
                 ],
                 "item_count": 1
             },
@@ -1393,7 +1393,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328124"
+                    "show_items, $partial_trainersanity, opt_trainer_328124"
                 ],
                 "item_count": 1
             },
@@ -1468,7 +1468,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327904"
+                    "show_items, $partial_trainersanity, opt_trainer_327904"
                 ],
                 "item_count": 1
             },
@@ -1479,7 +1479,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327907"
+                    "show_items, $partial_trainersanity, opt_trainer_327907"
                 ],
                 "item_count": 1
             },
@@ -1490,7 +1490,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327917"
+                    "show_items, $partial_trainersanity, opt_trainer_327917"
                 ],
                 "item_count": 1
             },
@@ -1501,7 +1501,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327909"
+                    "show_items, $partial_trainersanity, opt_trainer_327909"
                 ],
                 "item_count": 1
             },
@@ -1566,7 +1566,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327905"
+                    "show_items, $partial_trainersanity, opt_trainer_327905"
                 ],
                 "item_count": 1
             },
@@ -1577,7 +1577,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327910"
+                    "show_items, $partial_trainersanity, opt_trainer_327910"
                 ],
                 "item_count": 1
             },
@@ -1588,7 +1588,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327915"
+                    "show_items, $partial_trainersanity, opt_trainer_327915"
                 ],
                 "item_count": 1
             },
@@ -1599,7 +1599,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327916"
+                    "show_items, $partial_trainersanity, opt_trainer_327916"
                 ],
                 "item_count": 1
             },
@@ -1720,7 +1720,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328053"
+                    "show_items, $partial_trainersanity, opt_trainer_328053"
                 ],
                 "item_count": 1
             },
@@ -1731,7 +1731,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328066"
+                    "show_items, $partial_trainersanity, opt_trainer_328066"
                 ],
                 "item_count": 1
             },
@@ -1742,7 +1742,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328069"
+                    "show_items, $partial_trainersanity, opt_trainer_328069"
                 ],
                 "item_count": 1
             },
@@ -1753,7 +1753,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328070"
+                    "show_items, $partial_trainersanity, opt_trainer_328070"
                 ],
                 "item_count": 1
             },
@@ -1764,7 +1764,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328073"
+                    "show_items, $partial_trainersanity, opt_trainer_328073"
                 ],
                 "item_count": 1
             },
@@ -1775,7 +1775,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328074"
+                    "show_items, $partial_trainersanity, opt_trainer_328074"
                 ],
                 "item_count": 1
             },
@@ -1786,7 +1786,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328076"
+                    "show_items, $partial_trainersanity, opt_trainer_328076"
                 ],
                 "item_count": 1
             },
@@ -1797,7 +1797,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328077"
+                    "show_items, $partial_trainersanity, opt_trainer_328077"
                 ],
                 "item_count": 1
             },
@@ -1808,7 +1808,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328079"
+                    "show_items, $partial_trainersanity, opt_trainer_328079"
                 ],
                 "item_count": 1
             },
@@ -1819,7 +1819,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328080"
+                    "show_items, $partial_trainersanity, opt_trainer_328080"
                 ],
                 "item_count": 1
             },
@@ -1830,7 +1830,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328126"
+                    "show_items, $partial_trainersanity, opt_trainer_328126"
                 ],
                 "item_count": 1
             },
@@ -1841,7 +1841,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328127"
+                    "show_items, $partial_trainersanity, opt_trainer_328127"
                 ],
                 "item_count": 1
             },
@@ -1852,7 +1852,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328179"
+                    "show_items, $partial_trainersanity, opt_trainer_328179"
                 ],
                 "item_count": 1
             },
@@ -1863,7 +1863,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328180"
+                    "show_items, $partial_trainersanity, opt_trainer_328180"
                 ],
                 "item_count": 1
             },
@@ -2083,7 +2083,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327941"
+                    "show_items, $partial_trainersanity, opt_trainer_327941"
                 ],
                 "item_count": 1
             },
@@ -2094,7 +2094,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327942"
+                    "show_items, $partial_trainersanity, opt_trainer_327942"
                 ],
                 "item_count": 1
             },
@@ -2105,7 +2105,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327943"
+                    "show_items, $partial_trainersanity, opt_trainer_327943"
                 ],
                 "item_count": 1
             },
@@ -2116,7 +2116,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327944"
+                    "show_items, $partial_trainersanity, opt_trainer_327944"
                 ],
                 "item_count": 1
             },
@@ -2127,7 +2127,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327947"
+                    "show_items, $partial_trainersanity, opt_trainer_327947"
                 ],
                 "item_count": 1
             },
@@ -2138,7 +2138,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328160"
+                    "show_items, $partial_trainersanity, opt_trainer_328160"
                 ],
                 "item_count": 1
             },
@@ -2149,7 +2149,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328546"
+                    "show_items, $partial_trainersanity, opt_trainer_328546"
                 ],
                 "item_count": 1
             },
@@ -2160,7 +2160,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328547"
+                    "show_items, $partial_trainersanity, opt_trainer_328547"
                 ],
                 "item_count": 1
             },
@@ -2171,7 +2171,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328548"
+                    "show_items, $partial_trainersanity, opt_trainer_328548"
                 ],
                 "item_count": 1
             },
@@ -2182,7 +2182,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328549"
+                    "show_items, $partial_trainersanity, opt_trainer_328549"
                 ],
                 "item_count": 1
             },
@@ -2193,7 +2193,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328550"
+                    "show_items, $partial_trainersanity, opt_trainer_328550"
                 ],
                 "item_count": 1
             },
@@ -2329,7 +2329,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327962"
+                    "show_items, $partial_trainersanity, opt_trainer_327962"
                 ],
                 "item_count": 1
             },
@@ -2340,7 +2340,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328042"
+                    "show_items, $partial_trainersanity, opt_trainer_328042"
                 ],
                 "item_count": 1
             },
@@ -2351,7 +2351,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327968"
+                    "show_items, $partial_trainersanity, opt_trainer_327968"
                 ],
                 "item_count": 1
             },
@@ -2362,7 +2362,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327969"
+                    "show_items, $partial_trainersanity, opt_trainer_327969"
                 ],
                 "item_count": 1
             },
@@ -2620,7 +2620,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327957"
+                    "show_items, $partial_trainersanity, opt_trainer_327957"
                 ],
                 "item_count": 1
             },
@@ -2631,7 +2631,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327966"
+                    "show_items, $partial_trainersanity, opt_trainer_327966"
                 ],
                 "item_count": 1
             },
@@ -2642,7 +2642,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327985"
+                    "show_items, $partial_trainersanity, opt_trainer_327985"
                 ],
                 "item_count": 1
             },
@@ -2653,7 +2653,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327993"
+                    "show_items, $partial_trainersanity, opt_trainer_327993"
                 ],
                 "item_count": 1
             }
@@ -2725,7 +2725,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328518"
+                    "show_items, $partial_trainersanity, opt_trainer_328518"
                 ],
                 "item_count": 1
             }
@@ -2884,7 +2884,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328235"
+                    "show_items, $partial_trainersanity, opt_trainer_328235"
                 ],
                 "item_count": 1
             },
@@ -2895,7 +2895,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328240"
+                    "show_items, $partial_trainersanity, opt_trainer_328240"
                 ],
                 "item_count": 1
             },
@@ -2906,7 +2906,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328248"
+                    "show_items, $partial_trainersanity, opt_trainer_328248"
                 ],
                 "item_count": 1
             },
@@ -2917,7 +2917,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328280"
+                    "show_items, $partial_trainersanity, opt_trainer_328280"
                 ],
                 "item_count": 1
             },
@@ -2928,7 +2928,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328284"
+                    "show_items, $partial_trainersanity, opt_trainer_328284"
                 ],
                 "item_count": 1
             },
@@ -3120,7 +3120,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328244"
+                    "show_items, $partial_trainersanity, opt_trainer_328244"
                 ],
                 "item_count": 1
             },
@@ -3131,7 +3131,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328256"
+                    "show_items, $partial_trainersanity, opt_trainer_328256"
                 ],
                 "item_count": 1
             },
@@ -3142,7 +3142,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328268"
+                    "show_items, $partial_trainersanity, opt_trainer_328268"
                 ],
                 "item_count": 1
             },
@@ -3153,7 +3153,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328275"
+                    "show_items, $partial_trainersanity, opt_trainer_328275"
                 ],
                 "item_count": 1
             },
@@ -3449,7 +3449,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328239"
+                    "show_items, $partial_trainersanity, opt_trainer_328239"
                 ],
                 "item_count": 1
             },
@@ -3460,7 +3460,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328245"
+                    "show_items, $partial_trainersanity, opt_trainer_328245"
                 ],
                 "item_count": 1
             },
@@ -3471,7 +3471,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328254"
+                    "show_items, $partial_trainersanity, opt_trainer_328254"
                 ],
                 "item_count": 1
             },
@@ -3482,7 +3482,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328257"
+                    "show_items, $partial_trainersanity, opt_trainer_328257"
                 ],
                 "item_count": 1
             },
@@ -3493,7 +3493,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328263"
+                    "show_items, $partial_trainersanity, opt_trainer_328263"
                 ],
                 "item_count": 1
             },
@@ -3504,7 +3504,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328267"
+                    "show_items, $partial_trainersanity, opt_trainer_328267"
                 ],
                 "item_count": 1
             },
@@ -3515,7 +3515,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328271"
+                    "show_items, $partial_trainersanity, opt_trainer_328271"
                 ],
                 "item_count": 1
             },
@@ -3526,7 +3526,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328276"
+                    "show_items, $partial_trainersanity, opt_trainer_328276"
                 ],
                 "item_count": 1
             },
@@ -3694,7 +3694,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328277"
+                    "show_items, $partial_trainersanity, opt_trainer_328277"
                 ],
                 "item_count": 1
             },
@@ -3705,7 +3705,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328278"
+                    "show_items, $partial_trainersanity, opt_trainer_328278"
                 ],
                 "item_count": 1
             },
@@ -3716,7 +3716,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328279"
+                    "show_items, $partial_trainersanity, opt_trainer_328279"
                 ],
                 "item_count": 1
             },
@@ -3727,7 +3727,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328281"
+                    "show_items, $partial_trainersanity, opt_trainer_328281"
                 ],
                 "item_count": 1
             },
@@ -3738,7 +3738,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328282"
+                    "show_items, $partial_trainersanity, opt_trainer_328282"
                 ],
                 "item_count": 1
             },
@@ -3749,7 +3749,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328283"
+                    "show_items, $partial_trainersanity, opt_trainer_328283"
                 ],
                 "item_count": 1
             },
@@ -3969,7 +3969,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328096"
+                    "show_items, $partial_trainersanity, opt_trainer_328096"
                 ],
                 "item_count": 1
             },
@@ -3980,7 +3980,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328593"
+                    "show_items, $partial_trainersanity, opt_trainer_328593"
                 ],
                 "item_count": 1
             },
@@ -4160,7 +4160,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328246"
+                    "show_items, $partial_trainersanity, opt_trainer_328246"
                 ],
                 "item_count": 1
             },
@@ -4171,7 +4171,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328255"
+                    "show_items, $partial_trainersanity, opt_trainer_328255"
                 ],
                 "item_count": 1
             },
@@ -4182,7 +4182,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328258"
+                    "show_items, $partial_trainersanity, opt_trainer_328258"
                 ],
                 "item_count": 1
             },
@@ -4193,7 +4193,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328272"
+                    "show_items, $partial_trainersanity, opt_trainer_328272"
                 ],
                 "item_count": 1
             },
@@ -4647,7 +4647,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328099"
+                    "show_items, $partial_trainersanity, opt_trainer_328099"
                 ],
                 "item_count": 1
             },
@@ -4658,7 +4658,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328106"
+                    "show_items, $partial_trainersanity, opt_trainer_328106"
                 ],
                 "item_count": 1
             },
@@ -4669,7 +4669,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328100"
+                    "show_items, $partial_trainersanity, opt_trainer_328100"
                 ],
                 "item_count": 1
             },
@@ -4680,7 +4680,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328107"
+                    "show_items, $partial_trainersanity, opt_trainer_328107"
                 ],
                 "item_count": 1
             },
@@ -4711,7 +4711,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328085"
+                    "show_items, $partial_trainersanity, opt_trainer_328085"
                 ],
                 "item_count": 1
             },
@@ -4859,7 +4859,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328154"
+                    "show_items, $partial_trainersanity, opt_trainer_328154"
                 ],
                 "item_count": 1
             },
@@ -4890,7 +4890,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327973"
+                    "show_items, $partial_trainersanity, opt_trainer_327973"
                 ],
                 "item_count": 1
             },
@@ -4901,7 +4901,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328019"
+                    "show_items, $partial_trainersanity, opt_trainer_328019"
                 ],
                 "item_count": 1
             },
@@ -4912,7 +4912,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328081"
+                    "show_items, $partial_trainersanity, opt_trainer_328081"
                 ],
                 "item_count": 1
             },
@@ -4923,7 +4923,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328163"
+                    "show_items, $partial_trainersanity, opt_trainer_328163"
                 ],
                 "item_count": 1
             },
@@ -4934,7 +4934,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328177"
+                    "show_items, $partial_trainersanity, opt_trainer_328177"
                 ],
                 "item_count": 1
             },
@@ -4945,7 +4945,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328178"
+                    "show_items, $partial_trainersanity, opt_trainer_328178"
                 ],
                 "item_count": 1
             },
@@ -4996,7 +4996,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327996"
+                    "show_items, $partial_trainersanity, opt_trainer_327996"
                 ],
                 "item_count": 1
             },
@@ -5156,7 +5156,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328058"
+                    "show_items, $partial_trainersanity, opt_trainer_328058"
                 ],
                 "item_count": 1
             },
@@ -5209,7 +5209,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328137"
+                    "show_items, $partial_trainersanity, opt_trainer_328137"
                 ],
                 "item_count": 1
             },
@@ -5252,7 +5252,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328183"
+                    "show_items, $partial_trainersanity, opt_trainer_328183"
                 ],
                 "item_count": 1
             },
@@ -5263,7 +5263,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328184"
+                    "show_items, $partial_trainersanity, opt_trainer_328184"
                 ],
                 "item_count": 1
             },
@@ -5370,7 +5370,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328052"
+                    "show_items, $partial_trainersanity, opt_trainer_328052"
                 ],
                 "item_count": 1
             },
@@ -5381,7 +5381,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328068"
+                    "show_items, $partial_trainersanity, opt_trainer_328068"
                 ],
                 "item_count": 1
             },
@@ -5392,7 +5392,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328072"
+                    "show_items, $partial_trainersanity, opt_trainer_328072"
                 ],
                 "item_count": 1
             },
@@ -5403,7 +5403,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328125"
+                    "show_items, $partial_trainersanity, opt_trainer_328125"
                 ],
                 "item_count": 1
             },
@@ -5414,7 +5414,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328132"
+                    "show_items, $partial_trainersanity, opt_trainer_328132"
                 ],
                 "item_count": 1
             },
@@ -5425,7 +5425,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328133"
+                    "show_items, $partial_trainersanity, opt_trainer_328133"
                 ],
                 "item_count": 1
             },
@@ -5436,7 +5436,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328185"
+                    "show_items, $partial_trainersanity, opt_trainer_328185"
                 ],
                 "item_count": 1
             },
@@ -5447,7 +5447,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328186"
+                    "show_items, $partial_trainersanity, opt_trainer_328186"
                 ],
                 "item_count": 1
             },
@@ -5458,7 +5458,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328515"
+                    "show_items, $partial_trainersanity, opt_trainer_328515"
                 ],
                 "item_count": 1
             },
@@ -5469,7 +5469,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328516"
+                    "show_items, $partial_trainersanity, opt_trainer_328516"
                 ],
                 "item_count": 1
             },
@@ -5827,7 +5827,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327791"
+                    "show_items, $partial_trainersanity, opt_trainer_327791"
                 ],
                 "item_count": 1
             },
@@ -5838,7 +5838,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328026"
+                    "show_items, $partial_trainersanity, opt_trainer_328026"
                 ],
                 "item_count": 1
             },
@@ -6184,7 +6184,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327783"
+                    "show_items, $partial_trainersanity, opt_trainer_327783"
                 ],
                 "item_count": 1
             },
@@ -6195,7 +6195,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327784"
+                    "show_items, $partial_trainersanity, opt_trainer_327784"
                 ],
                 "item_count": 1
             },
@@ -6206,7 +6206,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327785"
+                    "show_items, $partial_trainersanity, opt_trainer_327785"
                 ],
                 "item_count": 1
             },
@@ -6217,7 +6217,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327786"
+                    "show_items, $partial_trainersanity, opt_trainer_327786"
                 ],
                 "item_count": 1
             },
@@ -6228,7 +6228,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327787"
+                    "show_items, $partial_trainersanity, opt_trainer_327787"
                 ],
                 "item_count": 1
             },
@@ -6239,7 +6239,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327788"
+                    "show_items, $partial_trainersanity, opt_trainer_327788"
                 ],
                 "item_count": 1
             },
@@ -6250,7 +6250,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327790"
+                    "show_items, $partial_trainersanity, opt_trainer_327790"
                 ],
                 "item_count": 1
             }
@@ -6302,7 +6302,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328038"
+                    "show_items, $partial_trainersanity, opt_trainer_328038"
                 ],
                 "item_count": 1
             },
@@ -6313,7 +6313,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328040"
+                    "show_items, $partial_trainersanity, opt_trainer_328040"
                 ],
                 "item_count": 1
             },
@@ -6491,7 +6491,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327846"
+                    "show_items, $partial_trainersanity, opt_trainer_327846"
                 ],
                 "item_count": 1
             },
@@ -6502,7 +6502,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327847"
+                    "show_items, $partial_trainersanity, opt_trainer_327847"
                 ],
                 "item_count": 1
             },
@@ -6513,7 +6513,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327848"
+                    "show_items, $partial_trainersanity, opt_trainer_327848"
                 ],
                 "item_count": 1
             },
@@ -6524,7 +6524,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327850"
+                    "show_items, $partial_trainersanity, opt_trainer_327850"
                 ],
                 "item_count": 1
             },
@@ -6535,7 +6535,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327851"
+                    "show_items, $partial_trainersanity, opt_trainer_327851"
                 ],
                 "item_count": 1
             },
@@ -6546,7 +6546,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327954"
+                    "show_items, $partial_trainersanity, opt_trainer_327954"
                 ],
                 "item_count": 1
             },
@@ -6916,7 +6916,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328236"
+                    "show_items, $partial_trainersanity, opt_trainer_328236"
                 ],
                 "item_count": 1
             },
@@ -6927,7 +6927,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328238"
+                    "show_items, $partial_trainersanity, opt_trainer_328238"
                 ],
                 "item_count": 1
             },
@@ -6938,7 +6938,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328241"
+                    "show_items, $partial_trainersanity, opt_trainer_328241"
                 ],
                 "item_count": 1
             },
@@ -6949,7 +6949,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328242"
+                    "show_items, $partial_trainersanity, opt_trainer_328242"
                 ],
                 "item_count": 1
             },
@@ -6960,7 +6960,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328249"
+                    "show_items, $partial_trainersanity, opt_trainer_328249"
                 ],
                 "item_count": 1
             },
@@ -6971,7 +6971,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328250"
+                    "show_items, $partial_trainersanity, opt_trainer_328250"
                 ],
                 "item_count": 1
             },
@@ -6982,7 +6982,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328251"
+                    "show_items, $partial_trainersanity, opt_trainer_328251"
                 ],
                 "item_count": 1
             },
@@ -6993,7 +6993,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328252"
+                    "show_items, $partial_trainersanity, opt_trainer_328252"
                 ],
                 "item_count": 1
             },
@@ -7004,7 +7004,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328259"
+                    "show_items, $partial_trainersanity, opt_trainer_328259"
                 ],
                 "item_count": 1
             },
@@ -7015,7 +7015,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328260"
+                    "show_items, $partial_trainersanity, opt_trainer_328260"
                 ],
                 "item_count": 1
             },
@@ -7026,7 +7026,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328261"
+                    "show_items, $partial_trainersanity, opt_trainer_328261"
                 ],
                 "item_count": 1
             },
@@ -7037,7 +7037,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328262"
+                    "show_items, $partial_trainersanity, opt_trainer_328262"
                 ],
                 "item_count": 1
             },
@@ -7048,7 +7048,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328264"
+                    "show_items, $partial_trainersanity, opt_trainer_328264"
                 ],
                 "item_count": 1
             },
@@ -7059,7 +7059,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328266"
+                    "show_items, $partial_trainersanity, opt_trainer_328266"
                 ],
                 "item_count": 1
             },
@@ -7070,7 +7070,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328269"
+                    "show_items, $partial_trainersanity, opt_trainer_328269"
                 ],
                 "item_count": 1
             },
@@ -7081,7 +7081,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328270"
+                    "show_items, $partial_trainersanity, opt_trainer_328270"
                 ],
                 "item_count": 1
             },
@@ -7092,7 +7092,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328286"
+                    "show_items, $partial_trainersanity, opt_trainer_328286"
                 ],
                 "item_count": 1
             },
@@ -7103,7 +7103,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328606"
+                    "show_items, $partial_trainersanity, opt_trainer_328606"
                 ],
                 "item_count": 1
             },
@@ -7114,7 +7114,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328607"
+                    "show_items, $partial_trainersanity, opt_trainer_328607"
                 ],
                 "item_count": 1
             },
@@ -7279,7 +7279,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327762"
+                    "show_items, $partial_trainersanity, opt_trainer_327762"
                 ],
                 "item_count": 1
             },
@@ -7290,7 +7290,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327763"
+                    "show_items, $partial_trainersanity, opt_trainer_327763"
                 ],
                 "item_count": 1
             },
@@ -7301,7 +7301,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327764"
+                    "show_items, $partial_trainersanity, opt_trainer_327764"
                 ],
                 "item_count": 1
             },
@@ -7312,7 +7312,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327765"
+                    "show_items, $partial_trainersanity, opt_trainer_327765"
                 ],
                 "item_count": 1
             },
@@ -7323,7 +7323,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327768"
+                    "show_items, $partial_trainersanity, opt_trainer_327768"
                 ],
                 "item_count": 1
             },
@@ -7334,7 +7334,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327769"
+                    "show_items, $partial_trainersanity, opt_trainer_327769"
                 ],
                 "item_count": 1
             },
@@ -7345,7 +7345,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327770"
+                    "show_items, $partial_trainersanity, opt_trainer_327770"
                 ],
                 "item_count": 1
             },
@@ -7356,7 +7356,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327782"
+                    "show_items, $partial_trainersanity, opt_trainer_327782"
                 ],
                 "item_count": 1
             },
@@ -7540,7 +7540,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327771"
+                    "show_items, $partial_trainersanity, opt_trainer_327771"
                 ],
                 "item_count": 1
             },
@@ -7551,7 +7551,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327772"
+                    "show_items, $partial_trainersanity, opt_trainer_327772"
                 ],
                 "item_count": 1
             },
@@ -7562,7 +7562,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327773"
+                    "show_items, $partial_trainersanity, opt_trainer_327773"
                 ],
                 "item_count": 1
             },
@@ -7573,7 +7573,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327775"
+                    "show_items, $partial_trainersanity, opt_trainer_327775"
                 ],
                 "item_count": 1
             },
@@ -7584,7 +7584,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327776"
+                    "show_items, $partial_trainersanity, opt_trainer_327776"
                 ],
                 "item_count": 1
             },
@@ -7595,7 +7595,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327779"
+                    "show_items, $partial_trainersanity, opt_trainer_327779"
                 ],
                 "item_count": 1
             },
@@ -7606,7 +7606,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328061"
+                    "show_items, $partial_trainersanity, opt_trainer_328061"
                 ],
                 "item_count": 1
             },
@@ -7617,7 +7617,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328012"
+                    "show_items, $partial_trainersanity, opt_trainer_328012"
                 ],
                 "item_count": 1
             },
@@ -7877,7 +7877,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328007"
+                    "show_items, $partial_trainersanity, opt_trainer_328007"
                 ],
                 "item_count": 1
             },
@@ -7888,7 +7888,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327774"
+                    "show_items, $partial_trainersanity, opt_trainer_327774"
                 ],
                 "item_count": 1
             },
@@ -7900,7 +7900,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328166"
+                    "show_items, $partial_trainersanity, opt_trainer_328166"
                 ],
                 "item_count": 1
             },
@@ -7912,7 +7912,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328008"
+                    "show_items, $partial_trainersanity, opt_trainer_328008"
                 ],
                 "item_count": 1
             }
@@ -8036,7 +8036,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327719"
+                    "show_items, $partial_trainersanity, opt_trainer_327719"
                 ],
                 "item_count": 1
             },
@@ -8047,7 +8047,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327720"
+                    "show_items, $partial_trainersanity, opt_trainer_327720"
                 ],
                 "item_count": 1
             },
@@ -8058,7 +8058,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327721"
+                    "show_items, $partial_trainersanity, opt_trainer_327721"
                 ],
                 "item_count": 1
             },
@@ -8069,7 +8069,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327722"
+                    "show_items, $partial_trainersanity, opt_trainer_327722"
                 ],
                 "item_count": 1
             },
@@ -8080,7 +8080,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327723"
+                    "show_items, $partial_trainersanity, opt_trainer_327723"
                 ],
                 "item_count": 1
             },
@@ -8091,7 +8091,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327724"
+                    "show_items, $partial_trainersanity, opt_trainer_327724"
                 ],
                 "item_count": 1
             },
@@ -8102,7 +8102,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327725"
+                    "show_items, $partial_trainersanity, opt_trainer_327725"
                 ],
                 "item_count": 1
             },
@@ -8304,7 +8304,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327960"
+                    "show_items, $partial_trainersanity, opt_trainer_327960"
                 ],
                 "item_count": 1
             },
@@ -8315,7 +8315,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327964"
+                    "show_items, $partial_trainersanity, opt_trainer_327964"
                 ],
                 "item_count": 1
             },
@@ -8326,7 +8326,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328005"
+                    "show_items, $partial_trainersanity, opt_trainer_328005"
                 ],
                 "item_count": 1
             },
@@ -8337,7 +8337,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328020"
+                    "show_items, $partial_trainersanity, opt_trainer_328020"
                 ],
                 "item_count": 1
             },
@@ -8348,7 +8348,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328023"
+                    "show_items, $partial_trainersanity, opt_trainer_328023"
                 ],
                 "item_count": 1
             },
@@ -8359,7 +8359,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328037"
+                    "show_items, $partial_trainersanity, opt_trainer_328037"
                 ],
                 "item_count": 1
             },
@@ -8410,7 +8410,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327998"
+                    "show_items, $partial_trainersanity, opt_trainer_327998"
                 ],
                 "item_count": 1
             }
@@ -8482,7 +8482,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327839"
+                    "show_items, $partial_trainersanity, opt_trainer_327839"
                 ],
                 "item_count": 1
             },
@@ -8493,7 +8493,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327840"
+                    "show_items, $partial_trainersanity, opt_trainer_327840"
                 ],
                 "item_count": 1
             },
@@ -8504,7 +8504,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327841"
+                    "show_items, $partial_trainersanity, opt_trainer_327841"
                 ],
                 "item_count": 1
             },
@@ -8515,7 +8515,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327842"
+                    "show_items, $partial_trainersanity, opt_trainer_327842"
                 ],
                 "item_count": 1
             },
@@ -8526,7 +8526,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327843"
+                    "show_items, $partial_trainersanity, opt_trainer_327843"
                 ],
                 "item_count": 1
             },
@@ -8537,7 +8537,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327844"
+                    "show_items, $partial_trainersanity, opt_trainer_327844"
                 ],
                 "item_count": 1
             },
@@ -8548,7 +8548,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328174"
+                    "show_items, $partial_trainersanity, opt_trainer_328174"
                 ],
                 "item_count": 1
             },
@@ -8646,7 +8646,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327681"
+                    "show_items, $partial_trainersanity, opt_trainer_327681"
                 ],
                 "item_count": 1
             },
@@ -8657,7 +8657,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327682"
+                    "show_items, $partial_trainersanity, opt_trainer_327682"
                 ],
                 "item_count": 1
             },
@@ -8668,7 +8668,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327683"
+                    "show_items, $partial_trainersanity, opt_trainer_327683"
                 ],
                 "item_count": 1
             },
@@ -9093,7 +9093,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328022"
+                    "show_items, $partial_trainersanity, opt_trainer_328022"
                 ],
                 "item_count": 1
             },
@@ -9104,7 +9104,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328025"
+                    "show_items, $partial_trainersanity, opt_trainer_328025"
                 ],
                 "item_count": 1
             },
@@ -9115,7 +9115,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328094"
+                    "show_items, $partial_trainersanity, opt_trainer_328094"
                 ],
                 "item_count": 1
             },
@@ -9126,7 +9126,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328095"
+                    "show_items, $partial_trainersanity, opt_trainer_328095"
                 ],
                 "item_count": 1
             }
@@ -9284,7 +9284,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327726"
+                    "show_items, $partial_trainersanity, opt_trainer_327726"
                 ],
                 "item_count": 1
             },
@@ -9295,7 +9295,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327727"
+                    "show_items, $partial_trainersanity, opt_trainer_327727"
                 ],
                 "item_count": 1
             },
@@ -9306,7 +9306,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327728"
+                    "show_items, $partial_trainersanity, opt_trainer_327728"
                 ],
                 "item_count": 1
             },
@@ -9317,7 +9317,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327729"
+                    "show_items, $partial_trainersanity, opt_trainer_327729"
                 ],
                 "item_count": 1
             },
@@ -9328,7 +9328,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327733"
+                    "show_items, $partial_trainersanity, opt_trainer_327733"
                 ],
                 "item_count": 1
             },
@@ -9339,7 +9339,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327735"
+                    "show_items, $partial_trainersanity, opt_trainer_327735"
                 ],
                 "item_count": 1
             },
@@ -9350,7 +9350,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327974"
+                    "show_items, $partial_trainersanity, opt_trainer_327974"
                 ],
                 "item_count": 1
             },
@@ -9361,7 +9361,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327988"
+                    "show_items, $partial_trainersanity, opt_trainer_327988"
                 ],
                 "item_count": 1
             },
@@ -9372,7 +9372,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328151"
+                    "show_items, $partial_trainersanity, opt_trainer_328151"
                 ],
                 "item_count": 1
             },
@@ -9646,7 +9646,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327746"
+                    "show_items, $partial_trainersanity, opt_trainer_327746"
                 ],
                 "item_count": 1
             },
@@ -9657,7 +9657,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327754"
+                    "show_items, $partial_trainersanity, opt_trainer_327754"
                 ],
                 "item_count": 1
             },
@@ -9668,7 +9668,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327748"
+                    "show_items, $partial_trainersanity, opt_trainer_327748"
                 ],
                 "item_count": 1
             },
@@ -9679,7 +9679,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327749"
+                    "show_items, $partial_trainersanity, opt_trainer_327749"
                 ],
                 "item_count": 1
             },
@@ -9690,7 +9690,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327751"
+                    "show_items, $partial_trainersanity, opt_trainer_327751"
                 ],
                 "item_count": 1
             },
@@ -9702,7 +9702,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327752"
+                    "show_items, $partial_trainersanity, opt_trainer_327752"
                 ],
                 "item_count": 1
             },
@@ -9713,7 +9713,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327755"
+                    "show_items, $partial_trainersanity, opt_trainer_327755"
                 ],
                 "item_count": 1
             },
@@ -9961,7 +9961,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327747"
+                    "show_items, $partial_trainersanity, opt_trainer_327747"
                 ],
                 "item_count": 1
             },
@@ -9972,7 +9972,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327753"
+                    "show_items, $partial_trainersanity, opt_trainer_327753"
                 ],
                 "item_count": 1
             },
@@ -9983,7 +9983,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327750"
+                    "show_items, $partial_trainersanity, opt_trainer_327750"
                 ],
                 "item_count": 1
             },
@@ -9994,7 +9994,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328168"
+                    "show_items, $partial_trainersanity, opt_trainer_328168"
                 ],
                 "item_count": 1
             },
@@ -10005,7 +10005,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328169"
+                    "show_items, $partial_trainersanity, opt_trainer_328169"
                 ],
                 "item_count": 1
             },
@@ -10016,7 +10016,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328170"
+                    "show_items, $partial_trainersanity, opt_trainer_328170"
                 ],
                 "item_count": 1
             }
@@ -10108,7 +10108,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327736"
+                    "show_items, $partial_trainersanity, opt_trainer_327736"
                 ],
                 "item_count": 1
             },
@@ -10119,7 +10119,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327737"
+                    "show_items, $partial_trainersanity, opt_trainer_327737"
                 ],
                 "item_count": 1
             },
@@ -10130,7 +10130,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327745"
+                    "show_items, $partial_trainersanity, opt_trainer_327745"
                 ],
                 "item_count": 1
             },
@@ -10141,7 +10141,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327970"
+                    "show_items, $partial_trainersanity, opt_trainer_327970"
                 ],
                 "item_count": 1
             },
@@ -10152,7 +10152,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327972"
+                    "show_items, $partial_trainersanity, opt_trainer_327972"
                 ],
                 "item_count": 1
             },
@@ -10163,7 +10163,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327986"
+                    "show_items, $partial_trainersanity, opt_trainer_327986"
                 ],
                 "item_count": 1
             },
@@ -10174,7 +10174,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328046"
+                    "show_items, $partial_trainersanity, opt_trainer_328046"
                 ],
                 "item_count": 1
             },
@@ -10185,7 +10185,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327955"
+                    "show_items, $partial_trainersanity, opt_trainer_327955"
                 ],
                 "item_count": 1
             },
@@ -10196,7 +10196,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327956"
+                    "show_items, $partial_trainersanity, opt_trainer_327956"
                 ],
                 "item_count": 1
             },
@@ -10322,7 +10322,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328212"
+                    "show_items, $partial_trainersanity, opt_trainer_328212"
                 ],
                 "item_count": 1
             },
@@ -10343,7 +10343,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328209"
+                    "show_items, $partial_trainersanity, opt_trainer_328209"
                 ],
                 "item_count": 1
             },
@@ -10354,7 +10354,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328210"
+                    "show_items, $partial_trainersanity, opt_trainer_328210"
                 ],
                 "item_count": 1
             },
@@ -10387,7 +10387,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328211"
+                    "show_items, $partial_trainersanity, opt_trainer_328211"
                 ],
                 "item_count": 1
             },
@@ -10398,7 +10398,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328213"
+                    "show_items, $partial_trainersanity, opt_trainer_328213"
                 ],
                 "item_count": 1
             },
@@ -10409,7 +10409,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328214"
+                    "show_items, $partial_trainersanity, opt_trainer_328214"
                 ],
                 "item_count": 1
             },
@@ -10609,7 +10609,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327690"
+                    "show_items, $partial_trainersanity, opt_trainer_327690"
                 ],
                 "item_count": 1
             },
@@ -10620,7 +10620,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327691"
+                    "show_items, $partial_trainersanity, opt_trainer_327691"
                 ],
                 "item_count": 1
             },
@@ -10631,7 +10631,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327692"
+                    "show_items, $partial_trainersanity, opt_trainer_327692"
                 ],
                 "item_count": 1
             },
@@ -10672,7 +10672,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327693"
+                    "show_items, $partial_trainersanity, opt_trainer_327693"
                 ],
                 "item_count": 1
             },
@@ -10683,7 +10683,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327694"
+                    "show_items, $partial_trainersanity, opt_trainer_327694"
                 ],
                 "item_count": 1
             },
@@ -10694,7 +10694,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327695"
+                    "show_items, $partial_trainersanity, opt_trainer_327695"
                 ],
                 "item_count": 1
             },
@@ -11026,7 +11026,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327833"
+                    "show_items, $partial_trainersanity, opt_trainer_327833"
                 ],
                 "item_count": 1
             },
@@ -11037,7 +11037,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327834"
+                    "show_items, $partial_trainersanity, opt_trainer_327834"
                 ],
                 "item_count": 1
             },
@@ -11048,7 +11048,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327980"
+                    "show_items, $partial_trainersanity, opt_trainer_327980"
                 ],
                 "item_count": 1
             },
@@ -11059,7 +11059,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328018"
+                    "show_items, $partial_trainersanity, opt_trainer_328018"
                 ],
                 "item_count": 1
             },
@@ -11918,7 +11918,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328233"
+                    "show_items, $partial_trainersanity, opt_trainer_328233"
                 ],
                 "item_count": 1
             },
@@ -12301,7 +12301,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327852"
+                    "show_items, $partial_trainersanity, opt_trainer_327852"
                 ],
                 "item_count": 1
             },
@@ -12312,7 +12312,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327853"
+                    "show_items, $partial_trainersanity, opt_trainer_327853"
                 ],
                 "item_count": 1
             },
@@ -12323,7 +12323,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327854"
+                    "show_items, $partial_trainersanity, opt_trainer_327854"
                 ],
                 "item_count": 1
             },
@@ -12334,7 +12334,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327855"
+                    "show_items, $partial_trainersanity, opt_trainer_327855"
                 ],
                 "item_count": 1
             },
@@ -12345,7 +12345,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327860"
+                    "show_items, $partial_trainersanity, opt_trainer_327860"
                 ],
                 "item_count": 1
             },
@@ -12356,7 +12356,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328013"
+                    "show_items, $partial_trainersanity, opt_trainer_328013"
                 ],
                 "item_count": 1
             },
@@ -12367,7 +12367,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328015"
+                    "show_items, $partial_trainersanity, opt_trainer_328015"
                 ],
                 "item_count": 1
             },
@@ -12378,7 +12378,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328017"
+                    "show_items, $partial_trainersanity, opt_trainer_328017"
                 ],
                 "item_count": 1
             },
@@ -12389,7 +12389,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328039"
+                    "show_items, $partial_trainersanity, opt_trainer_328039"
                 ],
                 "item_count": 1
             },
@@ -12400,7 +12400,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328041"
+                    "show_items, $partial_trainersanity, opt_trainer_328041"
                 ],
                 "item_count": 1
             },
@@ -12411,7 +12411,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328172"
+                    "show_items, $partial_trainersanity, opt_trainer_328172"
                 ],
                 "item_count": 1
             },
@@ -12422,7 +12422,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328512"
+                    "show_items, $partial_trainersanity, opt_trainer_328512"
                 ],
                 "item_count": 1
             },
@@ -12580,7 +12580,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328088"
+                    "show_items, $partial_trainersanity, opt_trainer_328088"
                 ],
                 "item_count": 1
             },
@@ -12591,7 +12591,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328097"
+                    "show_items, $partial_trainersanity, opt_trainer_328097"
                 ],
                 "item_count": 1
             },
@@ -12602,7 +12602,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328098"
+                    "show_items, $partial_trainersanity, opt_trainer_328098"
                 ],
                 "item_count": 1
             },
@@ -12613,7 +12613,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328105"
+                    "show_items, $partial_trainersanity, opt_trainer_328105"
                 ],
                 "item_count": 1
             },
@@ -12845,7 +12845,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328527"
+                    "show_items, $partial_trainersanity, opt_trainer_328527"
                 ],
                 "item_count": 1
             },
@@ -13025,7 +13025,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328024"
+                    "show_items, $partial_trainersanity, opt_trainer_328024"
                 ],
                 "item_count": 1
             },
@@ -13036,7 +13036,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327981"
+                    "show_items, $partial_trainersanity, opt_trainer_327981"
                 ],
                 "item_count": 1
             },
@@ -13047,7 +13047,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328011"
+                    "show_items, $partial_trainersanity, opt_trainer_328011"
                 ],
                 "item_count": 1
             },
@@ -13058,7 +13058,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328021"
+                    "show_items, $partial_trainersanity, opt_trainer_328021"
                 ],
                 "item_count": 1
             },
@@ -13069,7 +13069,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327961"
+                    "show_items, $partial_trainersanity, opt_trainer_327961"
                 ],
                 "item_count": 1
             },
@@ -13080,7 +13080,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327965"
+                    "show_items, $partial_trainersanity, opt_trainer_327965"
                 ],
                 "item_count": 1
             },
@@ -13091,7 +13091,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327982"
+                    "show_items, $partial_trainersanity, opt_trainer_327982"
                 ],
                 "item_count": 1
             },
@@ -13102,7 +13102,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327983"
+                    "show_items, $partial_trainersanity, opt_trainer_327983"
                 ],
                 "item_count": 1
             },
@@ -13153,7 +13153,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328000"
+                    "show_items, $partial_trainersanity, opt_trainer_328000"
                 ],
                 "item_count": 1
             },
@@ -13253,7 +13253,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327864"
+                    "show_items, $partial_trainersanity, opt_trainer_327864"
                 ],
                 "item_count": 1
             },
@@ -13264,7 +13264,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327866"
+                    "show_items, $partial_trainersanity, opt_trainer_327866"
                 ],
                 "item_count": 1
             },
@@ -13275,7 +13275,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327868"
+                    "show_items, $partial_trainersanity, opt_trainer_327868"
                 ],
                 "item_count": 1
             },
@@ -13286,7 +13286,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327869"
+                    "show_items, $partial_trainersanity, opt_trainer_327869"
                 ],
                 "item_count": 1
             },
@@ -13297,7 +13297,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327870"
+                    "show_items, $partial_trainersanity, opt_trainer_327870"
                 ],
                 "item_count": 1
             },
@@ -13308,7 +13308,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327871"
+                    "show_items, $partial_trainersanity, opt_trainer_327871"
                 ],
                 "item_count": 1
             },
@@ -13428,7 +13428,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327872"
+                    "show_items, $partial_trainersanity, opt_trainer_327872"
                 ],
                 "item_count": 1
             },
@@ -13439,7 +13439,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328162"
+                    "show_items, $partial_trainersanity, opt_trainer_328162"
                 ],
                 "item_count": 1
             },
@@ -13450,7 +13450,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327873"
+                    "show_items, $partial_trainersanity, opt_trainer_327873"
                 ],
                 "item_count": 1
             },
@@ -13461,7 +13461,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327874"
+                    "show_items, $partial_trainersanity, opt_trainer_327874"
                 ],
                 "item_count": 1
             },
@@ -13472,7 +13472,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327867"
+                    "show_items, $partial_trainersanity, opt_trainer_327867"
                 ],
                 "item_count": 1
             },
@@ -13483,7 +13483,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327865"
+                    "show_items, $partial_trainersanity, opt_trainer_327865"
                 ],
                 "item_count": 1
             },
@@ -13494,7 +13494,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327863"
+                    "show_items, $partial_trainersanity, opt_trainer_327863"
                 ],
                 "item_count": 1
             }
@@ -13653,7 +13653,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328157"
+                    "show_items, $partial_trainersanity, opt_trainer_328157"
                 ],
                 "item_count": 1
             },
@@ -13686,7 +13686,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327936"
+                    "show_items, $partial_trainersanity, opt_trainer_327936"
                 ],
                 "item_count": 1
             },
@@ -13697,7 +13697,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327937"
+                    "show_items, $partial_trainersanity, opt_trainer_327937"
                 ],
                 "item_count": 1
             },
@@ -13708,7 +13708,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327959"
+                    "show_items, $partial_trainersanity, opt_trainer_327959"
                 ],
                 "item_count": 1
             },
@@ -13719,7 +13719,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327963"
+                    "show_items, $partial_trainersanity, opt_trainer_327963"
                 ],
                 "item_count": 1
             },
@@ -13730,7 +13730,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327994"
+                    "show_items, $partial_trainersanity, opt_trainer_327994"
                 ],
                 "item_count": 1
             },
@@ -13741,7 +13741,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328047"
+                    "show_items, $partial_trainersanity, opt_trainer_328047"
                 ],
                 "item_count": 1
             },
@@ -13752,7 +13752,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327912"
+                    "show_items, $partial_trainersanity, opt_trainer_327912"
                 ],
                 "item_count": 1
             },
@@ -13803,7 +13803,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327930"
+                    "show_items, $partial_trainersanity, opt_trainer_327930"
                 ],
                 "item_count": 1
             },
@@ -13943,7 +13943,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327696"
+                    "show_items, $partial_trainersanity, opt_trainer_327696"
                 ],
                 "item_count": 1
             },
@@ -13954,7 +13954,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327697"
+                    "show_items, $partial_trainersanity, opt_trainer_327697"
                 ],
                 "item_count": 1
             },
@@ -13965,7 +13965,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327698"
+                    "show_items, $partial_trainersanity, opt_trainer_327698"
                 ],
                 "item_count": 1
             },
@@ -13976,7 +13976,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327699"
+                    "show_items, $partial_trainersanity, opt_trainer_327699"
                 ],
                 "item_count": 1
             },
@@ -13987,7 +13987,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327700"
+                    "show_items, $partial_trainersanity, opt_trainer_327700"
                 ],
                 "item_count": 1
             },
@@ -13998,7 +13998,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327701"
+                    "show_items, $partial_trainersanity, opt_trainer_327701"
                 ],
                 "item_count": 1
             },
@@ -14009,7 +14009,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328057"
+                    "show_items, $partial_trainersanity, opt_trainer_328057"
                 ],
                 "item_count": 1
             },
@@ -14020,7 +14020,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328136"
+                    "show_items, $partial_trainersanity, opt_trainer_328136"
                 ],
                 "item_count": 1
             },
@@ -14177,7 +14177,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328523"
+                    "show_items, $partial_trainersanity, opt_trainer_328523"
                 ],
                 "item_count": 1
             },
@@ -14188,7 +14188,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327978"
+                    "show_items, $partial_trainersanity, opt_trainer_327978"
                 ],
                 "item_count": 1
             },
@@ -14199,7 +14199,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327979"
+                    "show_items, $partial_trainersanity, opt_trainer_327979"
                 ],
                 "item_count": 1
             },
@@ -14220,7 +14220,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327975"
+                    "show_items, $partial_trainersanity, opt_trainer_327975"
                 ],
                 "item_count": 1
             },
@@ -14456,7 +14456,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327881"
+                    "show_items, $partial_trainersanity, opt_trainer_327881"
                 ],
                 "item_count": 1
             },
@@ -14467,7 +14467,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327882"
+                    "show_items, $partial_trainersanity, opt_trainer_327882"
                 ],
                 "item_count": 1
             },
@@ -14478,7 +14478,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327883"
+                    "show_items, $partial_trainersanity, opt_trainer_327883"
                 ],
                 "item_count": 1
             },
@@ -14489,7 +14489,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327884"
+                    "show_items, $partial_trainersanity, opt_trainer_327884"
                 ],
                 "item_count": 1
             },
@@ -14500,7 +14500,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327885"
+                    "show_items, $partial_trainersanity, opt_trainer_327885"
                 ],
                 "item_count": 1
             },
@@ -14511,7 +14511,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327886"
+                    "show_items, $partial_trainersanity, opt_trainer_327886"
                 ],
                 "item_count": 1
             },
@@ -14522,7 +14522,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328075"
+                    "show_items, $partial_trainersanity, opt_trainer_328075"
                 ],
                 "item_count": 1
             },
@@ -14533,7 +14533,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328078"
+                    "show_items, $partial_trainersanity, opt_trainer_328078"
                 ],
                 "item_count": 1
             },
@@ -14869,7 +14869,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328524"
+                    "show_items, $partial_trainersanity, opt_trainer_328524"
                 ],
                 "item_count": 1
             },
@@ -14880,7 +14880,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328525"
+                    "show_items, $partial_trainersanity, opt_trainer_328525"
                 ],
                 "item_count": 1
             },
@@ -14891,7 +14891,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328526"
+                    "show_items, $partial_trainersanity, opt_trainer_328526"
                 ],
                 "item_count": 1
             },
@@ -15368,7 +15368,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327939"
+                    "show_items, $partial_trainersanity, opt_trainer_327939"
                 ],
                 "item_count": 1
             },
@@ -15379,7 +15379,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327940"
+                    "show_items, $partial_trainersanity, opt_trainer_327940"
                 ],
                 "item_count": 1
             },
@@ -15390,7 +15390,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328004"
+                    "show_items, $partial_trainersanity, opt_trainer_328004"
                 ],
                 "item_count": 1
             },
@@ -15441,7 +15441,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327995"
+                    "show_items, $partial_trainersanity, opt_trainer_327995"
                 ],
                 "item_count": 1
             },
@@ -15519,7 +15519,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328090"
+                    "show_items, $partial_trainersanity, opt_trainer_328090"
                 ],
                 "item_count": 1
             },
@@ -15530,7 +15530,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328101"
+                    "show_items, $partial_trainersanity, opt_trainer_328101"
                 ],
                 "item_count": 1
             },
@@ -15551,7 +15551,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328092"
+                    "show_items, $partial_trainersanity, opt_trainer_328092"
                 ],
                 "item_count": 1
             },
@@ -15562,7 +15562,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328102"
+                    "show_items, $partial_trainersanity, opt_trainer_328102"
                 ],
                 "item_count": 1
             },
@@ -15583,7 +15583,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328103"
+                    "show_items, $partial_trainersanity, opt_trainer_328103"
                 ],
                 "item_count": 1
             },
@@ -15594,7 +15594,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328511"
+                    "show_items, $partial_trainersanity, opt_trainer_328511"
                 ],
                 "item_count": 1
             },
@@ -15635,7 +15635,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328086"
+                    "show_items, $partial_trainersanity, opt_trainer_328086"
                 ],
                 "item_count": 1
             },
@@ -15707,7 +15707,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327702"
+                    "show_items, $partial_trainersanity, opt_trainer_327702"
                 ],
                 "item_count": 1
             },
@@ -15718,7 +15718,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327703"
+                    "show_items, $partial_trainersanity, opt_trainer_327703"
                 ],
                 "item_count": 1
             },
@@ -15729,7 +15729,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327704"
+                    "show_items, $partial_trainersanity, opt_trainer_327704"
                 ],
                 "item_count": 1
             },
@@ -15973,7 +15973,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327793"
+                    "show_items, $partial_trainersanity, opt_trainer_327793"
                 ],
                 "item_count": 1
             },
@@ -15984,7 +15984,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327794"
+                    "show_items, $partial_trainersanity, opt_trainer_327794"
                 ],
                 "item_count": 1
             },
@@ -15995,7 +15995,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327799"
+                    "show_items, $partial_trainersanity, opt_trainer_327799"
                 ],
                 "item_count": 1
             },
@@ -16006,7 +16006,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327800"
+                    "show_items, $partial_trainersanity, opt_trainer_327800"
                 ],
                 "item_count": 1
             },
@@ -16017,7 +16017,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327801"
+                    "show_items, $partial_trainersanity, opt_trainer_327801"
                 ],
                 "item_count": 1
             },
@@ -16028,7 +16028,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327952"
+                    "show_items, $partial_trainersanity, opt_trainer_327952"
                 ],
                 "item_count": 1
             },
@@ -16039,7 +16039,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327953"
+                    "show_items, $partial_trainersanity, opt_trainer_327953"
                 ],
                 "item_count": 1
             },
@@ -16050,7 +16050,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328062"
+                    "show_items, $partial_trainersanity, opt_trainer_328062"
                 ],
                 "item_count": 1
             },
@@ -16061,7 +16061,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328171"
+                    "show_items, $partial_trainersanity, opt_trainer_328171"
                 ],
                 "item_count": 1
             },
@@ -16340,7 +16340,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328528"
+                    "show_items, $partial_trainersanity, opt_trainer_328528"
                 ],
                 "item_count": 1
             },
@@ -16351,7 +16351,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328529"
+                    "show_items, $partial_trainersanity, opt_trainer_328529"
                 ],
                 "item_count": 1
             },
@@ -16392,7 +16392,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327989"
+                    "show_items, $partial_trainersanity, opt_trainer_327989"
                 ],
                 "item_count": 1
             },
@@ -16403,7 +16403,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327990"
+                    "show_items, $partial_trainersanity, opt_trainer_327990"
                 ],
                 "item_count": 1
             },
@@ -16414,7 +16414,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327991"
+                    "show_items, $partial_trainersanity, opt_trainer_327991"
                 ],
                 "item_count": 1
             },
@@ -16425,7 +16425,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327992"
+                    "show_items, $partial_trainersanity, opt_trainer_327992"
                 ],
                 "item_count": 1
             },
@@ -16476,7 +16476,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327997"
+                    "show_items, $partial_trainersanity, opt_trainer_327997"
                 ],
                 "item_count": 1
             }
@@ -16718,7 +16718,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327976"
+                    "show_items, $partial_trainersanity, opt_trainer_327976"
                 ],
                 "item_count": 1
             },
@@ -16729,7 +16729,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327977"
+                    "show_items, $partial_trainersanity, opt_trainer_327977"
                 ],
                 "item_count": 1
             }
@@ -16872,7 +16872,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328187"
+                    "show_items, $partial_trainersanity, opt_trainer_328187"
                 ],
                 "item_count": 1
             },
@@ -16893,7 +16893,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328188"
+                    "show_items, $partial_trainersanity, opt_trainer_328188"
                 ],
                 "item_count": 1
             },
@@ -16954,7 +16954,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328108"
+                    "show_items, $partial_trainersanity, opt_trainer_328108"
                 ],
                 "item_count": 1
             },
@@ -16975,7 +16975,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328510"
+                    "show_items, $partial_trainersanity, opt_trainer_328510"
                 ],
                 "item_count": 1
             },
@@ -17006,7 +17006,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328190"
+                    "show_items, $partial_trainersanity, opt_trainer_328190"
                 ],
                 "item_count": 1
             },
@@ -17017,7 +17017,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328189"
+                    "show_items, $partial_trainersanity, opt_trainer_328189"
                 ],
                 "item_count": 1
             },
@@ -17040,7 +17040,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328192"
+                    "show_items, $partial_trainersanity, opt_trainer_328192"
                 ],
                 "item_count": 1
             },
@@ -17092,7 +17092,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328193"
+                    "show_items, $partial_trainersanity, opt_trainer_328193"
                 ],
                 "item_count": 1
             },
@@ -17103,7 +17103,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328110"
+                    "show_items, $partial_trainersanity, opt_trainer_328110"
                 ],
                 "item_count": 1
             },
@@ -17114,7 +17114,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328509"
+                    "show_items, $partial_trainersanity, opt_trainer_328509"
                 ],
                 "item_count": 1
             },
@@ -17169,7 +17169,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328194"
+                    "show_items, $partial_trainersanity, opt_trainer_328194"
                 ],
                 "item_count": 1
             },
@@ -17180,7 +17180,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328202"
+                    "show_items, $partial_trainersanity, opt_trainer_328202"
                 ],
                 "item_count": 1
             },
@@ -17235,7 +17235,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328083"
+                    "show_items, $partial_trainersanity, opt_trainer_328083"
                 ],
                 "item_count": 1
             },
@@ -17288,7 +17288,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328089"
+                    "show_items, $partial_trainersanity, opt_trainer_328089"
                 ],
                 "item_count": 1
             },
@@ -17455,7 +17455,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327705"
+                    "show_items, $partial_trainersanity, opt_trainer_327705"
                 ],
                 "item_count": 1
             },
@@ -17466,7 +17466,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327706"
+                    "show_items, $partial_trainersanity, opt_trainer_327706"
                 ],
                 "item_count": 1
             },
@@ -17477,7 +17477,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327709"
+                    "show_items, $partial_trainersanity, opt_trainer_327709"
                 ],
                 "item_count": 1
             },
@@ -17488,7 +17488,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327710"
+                    "show_items, $partial_trainersanity, opt_trainer_327710"
                 ],
                 "item_count": 1
             },
@@ -17499,7 +17499,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328131"
+                    "show_items, $partial_trainersanity, opt_trainer_328131"
                 ],
                 "item_count": 1
             }
@@ -17561,7 +17561,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327711"
+                    "show_items, $partial_trainersanity, opt_trainer_327711"
                 ],
                 "item_count": 1
             },
@@ -17572,7 +17572,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327712"
+                    "show_items, $partial_trainersanity, opt_trainer_327712"
                 ],
                 "item_count": 1
             },
@@ -17583,7 +17583,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327707"
+                    "show_items, $partial_trainersanity, opt_trainer_327707"
                 ],
                 "item_count": 1
             },
@@ -17594,7 +17594,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327708"
+                    "show_items, $partial_trainersanity, opt_trainer_327708"
                 ],
                 "item_count": 1
             },
@@ -17834,7 +17834,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327713"
+                    "show_items, $partial_trainersanity, opt_trainer_327713"
                 ],
                 "item_count": 1
             },
@@ -17845,7 +17845,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327714"
+                    "show_items, $partial_trainersanity, opt_trainer_327714"
                 ],
                 "item_count": 1
             },
@@ -17856,7 +17856,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327715"
+                    "show_items, $partial_trainersanity, opt_trainer_327715"
                 ],
                 "item_count": 1
             },
@@ -17867,7 +17867,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327716"
+                    "show_items, $partial_trainersanity, opt_trainer_327716"
                 ],
                 "item_count": 1
             },
@@ -17878,7 +17878,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327717"
+                    "show_items, $partial_trainersanity, opt_trainer_327717"
                 ],
                 "item_count": 1
             },
@@ -17889,7 +17889,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327718"
+                    "show_items, $partial_trainersanity, opt_trainer_327718"
                 ],
                 "item_count": 1
             },
@@ -18051,7 +18051,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327812"
+                    "show_items, $partial_trainersanity, opt_trainer_327812"
                 ],
                 "item_count": 1
             },
@@ -18062,7 +18062,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327813"
+                    "show_items, $partial_trainersanity, opt_trainer_327813"
                 ],
                 "item_count": 1
             },
@@ -18073,7 +18073,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327814"
+                    "show_items, $partial_trainersanity, opt_trainer_327814"
                 ],
                 "item_count": 1
             },
@@ -18084,7 +18084,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327815"
+                    "show_items, $partial_trainersanity, opt_trainer_327815"
                 ],
                 "item_count": 1
             },
@@ -18095,7 +18095,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327816"
+                    "show_items, $partial_trainersanity, opt_trainer_327816"
                 ],
                 "item_count": 1
             },
@@ -18106,7 +18106,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327817"
+                    "show_items, $partial_trainersanity, opt_trainer_327817"
                 ],
                 "item_count": 1
             },
@@ -18117,7 +18117,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327818"
+                    "show_items, $partial_trainersanity, opt_trainer_327818"
                 ],
                 "item_count": 1
             },
@@ -18128,7 +18128,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327819"
+                    "show_items, $partial_trainersanity, opt_trainer_327819"
                 ],
                 "item_count": 1
             },
@@ -18139,7 +18139,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327938"
+                    "show_items, $partial_trainersanity, opt_trainer_327938"
                 ],
                 "item_count": 1
             },
@@ -18247,7 +18247,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327759"
+                    "show_items, $partial_trainersanity, opt_trainer_327759"
                 ],
                 "item_count": 1
             },
@@ -18258,7 +18258,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327760"
+                    "show_items, $partial_trainersanity, opt_trainer_327760"
                 ],
                 "item_count": 1
             },
@@ -18269,7 +18269,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327761"
+                    "show_items, $partial_trainersanity, opt_trainer_327761"
                 ],
                 "item_count": 1
             },
@@ -18280,7 +18280,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328122"
+                    "show_items, $partial_trainersanity, opt_trainer_328122"
                 ],
                 "item_count": 1
             },
@@ -18424,7 +18424,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327820"
+                    "show_items, $partial_trainersanity, opt_trainer_327820"
                 ],
                 "item_count": 1
             },
@@ -18435,7 +18435,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327822"
+                    "show_items, $partial_trainersanity, opt_trainer_327822"
                 ],
                 "item_count": 1
             },
@@ -18446,7 +18446,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327825"
+                    "show_items, $partial_trainersanity, opt_trainer_327825"
                 ],
                 "item_count": 1
             },
@@ -18457,7 +18457,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327826"
+                    "show_items, $partial_trainersanity, opt_trainer_327826"
                 ],
                 "item_count": 1
             },
@@ -18468,7 +18468,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327827"
+                    "show_items, $partial_trainersanity, opt_trainer_327827"
                 ],
                 "item_count": 1
             }
@@ -18618,7 +18618,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327821"
+                    "show_items, $partial_trainersanity, opt_trainer_327821"
                 ],
                 "item_count": 1
             },
@@ -18629,7 +18629,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327823"
+                    "show_items, $partial_trainersanity, opt_trainer_327823"
                 ],
                 "item_count": 1
             },
@@ -18640,7 +18640,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327824"
+                    "show_items, $partial_trainersanity, opt_trainer_327824"
                 ],
                 "item_count": 1
             },
@@ -18651,7 +18651,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327828"
+                    "show_items, $partial_trainersanity, opt_trainer_327828"
                 ],
                 "item_count": 1
             },
@@ -18976,7 +18976,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327948"
+                    "show_items, $partial_trainersanity, opt_trainer_327948"
                 ],
                 "item_count": 1
             },
@@ -18987,7 +18987,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327949"
+                    "show_items, $partial_trainersanity, opt_trainer_327949"
                 ],
                 "item_count": 1
             },
@@ -18998,7 +18998,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327950"
+                    "show_items, $partial_trainersanity, opt_trainer_327950"
                 ],
                 "item_count": 1
             },
@@ -19009,7 +19009,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327951"
+                    "show_items, $partial_trainersanity, opt_trainer_327951"
                 ],
                 "item_count": 1
             },
@@ -19020,7 +19020,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328507"
+                    "show_items, $partial_trainersanity, opt_trainer_328507"
                 ],
                 "item_count": 1
             },
@@ -19031,7 +19031,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328508"
+                    "show_items, $partial_trainersanity, opt_trainer_328508"
                 ],
                 "item_count": 1
             },
@@ -19082,7 +19082,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327999"
+                    "show_items, $partial_trainersanity, opt_trainer_327999"
                 ],
                 "item_count": 1
             }
@@ -19361,7 +19361,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327807"
+                    "show_items, $partial_trainersanity, opt_trainer_327807"
                 ],
                 "item_count": 1
             },
@@ -19372,7 +19372,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327808"
+                    "show_items, $partial_trainersanity, opt_trainer_327808"
                 ],
                 "item_count": 1
             },
@@ -19383,7 +19383,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327809"
+                    "show_items, $partial_trainersanity, opt_trainer_327809"
                 ],
                 "item_count": 1
             },
@@ -19394,7 +19394,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327810"
+                    "show_items, $partial_trainersanity, opt_trainer_327810"
                 ],
                 "item_count": 1
             },
@@ -19405,7 +19405,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327958"
+                    "show_items, $partial_trainersanity, opt_trainer_327958"
                 ],
                 "item_count": 1
             },
@@ -19416,7 +19416,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327967"
+                    "show_items, $partial_trainersanity, opt_trainer_327967"
                 ],
                 "item_count": 1
             },
@@ -19427,7 +19427,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327984"
+                    "show_items, $partial_trainersanity, opt_trainer_327984"
                 ],
                 "item_count": 1
             },
@@ -19438,7 +19438,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327987"
+                    "show_items, $partial_trainersanity, opt_trainer_327987"
                 ],
                 "item_count": 1
             },
@@ -19594,7 +19594,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328059"
+                    "show_items, $partial_trainersanity, opt_trainer_328059"
                 ],
                 "item_count": 1
             },
@@ -19605,7 +19605,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328060"
+                    "show_items, $partial_trainersanity, opt_trainer_328060"
                 ],
                 "item_count": 1
             },
@@ -19616,7 +19616,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328063"
+                    "show_items, $partial_trainersanity, opt_trainer_328063"
                 ],
                 "item_count": 1
             },
@@ -19627,7 +19627,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328123"
+                    "show_items, $partial_trainersanity, opt_trainer_328123"
                 ],
                 "item_count": 1
             },
@@ -19638,7 +19638,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328130"
+                    "show_items, $partial_trainersanity, opt_trainer_328130"
                 ],
                 "item_count": 1
             },
@@ -19649,7 +19649,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328134"
+                    "show_items, $partial_trainersanity, opt_trainer_328134"
                 ],
                 "item_count": 1
             },
@@ -19660,7 +19660,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328135"
+                    "show_items, $partial_trainersanity, opt_trainer_328135"
                 ],
                 "item_count": 1
             },
@@ -19671,7 +19671,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328138"
+                    "show_items, $partial_trainersanity, opt_trainer_328138"
                 ],
                 "item_count": 1
             },
@@ -19682,7 +19682,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328139"
+                    "show_items, $partial_trainersanity, opt_trainer_328139"
                 ],
                 "item_count": 1
             },
@@ -19693,7 +19693,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328176"
+                    "show_items, $partial_trainersanity, opt_trainer_328176"
                 ],
                 "item_count": 1
             },
@@ -19867,7 +19867,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327756"
+                    "show_items, $partial_trainersanity, opt_trainer_327756"
                 ],
                 "item_count": 1
             },
@@ -19878,7 +19878,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327758"
+                    "show_items, $partial_trainersanity, opt_trainer_327758"
                 ],
                 "item_count": 1
             },
@@ -19889,7 +19889,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328006"
+                    "show_items, $partial_trainersanity, opt_trainer_328006"
                 ],
                 "item_count": 1
             },
@@ -20051,7 +20051,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327924"
+                    "show_items, $partial_trainersanity, opt_trainer_327924"
                 ],
                 "item_count": 1
             },
@@ -20062,7 +20062,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327925"
+                    "show_items, $partial_trainersanity, opt_trainer_327925"
                 ],
                 "item_count": 1
             },
@@ -20113,7 +20113,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327926"
+                    "show_items, $partial_trainersanity, opt_trainer_327926"
                 ],
                 "item_count": 1
             }
@@ -20173,7 +20173,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327875"
+                    "show_items, $partial_trainersanity, opt_trainer_327875"
                 ],
                 "item_count": 1
             },
@@ -20184,7 +20184,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327876"
+                    "show_items, $partial_trainersanity, opt_trainer_327876"
                 ],
                 "item_count": 1
             },
@@ -20319,7 +20319,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327920"
+                    "show_items, $partial_trainersanity, opt_trainer_327920"
                 ],
                 "item_count": 1
             },
@@ -20330,7 +20330,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327945"
+                    "show_items, $partial_trainersanity, opt_trainer_327945"
                 ],
                 "item_count": 1
             },
@@ -20341,7 +20341,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328009"
+                    "show_items, $partial_trainersanity, opt_trainer_328009"
                 ],
                 "item_count": 1
             },
@@ -20473,7 +20473,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327684"
+                    "show_items, $partial_trainersanity, opt_trainer_327684"
                 ],
                 "item_count": 1
             },
@@ -20484,7 +20484,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_327928"
+                    "show_items, $partial_trainersanity, opt_trainer_327928"
                 ],
                 "item_count": 1
             },
@@ -20495,7 +20495,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328002"
+                    "show_items, $partial_trainersanity, opt_trainer_328002"
                 ],
                 "item_count": 1
             },
@@ -20506,7 +20506,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328003"
+                    "show_items, $partial_trainersanity, opt_trainer_328003"
                 ],
                 "item_count": 1
             },
@@ -20517,7 +20517,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328035"
+                    "show_items, $partial_trainersanity, opt_trainer_328035"
                 ],
                 "item_count": 1
             },
@@ -20528,7 +20528,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328036"
+                    "show_items, $partial_trainersanity, opt_trainer_328036"
                 ],
                 "item_count": 1
             },
@@ -20720,7 +20720,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328601"
+                    "show_items, $partial_trainersanity, opt_trainer_328601"
                 ],
                 "item_count": 1
             },
@@ -20731,7 +20731,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328602"
+                    "show_items, $partial_trainersanity, opt_trainer_328602"
                 ],
                 "item_count": 1
             }
@@ -21424,7 +21424,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328196"
+                    "show_items, $partial_trainersanity, opt_trainer_328196"
                 ],
                 "item_count": 1
             },
@@ -21435,7 +21435,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328197"
+                    "show_items, $partial_trainersanity, opt_trainer_328197"
                 ],
                 "item_count": 1
             },
@@ -21550,7 +21550,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328200"
+                    "show_items, $partial_trainersanity, opt_trainer_328200"
                 ],
                 "item_count": 1
             },
@@ -21561,7 +21561,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328205"
+                    "show_items, $partial_trainersanity, opt_trainer_328205"
                 ],
                 "item_count": 1
             },
@@ -21572,7 +21572,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328206"
+                    "show_items, $partial_trainersanity, opt_trainer_328206"
                 ],
                 "item_count": 1
             },
@@ -21603,7 +21603,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328201"
+                    "show_items, $partial_trainersanity, opt_trainer_328201"
                 ],
                 "item_count": 1
             },
@@ -21614,7 +21614,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328207"
+                    "show_items, $partial_trainersanity, opt_trainer_328207"
                 ],
                 "item_count": 1
             },
@@ -21625,7 +21625,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328087"
+                    "show_items, $partial_trainersanity, opt_trainer_328087"
                 ],
                 "item_count": 1
             },
@@ -21636,7 +21636,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328208"
+                    "show_items, $partial_trainersanity, opt_trainer_328208"
                 ],
                 "item_count": 1
             },
@@ -21647,7 +21647,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328084"
+                    "show_items, $partial_trainersanity, opt_trainer_328084"
                 ],
                 "item_count": 1
             },
@@ -21999,7 +21999,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328198"
+                    "show_items, $partial_trainersanity, opt_trainer_328198"
                 ],
                 "item_count": 1
             },
@@ -22010,7 +22010,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328199"
+                    "show_items, $partial_trainersanity, opt_trainer_328199"
                 ],
                 "item_count": 1
             },
@@ -22021,7 +22021,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328204"
+                    "show_items, $partial_trainersanity, opt_trainer_328204"
                 ],
                 "item_count": 1
             },
@@ -22619,7 +22619,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328195"
+                    "show_items, $partial_trainersanity, opt_trainer_328195"
                 ],
                 "item_count": 1
             },
@@ -22630,7 +22630,7 @@
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
-                    "show_items, opt_trainer_328203"
+                    "show_items, $partial_trainersanity, opt_trainer_328203"
                 ],
                 "item_count": 1
             },
