@@ -1204,6 +1204,28 @@ LOCATION_MAPPING = {
     [328549] = {"@Pokemon League/Elite Four Lucian Rematch"},
     [328550] = {"@Pokemon League/Champion Cynthia Rematch"},
 
+--Fly Unlocks
+    [130] = {"@Twinleaf Town/Twinleaf Town Fly Unlock"},
+    [131] = {"@Sandgem Town/Sandgem Town Fly Unlock"},
+    [132] = {"@Floaroma Town/Floaroma Town Fly Unlock"},
+    [133] = {"@Solaceon Town/Solaceon Town Fly Unlock"},
+    [134] = {"@Celestic Town/Celestic Town Fly Unlock"},
+    [135] = {"@Jubilife City/Jubilife City Fly Unlock"},
+    [136] = {"@Canalave City/Canalave City Fly Unlock"},
+    [137] = {"@Oreburgh City/Oreburgh City Fly Unlock"},
+    [138] = {"@Eterna City/Eterna City Fly Unlock"},
+    [139] = {"@Hearthome City/Hearthome City Fly Unlock"},
+    [140] = {"@Pastoria City/Pastoria City Fly Unlock"},
+    [141] = {"@Veilstone City/Veilstone City Fly Unlock"},
+    [142] = {"@Sunyshore City/Sunyshore City Fly Unlock"},
+    [143] = {"@Snowpoint City/Snowpoint City Fly Unlock"},
+    [144] = {"@Pokemon League/Pokemon League South Fly Unlock"},
+    [145] = {"@Fight Area/Fight Area Fly Unlock"},
+    [146] = {"@Survival Area/Survival Area Fly Unlock"},
+    [147] = {"@Resort Area/Resort Area Fly Unlock"},
+    [148] = {"@Pal Park/Route 221 Fly Unlock"},	
+    [149] = {"@Pokemon League/Pokemon League Fly Unlock"},
+
 -- Dexsanity
     [262145] = {"dexsanity_sent_1"},
     [262146] = {"dexsanity_sent_2"},

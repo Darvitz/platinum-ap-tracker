@@ -34,6 +34,7 @@
 {"name": "Victory Road​​​​​​", "sections": [{"ref": "Victory Road/1F - Hidden Item on Rock Climb Hill Before Northern 2F Stairs", "name": "1F - Hidden Item on Rock Climb Hill Before Northern 2F Stairs"}], "map_locations": [{"map": "victoryroad1f", "x": 320, "y": 414}]},
 {"name": "Victory Road​​​​​​​", "sections": [{"ref": "Victory Road/1F - Hidden Item Before First Staircase to 2F", "name": "1F - Hidden Item Before First Staircase to 2F"}], "map_locations": [{"map": "victoryroad1f", "x": 160, "y": 354}]},
 {"name": "Pokemon League", "sections": [{"ref": "Pokemon League/Hidden Item Below SW Poke Ball Statue", "name": "Hidden Item Below SW Poke Ball Statue"}], "map_locations": [{"map": "pokemonleaguesouth", "x": 168, "y": 56}]},
+{"name": "Pokemon League", "sections": [{"ref": "Pokemon League/Pokemon League South Fly Unlock", "name": "Pokemon League South Fly Unlock"}], "map_locations": [{"map": "pokemonleaguesouth", "x": 168, "y": 338}]},
 {"name": "Victory Road​​​​​​​​", "sections": [{"ref": "Victory Road/2F - Item From Northern 1F Stairs", "name": "2F - Item From Northern 1F Stairs"}], "map_locations": [{"map": "victoryroad2f", "x": 256, "y": 68}]},
 {"name": "Victory Road​​​​​​​​​", "sections": [{"ref": "Victory Road/2F - NW Item", "name": "2F - NW Item"}], "map_locations": [{"map": "victoryroad2f", "x": 64, "y": 80}]},
 {"name": "Victory Road​​​​​​​​​​", "sections": [{"ref": "Victory Road/2F - Item Above Ledge", "name": "2F - Item Above Ledge"}], "map_locations": [{"map": "victoryroad2f", "x": 544, "y": 292}]},

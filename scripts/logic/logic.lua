@@ -333,6 +333,11 @@ function night()
     return has("poketch") and has("nighttime")
 end
 
+function can_freefly(destination)
+  return fly() and 
+  (has("flyunlock_"..destination))
+end
+
 function partial_trainersanity()
     if TRAINERS:getType() == "partial" then
         return true

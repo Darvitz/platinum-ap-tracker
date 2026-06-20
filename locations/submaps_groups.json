@@ -18,6 +18,7 @@
 { "name": "Entrance - Commander Mars", "ref": "Stark Mountain/Entrance - Commander Mars"},
 { "name": "Entrance - Commander Jupiter", "ref": "Stark Mountain/Entrance - Commander Jupiter"}]},
 { "name": "Pokemon League", "map_locations": [ { "map": "pokemonleaguenorth", "x": 248, "y": 240}], "sections": [
+{ "name": "Pokemon League Fly Unlock", "ref": "Pokemon League/Pokemon League Fly Unlock"},
 { "name": "Rival", "ref": "Pokemon League/Rival"},
 { "name": "Elite Four Aaron", "ref": "Pokemon League/Elite Four Aaron"},
 { "name": "Elite Four Bertha", "ref": "Pokemon League/Elite Four Bertha"},
@@ -110,6 +111,7 @@
 { "name": "Second Gift from Dawn or Lucas", "ref": "Route 207/Second Gift from Dawn or Lucas"},
 { "name": "Second Gift from Dawn or Lucas\u200b", "ref": "Route 207/Second Gift from Dawn or Lucas\u200b"}]},
 { "name": "Pal Park - Lobby", "map_locations": [ { "map": "route221east", "x": 304, "y": 188}], "sections": [
+{ "name": "Route 221 Fly Unlock", "ref": "Pal Park/Route 221 Fly Unlock"},
 { "name": "Trainer Counter App from Prof Oak", "ref": "Pal Park/Trainer Counter App from Prof Oak"},
 { "name": "Meet Oak (Event)", "ref": "Pal Park/Meet Oak (Event)"},
 { "name": "Kitchen Timer App from Girl", "ref": "Pal Park/Kitchen Timer App from Girl"},

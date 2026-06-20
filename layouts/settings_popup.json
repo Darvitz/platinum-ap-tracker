@@ -104,17 +104,18 @@
                 "opt_trainer_full",
                 "opt_dexsanity",
                 "opt_rods",
-                "opt_poketchapps"
+                "opt_poketchapps",
+				"opt_randomize_fly_items"
             ],
             [
                 "opt_shoes",
                 "opt_bicycle",
                 "opt_pokedex",
                 "opt_accessories",
-                "opt_ssticket"
+                "opt_ssticket",
+                "opt_marsh_pass",
             ],
             [
-                "opt_marsh_pass",
                 "opt_storage_key",
                 "opt_bag",
 				"opt_hmreader",
@@ -135,11 +136,12 @@
                 "opt_hm_visibility",
                 "opt_dowsing",
                 "opt_north_sinnoh_fly",
-                "opt_start_with_swarms"
+                "opt_start_with_swarms",
+				        "opt_require_fly_items_for_flight"
             ],
             [
                 "opt_evo_items_shop_in_ap_helper",
-				"opt_can_reset_legendaries_in_ap_helper"
+				        "opt_can_reset_legendaries_in_ap_helper"
             ]
         ]
     },
@@ -149,20 +151,20 @@
         "item_size": "32,32",
         "item_h_alignment": "center",
         "item_v_alignment": "center",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "rows": [
             [
                 "opt_unown",
                 "opt_route_203",
                 "opt_early_sunyshore",
                 "opt_pastoria_barriers",
-                "regional_dex_goal"
+                "regional_dex_goal",
+				        "opt_route_207_barricade"
             ],
             [
                 "opt_boat_canalave_snowpoint",
-				"opt_boat_canalave_pastoria",
-                "opt_boat_pastoria_snowpoint",
-                "opt_route_207_barricade"
+				        "opt_boat_canalave_pastoria",
+                "opt_boat_pastoria_snowpoint"
             ]
         ]
     },
@@ -178,7 +180,7 @@
                 "encmethod_surf",
                 "encmethod_fishing",
                 "encmethod_radar",
-				"encmethod_swarm"
+				        "encmethod_swarm"
             ],
             [
 				"encmethod_timeofday",
@@ -209,7 +211,7 @@
                 "evomethod_level",
                 "evomethod_happiness",
                 "evomethod_item",
-				"evomethod_geographical"
+				        "evomethod_geographical"
             ],
             [
 				"evomethod_mildlyannoying",

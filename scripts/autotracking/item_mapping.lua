@@ -88,5 +88,27 @@ ITEM_MAPPING = {
     [85]    = {{"leafstone", "toggle"}},
     [107]   = {{"shinystone", "toggle"}},
     [108]   = {{"duskstone", "toggle"}},
-    [109]   = {{"dawnstone", "toggle"}}
+    [109]   = {{"dawnstone", "toggle"}},
+
+	--Fly Unlocks
+	[57358]    = {{"flyunlock_twinleaftown", "toggle"}},
+    [57359]    = {{"flyunlock_sandgemtown", "toggle"}},
+    [57360]    = {{"flyunlock_floaromatown", "toggle"}},
+    [57361]    = {{"flyunlock_solaceontown", "toggle"}},
+    [57362]    = {{"flyunlock_celestictown", "toggle"}},
+    [57363]    = {{"flyunlock_jubilifecity", "toggle"}},
+    [57364]    = {{"flyunlock_canalavecity", "toggle"}},
+    [57365]    = {{"flyunlock_oreburghcity", "toggle"}},
+    [57366]    = {{"flyunlock_eternacity", "toggle"}},
+	[57367]    = {{"flyunlock_hearthomecity", "toggle"}},
+    [57368]    = {{"flyunlock_pastoriacity", "toggle"}},
+    [57369]    = {{"flyunlock_veilstonecity", "toggle"}},
+    [57370]    = {{"flyunlock_sunyshorecity", "toggle"}},
+    [57371]    = {{"flyunlock_snowpointcity", "toggle"}},
+    [57372]    = {{"flyunlock_pokemonleaguesouth", "toggle"}},
+    [57373]    = {{"flyunlock_fightarea", "toggle"}},
+    [57374]    = {{"flyunlock_survivalarea", "toggle"}},
+    [57375]    = {{"flyunlock_resortarea", "toggle"}},
+	[57376]    = {{"flyunlock_route221", "toggle"}},
+    [57377]    = {{"flyunlock_pokemonleague", "toggle"}}
 }
