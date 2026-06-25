@@ -459,7 +459,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Route 203 requires all coupons and the parcel",
+                "name": "Route 203 requires the Poketch",
                 "img": "images/settings/opt_route_203.png",
                 "codes": "opt_route_203, opt_route_203_on",
                 "inherit_codes": false
