@@ -124,14 +124,8 @@
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Key Items - MOST",
+                "name": "Randomize Key Items - ON",
                 "img": "images/settings/opt_keyitems.png",
-                "codes": "opt_keyitems, opt_keyitems_on, opt_coupons_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Randomize Key Items - ALL",
-                "img": "images/settings/opt_keyitems_all.png",
                 "codes": "opt_keyitems, opt_keyitems_on, opt_coupons_on",
                 "inherit_codes": false
             }
@@ -465,7 +459,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Route 203 requires all coupons and the parcel",
+                "name": "Route 203 requires the Poketch",
                 "img": "images/settings/opt_route_203.png",
                 "codes": "opt_route_203, opt_route_203_on",
                 "inherit_codes": false
@@ -898,7 +892,7 @@
     },
     {
         "name": "Dexsanity",
-        "img": "/images/locations/ball.png",
+        "img": "/images/settings/opt_dexsanity.png",
         "codes": "opt_dexsanity",
         "type": "consumable",
         "min_quantity": 0,

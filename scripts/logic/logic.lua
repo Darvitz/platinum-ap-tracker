@@ -108,7 +108,7 @@ function route203_pass()
     if has("opt_route_203_off") then
         return true
     else
-        return poketch_req()
+        return has("poketch")
     end
 end
 
