@@ -124,14 +124,8 @@
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Key Items - MOST",
+                "name": "Randomize Key Items - ON",
                 "img": "images/settings/opt_keyitems.png",
-                "codes": "opt_keyitems, opt_keyitems_on, opt_coupons_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Randomize Key Items - ALL",
-                "img": "images/settings/opt_keyitems_all.png",
                 "codes": "opt_keyitems, opt_keyitems_on, opt_coupons_on",
                 "inherit_codes": false
             }
