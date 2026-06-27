@@ -110,15 +110,19 @@ function dump_table(o, depth)
         encounter_species_blacklist = true,
         starter_whitelist = true,
         starter_blacklist = true,
-        generated_roamers = false,
+        generated_roamers = true,
         roamer_blacklist = true,
         seed = true,
         generated_special_encounters = true,
         trainersanity_trainers = true,
         trainer_party_blacklist = true,
-        generated_encounters = true,
+        generated_encounters = false,
         dexsanity_specs = true,
         generated_munchlax_trees = true,
+        dexsanity_whitelist = true,
+        trainersanity_whitelist = true,
+        dexsanity_blacklist = true,
+        trainersanity_blacklist = true,
     }
 
     if type(o) == 'table' then
