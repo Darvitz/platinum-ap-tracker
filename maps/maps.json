@@ -343,8 +343,8 @@
     },
     {
         "name": "route213valorlakefront",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 36,
+        "location_border_thickness": 4,
         "img": "images/maps/route213valorlakefront.png"
     },
     {
