@@ -2077,8 +2077,7 @@
                     "@pokemon_league_south_pokecenter_1f"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_randomize_fly_items_all",
-                    "show_items, opt_randomize_fly_items_all_except_pokemon_league"
+                    "show_items, opt_randomize_fly_items_all"
                 ],
                 "item_count": 1
             },
@@ -6480,7 +6479,7 @@
             {
                 "name": "Item on Corner of Land",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -6580,7 +6579,7 @@
             {
                 "name": "Swimmer Dillon",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -6591,7 +6590,7 @@
             {
                 "name": "Swimmer Vanessa",
                 "access_rules": [
-                    "@route_221"
+                    "@route_221, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7192,7 +7191,7 @@
             {
                 "name": "Entrance - Commander Mars",
                 "access_rules": [
-                    "@stark_mountain_room_1"
+                    "@stark_mountain_room_1_entrance"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -7203,7 +7202,7 @@
             {
                 "name": "Entrance - Commander Jupiter",
                 "access_rules": [
-                    "@stark_mountain_room_1"
+                    "@stark_mountain_room_1_entrance"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -16560,7 +16559,7 @@
                 "item_count": 1
             },
             {
-                "name": "Department Store 5F - Gift from the Two Men",
+                "name": "Department Store 5F - Gift from Two Buff Guys Standing Side by Side",
                 "access_rules": [
                     "@veilstone_store_5f"
                 ],
@@ -18951,7 +18950,7 @@
             {
                 "name": "Lake - Item in NE Corner of Lake",
                 "access_rules": [
-                    "@lake_acuity"
+                    "@lake_acuity, $surf"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -19010,7 +19009,7 @@
                 "chest_unopened_img": "/images/locations/encounters/land.png",
                 "chest_opened_img": "/images/locations/encounters/land_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$land_encounters"
+                    "@lake_acuity, $surf, ^$land_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -19022,7 +19021,7 @@
                 "chest_unopened_img": "/images/locations/encounters/night.png",
                 "chest_opened_img": "/images/locations/encounters/night_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$night_encounters"
+                    "@lake_acuity, $surf, ^$night_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -19034,7 +19033,7 @@
                 "chest_unopened_img": "/images/locations/encounters/ruby.png",
                 "chest_opened_img": "/images/locations/encounters/ruby_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$ruby_encounters"
+                    "@lake_acuity, $surf, ^$ruby_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -19046,7 +19045,7 @@
                 "chest_unopened_img": "/images/locations/encounters/sapphire.png",
                 "chest_opened_img": "/images/locations/encounters/sapphire_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$sapphire_encounters"
+                    "@lake_acuity, $surf, ^$sapphire_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
@@ -19058,7 +19057,7 @@
                 "chest_unopened_img": "/images/locations/encounters/emerald.png",
                 "chest_opened_img": "/images/locations/encounters/emerald_cleared.png",
                 "access_rules": [
-                    "@lake_acuity, ^$emerald_encounters"
+                    "@lake_acuity, $surf, ^$emerald_encounters"
                 ],
                 "visibility_rules": [
                     "show_mons"
