@@ -52,7 +52,7 @@ function toggle_pastoriabarriers()
 end
 
 function syncCoupons()
-    if not has("opt_coupons_off") then return end
+    if not has("opt_keyitems_off") then return end
     local count = 0
     for _, code in ipairs({"coupon_1", "coupon_2", "coupon_3"}) do
         if Tracker:FindObjectForCode(code).Active then

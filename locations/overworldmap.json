@@ -8957,7 +8957,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_on"
+                    "show_items, opt_keyitems_on"
                 ],
                 "item_count": 1
             },
@@ -8967,7 +8967,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_off"
+                    "show_items, opt_keyitems_off"
                 ],
                 "hosted_item": "coupons, coupon_1",
                 "clear_as_group": true
@@ -8978,7 +8978,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_on"
+                    "show_items, opt_keyitems_on"
                 ],
                 "item_count": 1
             },
@@ -8988,7 +8988,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_off"
+                    "show_items, opt_keyitems_off"
                 ],
                 "hosted_item": "coupons, coupon_2",
                 "clear_as_group": true
@@ -8999,7 +8999,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_on"
+                    "show_items, opt_keyitems_on"
                 ],
                 "item_count": 1
             },
@@ -9009,7 +9009,7 @@
                     "@jubilife_city, parcel"
                 ],
                 "visibility_rules": [
-                    "show_items, opt_coupons_off"
+                    "show_items, opt_keyitems_off"
                 ],
                 "hosted_item": "coupons, coupon_3",
                 "clear_as_group": true
