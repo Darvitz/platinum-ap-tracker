@@ -55,23 +55,38 @@
                         },
                         {
                             "type": "group",
+                            "margin": "100,100",
                             "background": "#171717",
-                            "header": "Fly Unlocks",
                             "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "v_flyunlock_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "background": "#171717",
-                            "header": "Events",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "v_event_grid"
-                            }
+                            "content": [
+                                {
+                                    "type": "array",
+                                    "margin": "0,-28, -2, -5",
+                                    "content": [
+                                        {
+                                            "type": "tabbed",
+                                            "h_alignment": "center",
+                                            "dock": "left",
+                                            "tabs": [
+                                                {
+                                                    "title": "Events",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "v_event_grid"
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fly Unlocks",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "v_flyunlock_grid"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "type": "group",

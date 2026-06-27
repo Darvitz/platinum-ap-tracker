@@ -59,8 +59,14 @@
                             "header": "Events",
                             "dock": "top",
                             "content": {
-                                "type": "layout",
-                                "key": "v_event_grid"
+                                "type": "array",
+                                "margin": "0,-3,0,0",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "key": "v_event_grid"
+                                    }
+                                ]
                             }
                         },
                         {
