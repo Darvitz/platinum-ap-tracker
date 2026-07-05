@@ -282,9 +282,9 @@
 { "name": "Gym - Leader Maylene", "ref": "Veilstone City/Gym - Leader Maylene"}]},
 { "name": "Iron Island Inside", "map_locations": [ { "map": "ironislandoutside", "x": 350, "y": 28}], "sections": [
 { "name": "B1F Left - Camper Lawrence", "ref": "Iron Island/B1F Left - Camper Lawrence"},
-{ "name": "B1F Left - Item in Center", "ref": "Iron Island/B1F Left - Item in Center"},
-{ "name": "B1F Left - Item in Center\u200b", "ref": "Iron Island/B1F Left - Item in Center\u200b"},
 { "name": "B1F Left - Item on Raised Walkway", "ref": "Iron Island/B1F Left - Item on Raised Walkway"},
+{ "name": "B1F Left - Item on Raised Walkway\u200b", "ref": "Iron Island/B1F Left - Item on Raised Walkway\u200b"},
+{ "name": "B1F Left - Item in Center", "ref": "Iron Island/B1F Left - Item in Center"},
 { "name": "B1F Right - Hidden Item to Right of Center Boulder", "ref": "Iron Island/B1F Right - Hidden Item to Right of Center Boulder"},
 { "name": "B1F Right - Item Next to Lift", "ref": "Iron Island/B1F Right - Item Next to Lift"},
 { "name": "B1F Right - Item on Left", "ref": "Iron Island/B1F Right - Item on Left"},
