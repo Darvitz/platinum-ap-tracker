@@ -5212,7 +5212,7 @@
                 "hosted_item": "metalcoat"
             },
             {
-                "name": "B1F Left - Item in Center",
+                "name": "B1F Left - Item on Raised Walkway",
                 "access_rules": [
                     "@iron_island_b1f_left_room"
                 ],
@@ -5222,7 +5222,7 @@
                 "item_count": 1
             },
             {
-                "name": "B1F Left - Item in Center\u200b",
+                "name": "B1F Left - Item on Raised Walkway\u200b",
                 "access_rules": [
                     "@iron_island_b1f_left_room"
                 ],
@@ -5232,7 +5232,7 @@
                 "hosted_item": "protector"
             },
             {
-                "name": "B1F Left - Item on Raised Walkway",
+                "name": "B1F Left - Item in Center",
                 "access_rules": [
                     "@iron_island_b1f_left_room"
                 ],
