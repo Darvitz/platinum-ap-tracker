@@ -309,7 +309,7 @@ function amity_square()
     end
 
     if has("national_dex") then
-        if has("caught_39") or has("caught_255") or has("caught_") or has("caught_") then
+        if has("caught_39") or has("caught_255") or has("caught_285") or has("caught_300") then
             return AccessibilityLevel.Normal
         end
     end
