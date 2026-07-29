@@ -78,7 +78,7 @@
     {
         "name": "cafe",
         "access_rules": [
-            "@route_210_south"
+            "@route_210_junction"
         ]
     },
     {
@@ -2133,11 +2133,18 @@
         ]
     },
     {
-        "name": "route_210_south",
+        "name": "route_210_junction",
         "access_rules": [
             "@cafe",
+            "@route_210_south, $route_210_lower_barricade_up",
             "@route_210_south_upper, secretpotion",
-            "@route_215",
+            "@route_215, $route_215_barricade_west"
+        ]
+    },
+    {
+        "name": "route_210_south",
+        "access_rules": [
+            "@route_210_junction, $route_210_lower_barricade_down",
             "@solaceon_town"
         ]
     },
@@ -2145,7 +2152,7 @@
         "name": "route_210_south_upper",
         "access_rules": [
             "@route_210_north",
-            "@route_210_south, secretpotion"
+            "@route_210_junction, secretpotion"
         ]
     },
     {
@@ -2249,7 +2256,7 @@
     {
         "name": "route_215",
         "access_rules": [
-            "@route_210_south",
+            "@route_210_junction, $route_215_barricade_east",
             "@route_215_gate_to_veilstone_city"
         ]
     },

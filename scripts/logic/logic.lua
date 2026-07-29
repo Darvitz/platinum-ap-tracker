@@ -252,6 +252,258 @@ function route_207_barricade_down()
     end
 end
 
+function route_210_lower_barricade_up()
+    if has("opt_route_210_lower_barricade_none") then
+        return true
+    elseif has("opt_route_210_lower_barricade_bicycle_slope") then
+        return has("bicycle")
+    elseif has("opt_route_210_lower_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_210_lower_barricade_surf") then
+        return surf()
+    elseif has("opt_route_210_lower_barricade_waterfall") then
+        return surf() and waterfall()
+    elseif has("opt_route_210_lower_barricade_impassable") then
+        return false
+    elseif has("opt_route_210_lower_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_210_lower_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_210_lower_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_210_lower_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_cut_tree") then
+        return has("bicycle") and cut()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_rock_smash") then
+        return has("bicycle") and rock_smash()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_strength_boulder") then
+        return has("bicycle") and strength()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_psyduck") then
+        return has("bicycle") and has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_surf_and_cut_tree") then
+        return surf() and cut()
+    elseif has("opt_route_210_lower_barricade_surf_and_rock_smash") then
+        return surf() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_surf_and_strength_boulder") then
+        return surf() and strength()
+    elseif has("opt_route_210_lower_barricade_surf_and_psyduck") then
+        return surf() and has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_waterfall_and_cut_tree") then
+        return surf() and waterfall() and cut()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_rock_smash") then
+        return surf() and waterfall() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_strength_boulder") then
+        return surf() and waterfall() and strength()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_psyduck") then
+        return surf() and waterfall() and has("secretpotion")
+    end
+end
+
+function route_210_lower_barricade_down()
+    if has("opt_route_210_lower_barricade_none") then
+        return true
+    elseif has("opt_route_210_lower_barricade_bicycle_slope") then
+        return true
+    elseif has("opt_route_210_lower_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_210_lower_barricade_surf") then
+        return surf()
+    elseif has("opt_route_210_lower_barricade_waterfall") then
+        return surf() and down_waterfall()
+    elseif has("opt_route_210_lower_barricade_impassable") then
+        return false
+    elseif has("opt_route_210_lower_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_210_lower_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_210_lower_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_210_lower_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_cut_tree") then
+        return cut()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_strength_boulder") then
+        return strength()
+    elseif has("opt_route_210_lower_barricade_bicycle_slope_and_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_210_lower_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_surf_and_cut_tree") then
+        return surf() and cut()
+    elseif has("opt_route_210_lower_barricade_surf_and_rock_smash") then
+        return surf() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_surf_and_strength_boulder") then
+        return surf() and strength()
+    elseif has("opt_route_210_lower_barricade_surf_and_psyduck") then
+        return surf() and has("secretpotion")
+    elseif has("opt_route_210_lower_barricade_waterfall_and_cut_tree") then
+        return surf() and down_waterfall() and cut()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_rock_smash") then
+        return surf() and down_waterfall() and rock_smash()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_strength_boulder") then
+        return surf() and down_waterfall() and strength()
+    elseif has("opt_route_210_lower_barricade_waterfall_and_psyduck") then
+        return surf() and down_waterfall() and has("secretpotion")
+    end
+end
+
+function route_215_barricade_east()
+    if has("opt_route_215_barricade_none") then
+        return true
+    elseif has("opt_route_215_barricade_bicycle_bridge") then
+        return has("bicycle")
+    elseif has("opt_route_215_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_215_barricade_surf") then
+        return surf()
+    elseif has("opt_route_215_barricade_waterfall") then
+        return surf() and waterfall()
+    elseif has("opt_route_215_barricade_impassable") then
+        return false
+    elseif has("opt_route_215_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_215_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_215_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_215_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_cut_tree") then
+        return has("bicycle") and cut()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_rock_smash") then
+        return has("bicycle") and rock_smash()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_strength_boulder") then
+        return has("bicycle") and strength()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_psyduck") then
+        return has("bicycle") and has("secretpotion")
+    elseif has("opt_route_215_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_215_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_215_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_215_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    elseif has("opt_route_215_barricade_surf_and_cut_tree") then
+        return surf() and cut()
+    elseif has("opt_route_215_barricade_surf_and_rock_smash") then
+        return surf() and rock_smash()
+    elseif has("opt_route_215_barricade_surf_and_strength_boulder") then
+        return surf() and strength()
+    elseif has("opt_route_215_barricade_surf_and_psyduck") then
+        return surf() and has("secretpotion")
+    elseif has("opt_route_215_barricade_waterfall_and_cut_tree") then
+        return surf() and waterfall() and cut()
+    elseif has("opt_route_215_barricade_waterfall_and_rock_smash") then
+        return surf() and waterfall() and rock_smash()
+    elseif has("opt_route_215_barricade_waterfall_and_strength_boulder") then
+        return surf() and waterfall() and strength()
+    elseif has("opt_route_215_barricade_waterfall_and_psyduck") then
+        return surf() and waterfall() and has("secretpotion")
+    end
+end
+
+function route_215_barricade_west()
+    if has("opt_route_215_barricade_none") then
+        return true
+    elseif has("opt_route_215_barricade_bicycle_bridge") then
+        return has("bicycle")
+    elseif has("opt_route_215_barricade_rock_climb") then
+        return rock_climb()
+    elseif has("opt_route_215_barricade_surf") then
+        return surf()
+    elseif has("opt_route_215_barricade_waterfall") then
+        return surf() and down_waterfall()
+    elseif has("opt_route_215_barricade_impassable") then
+        return false
+    elseif has("opt_route_215_barricade_cut_tree") then
+        return cut()
+    elseif has("opt_route_215_barricade_rock_smash") then
+        return rock_smash()
+    elseif has("opt_route_215_barricade_strength_boulder") then
+        return strength()
+    elseif has("opt_route_215_barricade_psyduck") then
+        return has("secretpotion")
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_cut_tree") then
+        return has("bicycle") and cut()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_rock_smash") then
+        return has("bicycle") and rock_smash()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_strength_boulder") then
+        return has("bicycle") and strength()
+    elseif has("opt_route_215_barricade_bicycle_bridge_and_psyduck") then
+        return has("bicycle") and has("secretpotion")
+    elseif has("opt_route_215_barricade_rock_climb_and_cut_tree") then
+        return rock_climb() and cut()
+    elseif has("opt_route_215_barricade_rock_climb_and_rock_smash") then
+        return rock_climb() and rock_smash()
+    elseif has("opt_route_215_barricade_rock_climb_and_strength_boulder") then
+        return rock_climb() and strength()
+    elseif has("opt_route_215_barricade_rock_climb_and_psyduck") then
+        return rock_climb() and has("secretpotion")
+    elseif has("opt_route_215_barricade_surf_and_cut_tree") then
+        return surf() and cut()
+    elseif has("opt_route_215_barricade_surf_and_rock_smash") then
+        return surf() and rock_smash()
+    elseif has("opt_route_215_barricade_surf_and_strength_boulder") then
+        return surf() and strength()
+    elseif has("opt_route_215_barricade_surf_and_psyduck") then
+        return surf() and has("secretpotion")
+    elseif has("opt_route_215_barricade_waterfall_and_cut_tree") then
+        return surf() and down_waterfall() and cut()
+    elseif has("opt_route_215_barricade_waterfall_and_rock_smash") then
+        return surf() and down_waterfall() and rock_smash()
+    elseif has("opt_route_215_barricade_waterfall_and_strength_boulder") then
+        return surf() and down_waterfall() and strength()
+    elseif has("opt_route_215_barricade_waterfall_and_psyduck") then
+        return surf() and down_waterfall() and has("secretpotion")
+    end
+end
+
+function veilstone_bicycle_from_solaceon()
+    if has("opt_route_215_barricade_impassable")
+    or has("opt_route_215_barricade_surf")
+    or has("opt_route_215_barricade_surf_and_cut_tree")
+    or has("opt_route_215_barricade_surf_and_rock_smash")
+    or has("opt_route_215_barricade_surf_and_strength_boulder")
+    or has("opt_route_215_barricade_surf_and_psyduck")
+    or has("opt_route_215_barricade_waterfall")
+    or has("opt_route_215_barricade_waterfall_and_cut_tree")
+    or has("opt_route_215_barricade_waterfall_and_rock_smash")
+    or has("opt_route_215_barricade_waterfall_and_strength_boulder")
+    or has("opt_route_215_barricade_waterfall_and_psyduck")
+    or has("opt_route_210_lower_barricade_impassable")
+    or has("opt_route_210_lower_barricade_surf")
+    or has("opt_route_210_lower_barricade_surf_and_cut_tree")
+    or has("opt_route_210_lower_barricade_surf_and_rock_smash")
+    or has("opt_route_210_lower_barricade_surf_and_strength_boulder")
+    or has("opt_route_210_lower_barricade_surf_and_psyduck")
+    or has("opt_route_210_lower_barricade_waterfall")
+    or has("opt_route_210_lower_barricade_waterfall_and_cut_tree")
+    or has("opt_route_210_lower_barricade_waterfall_and_rock_smash")
+    or has("opt_route_210_lower_barricade_waterfall_and_strength_boulder")
+    or has("opt_route_210_lower_barricade_waterfall_and_psyduck") then
+        return has("bag")
+    end
+    return true
+end
+
 function marsh_pass()
     return has("opt_marsh_pass_off") or has("marshpass")
 end

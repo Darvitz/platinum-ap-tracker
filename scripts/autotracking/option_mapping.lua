@@ -54,6 +54,68 @@ SLOT_CODES = {
             [18] = 14,  -- rock_climb_and_strength_boulder
             [22] = 15,  -- rock_climb_and_psyduck
         }
+    },
+    route_210_lower_barricade = {
+        code = "opt_route_210_lower_barricade",
+        mapping = {
+            [0]  = 0,   -- none
+            [1]  = 1,   -- bicycle_slope
+            [2]  = 2,   -- rock_climb
+            [3]  = 3,   -- surf
+            [4]  = 4,   -- waterfall
+            [8]  = 5,   -- impassable
+            [16] = 6,   -- cut_tree
+            [24] = 7,   -- rock_smash
+            [32] = 8,   -- strength_boulder
+            [40] = 9,   -- psyduck
+            [17] = 10,  -- bicycle_slope_and_cut_tree
+            [25] = 11,  -- bicycle_slope_and_rock_smash
+            [33] = 12,  -- bicycle_slope_and_strength_boulder
+            [41] = 13,  -- bicycle_slope_and_psyduck
+            [18] = 14,  -- rock_climb_and_cut_tree
+            [26] = 15,  -- rock_climb_and_rock_smash
+            [34] = 16,  -- rock_climb_and_strength_boulder
+            [42] = 17,  -- rock_climb_and_psyduck
+            [19] = 18,  -- surf_and_cut_tree
+            [27] = 19,  -- surf_and_rock_smash
+            [35] = 20,  -- surf_and_strength_boulder
+            [43] = 21,  -- surf_and_psyduck
+            [20] = 22,  -- waterfall_and_cut_tree
+            [28] = 23,  -- waterfall_and_rock_smash
+            [36] = 24,  -- waterfall_and_strength_boulder
+            [44] = 25,  -- waterfall_and_psyduck
+        }
+    },
+    route_215_barricade = {
+        code = "opt_route_215_barricade",
+        mapping = {
+            [0]  = 0,   -- none
+            [1]  = 1,   -- bicycle_bridge
+            [2]  = 2,   -- rock_climb
+            [3]  = 3,   -- surf
+            [4]  = 4,   -- waterfall
+            [8]  = 5,   -- impassable
+            [16] = 6,   -- cut_tree
+            [24] = 7,   -- rock_smash
+            [32] = 8,   -- strength_boulder
+            [40] = 9,   -- psyduck
+            [17] = 10,  -- bicycle_bridge_and_cut_tree
+            [25] = 11,  -- bicycle_bridge_and_rock_smash
+            [33] = 12,  -- bicycle_bridge_and_strength_boulder
+            [41] = 13,  -- bicycle_bridge_and_psyduck
+            [18] = 14,  -- rock_climb_and_cut_tree
+            [26] = 15,  -- rock_climb_and_rock_smash
+            [34] = 16,  -- rock_climb_and_strength_boulder
+            [42] = 17,  -- rock_climb_and_psyduck
+            [19] = 18,  -- surf_and_cut_tree
+            [27] = 19,  -- surf_and_rock_smash
+            [35] = 20,  -- surf_and_strength_boulder
+            [43] = 21,  -- surf_and_psyduck
+            [20] = 22,  -- waterfall_and_cut_tree
+            [28] = 23,  -- waterfall_and_rock_smash
+            [36] = 24,  -- waterfall_and_strength_boulder
+            [44] = 25,  -- waterfall_and_psyduck
+        }
     }
 }
 
