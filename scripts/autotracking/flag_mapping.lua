@@ -20,7 +20,8 @@ FLAG_EVENT_CODES = {
     "event_clear_starkmountain",
     "event_roamer_1",
     "event_roamer_0",
-    "event_roamer_3"
+    "event_roamer_3",
+    "event_galactic_hq_looker"
 }
 
 FLAG_ITEM1_CODES = {
