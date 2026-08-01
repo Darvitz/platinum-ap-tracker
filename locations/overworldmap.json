@@ -16539,6 +16539,16 @@
                 "item_count": 1
             },
             {
+                "name": "Speak with the Looker Outside of Galactic HQ (Event)",
+                "access_rules": [
+                    "@veilstone_city, event_clear_lakeacuity"
+                ],
+                "visibility_rules": [
+                    "show_items",
+                ],
+                "hosted_item": "event_galactic_hq_looker"
+            },
+            {
                 "name": "Department Store 1F - Accessory from Socialite",
                 "access_rules": [
                     "@veilstone_store_1f"
