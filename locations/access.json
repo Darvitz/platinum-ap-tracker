@@ -572,7 +572,7 @@
     {
         "name": "galactic_hq_wo_key",
         "access_rules": [
-            "@veilstone_city_galactic_warehouse, event_galactic_hq_looker",
+            "@veilstone_city_galactic_warehouse, event_galactic_hq_looker, @veilstone_city",
             "@veilstone_city_galactic_warehouse, storagekey"
         ]
     },
