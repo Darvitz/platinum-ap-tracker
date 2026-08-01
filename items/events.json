@@ -153,4 +153,11 @@
         "img_mods": "",
         "codes":"event_roamer_3"
     },
+        {
+        "name": "Speak with the Looker Outside of Galactic HQ",
+        "type": "toggle",
+        "img": "/images/events/event_galactic_hq_looker.png",
+        "img_mods": "",
+        "codes":"event_galactic_hq_looker"
+    },
 ]
