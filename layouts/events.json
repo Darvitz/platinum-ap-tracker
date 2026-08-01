@@ -33,10 +33,11 @@
                                 "event_clear_lakeverity",
                                 "event_clear_lakeacuity",
                                 "event_galactic_hq_defeat_cyrus",
-                                "event_met_oak_at_palpark"
+                                "event_galactic_hq_looker"
                             ],
                             [
                                 "event_clear_starkmountain",
+                                "event_met_oak_at_palpark",
                                 "event_defeat_cynthia",
                                 "event_clear_distortion"
                             ]
@@ -74,6 +75,7 @@
                         "event_clear_lakeverity",
                         "event_clear_lakeacuity",
                         "event_galactic_hq_defeat_cyrus",
+                        "event_galactic_hq_looker",
                         "event_met_oak_at_palpark"
                     ],
                     [
