@@ -211,10 +211,10 @@
                 "evomethod_level",
                 "evomethod_happiness",
                 "evomethod_useitem",
-                "evomethod_helditem"
+                "evomethod_helditem",
+                "evomethod_time"
             ],
             [
-                "evomethod_time",
                 "evomethod_location",
                 "evomethod_mildlyannoying",
                 "evomethod_highlyannoying"

@@ -231,20 +231,31 @@ function levelup()
 end
 
 
-function evolve_item(value)
+function evolve_useitem(value)
     if not has(value) or not has("bag") then return end
     
-    if has("evomethod_item_on") then
+    if has("evomethod_useitem_on") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
     end
 end
 
+function evolve_helditem(value)
+    if not has(value) or not has("bag") then return end
+    
+    if has("evomethod_helditem_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+
 function evolve_trade_item(value)
     if not has(value) or not has("linkingcord") or not has("bag") then return end
     
-    if has("evomethod_item_on") then
+    if has("evomethod_useitem_on") and has("evomethod_helditem_on") then
         return evo_item_shop()
     else
         return AccessibilityLevel.SequenceBreak
@@ -271,11 +282,13 @@ end
 function evolve_highly(which)
     if has("evomethod_highly_on") then
         local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
-        if which == tyrogue then
+        if which == "tyrogue" then
             return math.max(veilstone, AccessibilityLevel.SequenceBreak)
-        elseif which == beauty then
+        elseif which == "beauty" then
             local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
             return math.min(veilstone, hearthome, has_level("poffincase"))
+        elseif which == "wurmple" then
+            return AccessibilityLevel.Normal
         end
     else
         return AccessibilityLevel.SequenceBreak
@@ -284,4 +297,16 @@ end
 
 function evolve_friendship()
     return AccessibilityLevel.Normal
+end
+
+function evolve_time(timeofday)
+    if timeofday == "night" then
+        if not night() then return AccessibilityLevel.None end
+    elseif timeofday == "day" then
+        if not day() then return AccessibilityLevel.None end
+    else
+        print("Typo!")
+    end
+
+    return math.max(has_level("evomethod_time_on"), AccessibilityLevel.SequenceBreak)
 end
