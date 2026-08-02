@@ -922,4 +922,7 @@
 { "name": "Old Chateau 2F", "map_locations": [ {"map": "oldchateauentrance", "x": 280, "y": 32}], "sections": [
 { "name": "2F - Item in Easternmost Bedroom", "ref": "Old Chateau/2F - Item in Easternmost Bedroom"},
 { "name": "2F - Item in Westernmost Bedroom", "ref": "Old Chateau/2F - Item in Westernmost Bedroom"}]},
+{ "name": "Canalave Boats", "map_locations": [ { "map": "canalavecity", "x": 224, "y": 545}], "sections": [
+{ "name": "Canalave to Pastoria Boat", "ref": "Canalave City/Canalave to Pastoria Boat"},
+{ "name": "Canalave to Snowpoint Boat", "ref": "Canalave City/Canalave to Snowpoint Boat"}]},
 ]}]

@@ -24,6 +24,15 @@ FLAG_EVENT_CODES = {
     "event_galactic_hq_looker"
 }
 
+FLAG_ROADBLOCKS = {
+    {flag="saw_route_210_barricade",      option="route_210_lower_barricade", hide_stage=26},
+    {flag="saw_route_215_west_barricade", option="route_215_barricade",       hide_stage=26},
+    {flag="saw_route_207_barricade",      option="route_207_barricade",       hide_stage=16},
+    {flag="saw_boat_canalave_snowpoint",  option="boat_canalave_snowpoint",   hide_stage=3},
+    {flag="saw_boat_canalave_pastoria",   option="boat_canalave_pastoria",    hide_stage=3},
+    {flag="saw_boat_pastoria_snowpoint",  option="boat_pastoria_snowpoint",   hide_stage=3},
+}
+
 FLAG_ITEM1_CODES = {
   {option="opt_overworld_off", codes={"reapercloth"}},
   {option="opt_badges_off", codes={"minebadge"}},

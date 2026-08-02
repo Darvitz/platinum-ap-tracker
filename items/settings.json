@@ -724,6 +724,12 @@
                 "img_mods": "overlay|images/settings/overlays/ssticket_tc.png",
                 "codes": "opt_boat_canalave_pastoria, opt_boat_canalave_pastoria_ssticket",
                 "inherit_codes": false
+            },
+            {
+                "name": "Canalave to Pastoria Boat - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_boat_canalave_pastoria, opt_boat_canalave_pastoria_unknown",
+                "inherit_codes": false
             }
         ]
     },
@@ -753,6 +759,12 @@
                 "img_mods": "overlay|images/settings/overlays/ssticket_br.png",
                 "codes": "opt_boat_canalave_snowpoint, opt_boat_canalave_snowpoint_ssticket",
                 "inherit_codes": false
+            },
+            {
+                "name": "Canalave to Snowpoint Boat - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_boat_canalave_snowpoint, opt_boat_canalave_snowpoint_unknown",
+                "inherit_codes": false
             }
         ]
     },
@@ -781,6 +793,12 @@
                 "img": "images/settings/opt_boat_pastoria_snowpoint.png",
                 "img_mods": "overlay|images/settings/overlays/ssticket_bl.png",
                 "codes": "opt_boat_pastoria_snowpoint, opt_boat_pastoria_snowpoint_ssticket",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pastoria to Snowpoint Boat - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_boat_pastoria_snowpoint, opt_boat_pastoria_snowpoint_unknown",
                 "inherit_codes": false
             }
         ]
@@ -886,6 +904,12 @@
                 "name": "Route 207 Barricade - Rock Climb + Psyduck",
                 "img": "images/settings/opt_route_207_barricade/rock_climb_and_psyduck.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb_and_psyduck",
+                "inherit_codes": false
+            },
+            {
+                "name": "Route 207 Barricade - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_route_207_barricade, opt_route_207_barricade_unknown",
                 "inherit_codes": false
             }
         ]
@@ -1052,6 +1076,12 @@
                 "img": "images/settings/opt_route_210_lower_barricade/waterfall_and_psyduck.png",
                 "codes": "opt_route_210_lower_barricade, opt_route_210_lower_barricade_waterfall_and_psyduck",
                 "inherit_codes": false
+            },
+            {
+                "name": "Route 210 Lower Barricade - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_route_210_lower_barricade, opt_route_210_lower_barricade_unknown",
+                "inherit_codes": false
             }
         ]
     },
@@ -1216,6 +1246,12 @@
                 "name": "Route 215 Barricade - Waterfall + Psyduck",
                 "img": "images/settings/opt_route_215_barricade/waterfall_and_psyduck.png",
                 "codes": "opt_route_215_barricade, opt_route_215_barricade_waterfall_and_psyduck",
+                "inherit_codes": false
+            },
+            {
+                "name": "Route 215 Barricade - Unknown (hidden)",
+                "img": "images/items/dragonscale.png",
+                "codes": "opt_route_215_barricade, opt_route_215_barricade_unknown",
                 "inherit_codes": false
             }
         ]

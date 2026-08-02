@@ -185,9 +185,28 @@ function onClear(slot_data)
 
 
 
+    local prevent_spoiling = {}
+    for _, name in ipairs(slot_data["prevent_poptracker_spoiling"] or {}) do
+        prevent_spoiling[name] = true
+    end
+    SAVED_ROADBLOCKS = {}
+
+    local roadblock_by_option = {}
+    for _, rb in ipairs(FLAG_ROADBLOCKS) do
+        roadblock_by_option[rb.option] = rb
+    end
+
     for k, v in pairs(slot_data) do
         if SLOT_CODES[k] then
-            Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
+            local stage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
+            local rb = roadblock_by_option[k]
+            if rb then
+                SAVED_ROADBLOCKS[k] = stage
+                if prevent_spoiling[k] then
+                    stage = rb.hide_stage
+                end
+            end
+            Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = stage
         elseif LIST_CODES[k] then
             for _, code in pairs(LIST_CODES[k].values) do
                 Tracker:FindObjectForCode(code).CurrentStage = LIST_CODES[k].mapping[0]
@@ -237,6 +256,7 @@ function onClear(slot_data)
         end
     end
     
+    -- resetting datastorage events that aren't reset at other places
     updateEvents(0)
 
     for register = 1, 5 do
@@ -251,6 +271,8 @@ function onClear(slot_data)
             end
         end
     end
+    -- note: hints, seen, caught, are reset in other places
+    --
 
     if Archipelago.PlayerNumber > -1 then
         local suffix = TEAM_NUMBER .. "_" .. PLAYER_ID
@@ -259,6 +281,7 @@ function onClear(slot_data)
             EVENT      = makeID("tracked_events_"),
             SEEN       = makeID("seen_pokemon_"),
             CAUGHT     = makeID("caught_pokemon_"),
+            ROADBLOCK  = makeID("saw_locations_"),
             KEY1       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_0",
             KEY2       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_1",
             KEY3       = "pokemon_platinum_tracked_unrandomized_required_locations_"..suffix.."_2",
@@ -430,6 +453,8 @@ function onNotify(key, value, old_value)
     if value ~= nil and value ~= 0 and old_value ~= value then
         if key == IDs.EVENT then
             updateEvents(value)
+        elseif key == IDs.ROADBLOCK then
+            updateRoadblock(value)
         elseif key == IDs.KEY1 then
             updateVanillaKeyItems(1, value)
         elseif key == IDs.KEY2 then
@@ -456,6 +481,15 @@ function updateEvents(value)
         for i, code in ipairs(FLAG_EVENT_CODES) do
             local bit = (value >> (i - 1)) & 1
             Tracker:FindObjectForCode(code).Active = (bit == 1)
+        end
+    end
+end
+
+function updateRoadblock(value)
+    for i, rb in ipairs(FLAG_ROADBLOCKS) do
+        local bit = (value >> (i - 1)) & 1
+        if bit == 1 then
+            Tracker:FindObjectForCode(SLOT_CODES[rb.option].code).CurrentStage = SAVED_ROADBLOCKS[rb.option]
         end
     end
 end
