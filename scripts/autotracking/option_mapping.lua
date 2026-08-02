@@ -129,3 +129,37 @@ HM_CODES = {
     waterfall = "hm07waterfall",
     rock_climb = "hm08rockclimb"
 }
+
+LIST_CODES = {
+    in_logic_encounters = {
+        mapping = MAP_TOGGLE,
+        values = {
+            ["trophy_garden"]               = "encmethod_trophygarden",
+            ["poke_radar"]                  = "encmethod_radar",
+            ["swarms"]                      = "encmethod_swarm",
+            ["surf"]                        = "encmethod_surf",
+            ["rodsTODO"]                    = "encmethod_fishing",
+            ["feebas_fishing"]              = "encmethod_feebasfishing",
+            ["cartridgesTODO"]              = "encmethod_cartridge",
+            ["timeTODO"]                    = "encmethod_time",
+            ["great_marshTODO"]             = "encmethod_greatmarsh",
+            ["regular_honey_tree"]          = "encmethod_honeytree",
+            ["munchlax_honey_tree"]         = "encmethod_munchlaxtree",
+            ["roamers"]                     = "encmethod_roamer",
+            ["odd_keystone"]                = "encmethod_oddkeystone",
+        }
+    },
+    in_logic_encounters = {
+        mapping = MAP_TOGGLE,
+        values = {
+            ["level"]               = "evomethod_level",
+            ["happiness"]               = "evomethod_happiness",
+            ["use_item"]               = "evomethod_useitem",
+            ["held_item"]               = "evomethod_helditem",
+            ["time"]               = "evomethod_time",
+            ["location"]               = "evomethod_location",
+            ["mildly_annoying"]               = "evomethod_mildlyannoying",
+            ["highly_annoying"]               = "evomethod_highlyannoying",
+        }
+    }
+}

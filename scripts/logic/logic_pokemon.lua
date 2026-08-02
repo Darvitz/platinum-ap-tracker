@@ -5,13 +5,13 @@ end
 function day_encounters()
     if not day() then return AccessibilityLevel.None end
     
-    return math.max(has_level("encmethod_timeofday_on"), AccessibilityLevel.SequenceBreak)
+    return math.max(has_level("encmethod_time_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function night_encounters()
     if not night() then return AccessibilityLevel.None end
     
-    return math.max(has_level("encmethod_timeofday_on"), AccessibilityLevel.SequenceBreak)
+    return math.max(has_level("encmethod_time_on"), AccessibilityLevel.SequenceBreak)
 end
 
 function radar_encounters()
@@ -253,7 +253,7 @@ end
 
 function evolve_area(area)
     local evo_area = Tracker:FindObjectForCode("@"..area).AccessibilityLevel
-    if has("evomethod_geographical_on") then
+    if has("evomethod_location_on") then
         return evo_area
     else
         math.min(evo_area, AccessibilityLevel.SequenceBreak)

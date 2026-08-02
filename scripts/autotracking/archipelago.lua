@@ -188,6 +188,17 @@ function onClear(slot_data)
     for k, v in pairs(slot_data) do
         if SLOT_CODES[k] then
             Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
+        elseif LIST_CODES[k] then
+            for _, code in pairs(LIST_CODES[k].values) do
+                Tracker:FindObjectForCode(code).CurrentStage = LIST_CODES[k].mapping[0]
+            end
+        
+            for _, name in ipairs(v or {}) do
+                local code = LIST_CODES[k].values[name]
+                if code then
+                    Tracker:FindObjectForCode(code).CurrentStage = LIST_CODES[k].mapping[1]
+                end
+            end
         elseif k == "regional_dex_goal" then
             Tracker:FindObjectForCode("regional_dex_goal").AcquiredCount = v
         elseif k == "hm_badge_requirement" then
