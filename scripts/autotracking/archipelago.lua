@@ -51,17 +51,12 @@ function onClear(slot_data)
         Tracker:AddLayouts("layouts/errors/error_manual.json")
         return
     elseif GAME == "Pokemon Platinum" then
-        if slot_data["version"] == nil then
-            Tracker:AddLocations("locations/oldversionsupport.json")
-            -- pass
+        local version = tostring(slot_data["version"])
+        local major_version = version:match("^([^.]+%.[^.]+)%.")
+        if major_version == "0.2" then
+            -- yey. pass.
         else
-            local version = tostring(slot_data["version"])
-            local major_version = version:match("^([^.]+%.[^.]+)%.")
-            if major_version == "0.2" then
-                -- yey. pass.
-            else
-                Tracker:AddLayouts("layouts/errors/error_version.json")
-            end
+            Tracker:AddLayouts("layouts/errors/error_version.json")
         end
     else
         Tracker:AddLayouts("layouts/errors/error_game.json")
