@@ -159,11 +159,11 @@
                 "opt_early_sunyshore",
                 "opt_pastoria_barriers",
                 "regional_dex_goal",
-                "opt_route_207_barricade",
-                "opt_route_210_lower_barricade",
-                "opt_route_215_barricade"
+                "opt_route_207_barricade"
             ],
             [
+                "opt_route_210_lower_barricade",
+                "opt_route_215_barricade",
                 "opt_boat_canalave_snowpoint",
                 "opt_boat_canalave_pastoria",
                 "opt_boat_pastoria_snowpoint"
