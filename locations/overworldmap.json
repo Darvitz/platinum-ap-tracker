@@ -16539,7 +16539,7 @@
                 "item_count": 1
             },
             {
-                "name": "Speak with the Looker Outside of Galactic HQ (Event)",
+                "name": "Speak with Looker Outside of Galactic HQ (Event)",
                 "access_rules": [
                     "@veilstone_city, event_clear_lakeacuity"
                 ],
