@@ -794,97 +794,97 @@
         "stages": [
             {
                 "name": "Route 207 Barricade - None",
-                "img": "images/settings/opt_route_207_barricade_none.png",
+                "img": "images/settings/opt_route_207_barricade/none.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_none",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Bicycle Slope",
-                "img": "images/settings/opt_route_207_barricade_bicycle_slope.png",
+                "img": "images/settings/opt_route_207_barricade/bicycle_slope.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_bicycle_slope",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Climb",
-                "img": "images/settings/opt_route_207_barricade_rock_climb.png",
+                "img": "images/settings/opt_route_207_barricade/rock_climb.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Impassable",
-                "img": "images/settings/opt_route_207_barricade_impassable.png",
+                "img": "images/settings/opt_route_207_barricade/impassable.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_impassable",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Cut Tree",
-                "img": "images/settings/opt_route_207_barricade_cut_tree.png",
+                "img": "images/settings/opt_route_207_barricade/cut_tree.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_cut_tree",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Smash",
-                "img": "images/settings/opt_route_207_barricade_rock_smash.png",
+                "img": "images/settings/opt_route_207_barricade/rock_smash.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_smash",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Strength Boulder",
-                "img": "images/settings/opt_route_207_barricade_strength_boulder.png",
+                "img": "images/settings/opt_route_207_barricade/strength_boulder.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_strength_boulder",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Psyduck",
-                "img": "images/settings/opt_route_207_barricade_psyduck.png",
+                "img": "images/settings/opt_route_207_barricade/psyduck.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_psyduck",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Bicycle Slope + Cut Tree",
-                "img": "images/settings/opt_route_207_barricade_bicycle_slope_and_cut_tree.png",
+                "img": "images/settings/opt_route_207_barricade/bicycle_slope_and_cut_tree.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_bicycle_slope_and_cut_tree",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Bicycle Slope + Rock Smash",
-                "img": "images/settings/opt_route_207_barricade_bicycle_slope_and_rock_smash.png",
+                "img": "images/settings/opt_route_207_barricade/bicycle_slope_and_rock_smash.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_bicycle_slope_and_rock_smash",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Bicycle Slope + Strength Boulder",
-                "img": "images/settings/opt_route_207_barricade_bicycle_slope_and_strength_boulder.png",
+                "img": "images/settings/opt_route_207_barricade/bicycle_slope_and_strength_boulder.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_bicycle_slope_and_strength_boulder",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Bicycle Slope + Psyduck",
-                "img": "images/settings/opt_route_207_barricade_bicycle_slope_and_psyduck.png",
+                "img": "images/settings/opt_route_207_barricade/bicycle_slope_and_psyduck.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_bicycle_slope_and_psyduck",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Climb + Cut Tree",
-                "img": "images/settings/opt_route_207_barricade_rock_climb_and_cut_tree.png",
+                "img": "images/settings/opt_route_207_barricade/rock_climb_and_cut_tree.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb_and_cut_tree",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Climb + Rock Smash",
-                "img": "images/settings/opt_route_207_barricade_rock_climb_and_rock_smash.png",
+                "img": "images/settings/opt_route_207_barricade/rock_climb_and_rock_smash.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb_and_rock_smash",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Climb + Strength Boulder",
-                "img": "images/settings/opt_route_207_barricade_rock_climb_and_strength_boulder.png",
+                "img": "images/settings/opt_route_207_barricade/rock_climb_and_strength_boulder.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb_and_strength_boulder",
                 "inherit_codes": false
             },
             {
                 "name": "Route 207 Barricade - Rock Climb + Psyduck",
-                "img": "images/settings/opt_route_207_barricade_rock_climb_and_psyduck.png",
+                "img": "images/settings/opt_route_207_barricade/rock_climb_and_psyduck.png",
                 "codes": "opt_route_207_barricade, opt_route_207_barricade_rock_climb_and_psyduck",
                 "inherit_codes": false
             }
