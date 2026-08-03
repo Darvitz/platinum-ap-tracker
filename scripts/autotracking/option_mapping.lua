@@ -132,7 +132,6 @@ HM_CODES = {
 
 LIST_CODES = {
     in_logic_encounters = {
-        mapping = MAP_TOGGLE,
         values = {
             ["trophy_garden"]               = "encmethod_trophygarden",
             ["poke_radar"]                  = "encmethod_radar",
@@ -150,16 +149,15 @@ LIST_CODES = {
         }
     },
     in_logic_encounters = {
-        mapping = MAP_TOGGLE,
         values = {
             ["level"]               = "evomethod_level",
-            ["happiness"]               = "evomethod_happiness",
-            ["use_item"]               = "evomethod_useitem",
-            ["held_item"]               = "evomethod_helditem",
-            ["time"]               = "evomethod_time",
-            ["location"]               = "evomethod_location",
-            ["mildly_annoying"]               = "evomethod_mildlyannoying",
-            ["highly_annoying"]               = "evomethod_highlyannoying",
+            ["happiness"]           = "evomethod_happiness",
+            ["use_item"]            = "evomethod_useitem",
+            ["held_item"]           = "evomethod_helditem",
+            ["time"]                = "evomethod_time",
+            ["location"]            = "evomethod_location",
+            ["mildly_annoying"]     = "evomethod_mildlyannoying",
+            ["highly_annoying"]     = "evomethod_highlyannoying",
         }
     }
 }
