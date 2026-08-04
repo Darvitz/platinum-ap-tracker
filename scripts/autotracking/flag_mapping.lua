@@ -77,7 +77,7 @@ FLAG_ITEM2_CODES = {
   {option="opt_keyitems_off", codes={"galactickey"}},
   {option="opt_hidden_off", codes={"leafstone"}},
   {option="opt_badges_off", codes={"relicbadge"}},
-  {option="opt_hidden_off", codes={"poffincase"}},
+  {option="opt_keyitems_off", codes={"poffincase"}},
   {option="opt_overworld_off", codes={"protector"}},
   {option="opt_overworld_off", codes={"shinystone"}},
   {option="opt_hms_off", codes={"hm04strength"}},
