@@ -1398,7 +1398,7 @@
                 "item_count": 1
             },
             {
-                "name": "2F - Item From Northern 1F Stairs",
+                "name": "2F - Item from Northern 1F Stairs",
                 "access_rules": [
                     "@victory_road_2f_north_alcove, $strength"
                 ],
@@ -4571,7 +4571,7 @@
                 "hosted_item": "bag"
             },
             {
-                "name": "Item From Mom",
+                "name": "Item from Mom",
                 "access_rules": [
                     "@twinleaf_town_player_house_1f"
                 ],
@@ -8491,7 +8491,7 @@
                 "hosted_item": "event_defeat_fantina"
             },
             {
-                "name": "Gym - Badge From Fantina",
+                "name": "Gym - Badge from Fantina",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -8501,7 +8501,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Badge From Fantina\u200b",
+                "name": "Gym - Badge from Fantina\u200b",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -8511,7 +8511,7 @@
                 "hosted_item": "relicbadge"
             },
             {
-                "name": "Gym - Gift From Fantina",
+                "name": "Gym - Gift from Fantina",
                 "access_rules": [
                     "@hearthome_city_gym_leader_room"
                 ],
@@ -9290,7 +9290,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item Across From Pikachu Cosplayer",
+                "name": "Item Across from Pikachu Cosplayer",
                 "access_rules": [
                     "@route_209"
                 ],
@@ -9712,7 +9712,7 @@
                 "item_count": 1
             },
             {
-                "name": "Item From Woman in Far East House",
+                "name": "Item from Woman in Far East House",
                 "access_rules": [
                     "@solaceon_town_east_house"
                 ],
@@ -12442,7 +12442,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift From Rich Boy Above Pikachu House",
+                "name": "Gift from Rich Boy Above Pikachu House",
                 "access_rules": [
                     "@route_222"
                 ],
@@ -12932,7 +12932,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item After Rock Climbing From Route 213",
+                "name": "Hidden Item After Rock Climbing from Route 213",
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
@@ -12944,7 +12944,7 @@
                 "item_count": 1
             },
             {
-                "name": "Hidden Item After Rock Climbing From Route 213\u200b",
+                "name": "Hidden Item After Rock Climbing from Route 213\u200b",
                 "access_rules": [
                     "@valor_lakefront, $rock_climb, ^$hidden"
                 ],
@@ -13139,7 +13139,7 @@
                 "hosted_item": "hm07waterfall"
             },
             {
-                "name": "Third Item From Developer",
+                "name": "Third Item from Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -13149,7 +13149,7 @@
                 "item_count": 1
             },
             {
-                "name": "Second Item From Developer",
+                "name": "Second Item from Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -13159,7 +13159,7 @@
                 "item_count": 1
             },
             {
-                "name": "First Item From Developer",
+                "name": "First Item from Developer",
                 "access_rules": [
                     "@sunyshore_city_east_house"
                 ],
@@ -15625,7 +15625,7 @@
                 "hosted_item": "event_defeat_gardenia"
             },
             {
-                "name": "Gym - Badge From Gardenia",
+                "name": "Gym - Badge from Gardenia",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -15635,7 +15635,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Badge From Gardenia\u200b",
+                "name": "Gym - Badge from Gardenia\u200b",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -15645,7 +15645,7 @@
                 "hosted_item": "forestbadge"
             },
             {
-                "name": "Gym - Gift From Gardenia",
+                "name": "Gym - Gift from Gardenia",
                 "access_rules": [
                     "@eterna_city_gym"
                 ],
@@ -17040,7 +17040,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gift From Man in Random Spot",
+                "name": "Gift from Man in Random Spot",
                 "access_rules": [
                     "@amity_square, ^$amity_square"
                 ],
@@ -20373,7 +20373,7 @@
                 "hosted_item": "event_defeat_roark"
             },
             {
-                "name": "Gym - Badge From Roark",
+                "name": "Gym - Badge from Roark",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -20383,7 +20383,7 @@
                 "item_count": 1
             },
             {
-                "name": "Gym - Badge From Roark\u200b",
+                "name": "Gym - Badge from Roark\u200b",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
@@ -20393,7 +20393,7 @@
                 "hosted_item": "coalbadge"
             },
             {
-                "name": "Gym - Gift From Roark",
+                "name": "Gym - Gift from Roark",
                 "access_rules": [
                     "@oreburgh_city_gym"
                 ],
