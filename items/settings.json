@@ -484,6 +484,13 @@
                 "img": "images/settings/opt_early_sunyshore_on.png",
                 "codes": "opt_early_sunyshore, opt_early_sunyshore_on",
                 "inherit_codes": false
+            },
+            {
+                "name": "Early Sunyshore - Unknown (hidden)",
+                "img": "images/settings/opt_early_sunyshore_on.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
+                "codes": "opt_early_sunyshore, opt_early_sunyshore_unknown",
+                "inherit_codes": false
             }
         ]
     },
@@ -504,6 +511,13 @@
                 "name": "Pastoria City is blocked behind Surf",
                 "img": "images/settings/opt_pastoria_barriers_on.png",
                 "codes": "opt_pastoria_barriers, opt_pastoria_barriers_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pastoria Barriers - Unknown (hidden)",
+                "img": "images/settings/opt_pastoria_barriers_on.png",
+                "img_mods": "overlay|images/settings/overlays/unknown.png",
+                "codes": "opt_pastoria_barriers, opt_pastoria_barriers_unknown",
                 "inherit_codes": false
             }
         ]
