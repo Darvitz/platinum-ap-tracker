@@ -7605,7 +7605,8 @@
                 "name": "Item on Northeast Island Past Bike Bridge",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $veilstone_bicycle_from_solaceon"
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $veilstone_bicycle_from_solaceon",
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $veilstone_bicycle_from_solaceon"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -7619,6 +7620,7 @@
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag, ^$hidden",
                     "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon, ^$hidden"
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $cut, $veilstone_bicycle_from_solaceon, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -7844,7 +7846,8 @@
                 "name": "Item on Ledge Above Move Tutor",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon"
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon",
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $cut, $veilstone_bicycle_from_solaceon"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -7855,7 +7858,8 @@
                 "name": "Item Near Scientist Between Cut Trees",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon"
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon",
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $cut, $veilstone_bicycle_from_solaceon"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -8000,7 +8004,8 @@
                 "name": "Scientist Shaun",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon"
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon",
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $cut, $veilstone_bicycle_from_solaceon"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -8012,7 +8017,8 @@
                 "name": "Parasol Lady Sabrina",
                 "access_rules": [
                     "@route_212_south, opt_pastoria_barriers_on, bicycle, $cut, bag",
-                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon"
+                    "@route_212_south, opt_pastoria_barriers_off, bicycle, $cut, $veilstone_bicycle_from_solaceon",
+                    "@route_212_south, opt_pastoria_barriers_unknown, bicycle, $cut, $veilstone_bicycle_from_solaceon"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
