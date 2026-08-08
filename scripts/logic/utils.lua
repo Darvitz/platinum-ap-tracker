@@ -149,14 +149,18 @@ function debug()
 
     for _, locationTable in pairs(LOCATION_MAPPING) do
         for _, locationCode in ipairs(locationTable) do
+            if locationCode:sub(1, 1) ~= "@" then
+                goto continue
+            end
             local obj = Tracker:FindObjectForCode(locationCode)
             if obj and obj.AccessibilityLevel == 6 then
                 count = count + 1
             end
+            ::continue::
         end
     end
 
-    print(count)
+    print("In logic: "..count)
 end
 
 function table_contains(table, element)
