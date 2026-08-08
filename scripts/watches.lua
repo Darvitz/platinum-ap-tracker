@@ -37,5 +37,5 @@ for _, code in ipairs({"pokedex_1", "pokedex_2", "pokedex_3"}) do
 end
 
 -- Debug
---ScriptHost:AddWatchForCode("debug", "*", debug)
+ScriptHost:AddWatchForCode("debug", "*", debug)
 --ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)
