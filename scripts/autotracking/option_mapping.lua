@@ -148,7 +148,7 @@ LIST_CODES = {
             ["odd_keystone"]                = "encmethod_oddkeystone",
         }
     },
-    in_logic_encounters = {
+    in_logic_evolution_methods = {
         values = {
             ["level"]               = "evomethod_level",
             ["happiness"]           = "evomethod_happiness",
