@@ -5148,7 +5148,19 @@
                     "@pastoria_city, {}"
                 ],
                 "visibility_rules": [
-                    "opt_boat_pastoria_snowpoint_unknown"
+                    "show_items, opt_boat_pastoria_snowpoint_unknown"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Pastoria to Canalave Boat",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
+                "access_rules": [
+                    "@pastoria_city, {}"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_boat_canalave_pastoria_unknown"
                 ],
                 "item_count": 1
             }
@@ -10423,7 +10435,7 @@
                     "@route_210_junction, {}"
                 ],
                 "visibility_rules": [
-                    "opt_route_210_lower_barricade_unknown"
+                    "show_items, opt_route_210_lower_barricade_unknown"
                 ],
                 "item_count": 1
             }
@@ -14062,7 +14074,7 @@
                     "@canalave_city, {}"
                 ],
                 "visibility_rules": [
-                    "opt_boat_canalave_pastoria_unknown"
+                    "show_items, opt_boat_canalave_pastoria_unknown"
                 ],
                 "item_count": 1
             },
@@ -14074,7 +14086,7 @@
                     "@canalave_city, {}"
                 ],
                 "visibility_rules": [
-                    "opt_boat_canalave_snowpoint_unknown"
+                    "show_items, opt_boat_canalave_snowpoint_unknown"
                 ],
                 "item_count": 1
             }
@@ -18212,7 +18224,7 @@
                     "@route_207, {}"
                 ],
                 "visibility_rules": [
-                    "opt_route_207_barricade_unknown"
+                    "show_items, opt_route_207_barricade_unknown"
                 ],
                 "item_count": 1
             }
@@ -19361,6 +19373,30 @@
                     "show_items, $partial_trainersanity, opt_trainer_327999"
                 ],
                 "item_count": 1
+            },
+            {
+                "name": "Snowpoint to Pastoria Boat",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
+                "access_rules": [
+                    "@snowpoint_city, {}"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_boat_pastoria_snowpoint_unknown"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Snowpoint to Canalave Boat",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
+                "access_rules": [
+                    "@snowpoint_city, {}"
+                ],
+                "visibility_rules": [
+                    "show_items, opt_boat_canalave_snowpoint_unknown"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -19751,7 +19787,7 @@
                     "@route_215, {}"
                 ],
                 "visibility_rules": [
-                    "opt_route_215_barricade_unknown"
+                    "show_items, opt_route_215_barricade_unknown"
                 ],
                 "item_count": 1
             }

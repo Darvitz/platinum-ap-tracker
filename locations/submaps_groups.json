@@ -925,4 +925,10 @@
 { "name": "Canalave Boats", "map_locations": [ { "map": "canalavecity", "x": 224, "y": 545}], "sections": [
 { "name": "Canalave to Pastoria Boat", "ref": "Canalave City/Canalave to Pastoria Boat"},
 { "name": "Canalave to Snowpoint Boat", "ref": "Canalave City/Canalave to Snowpoint Boat"}]},
+{ "name": "Snowpoint Boats", "map_locations": [ { "map": "snowpointcity", "x": 72, "y": 755}], "sections": [
+{ "name": "Snowpoint to Pastoria Boat", "ref": "Snowpoint City/Snowpoint to Pastoria Boat"},
+{ "name": "Snowpoint to Canalave Boat", "ref": "Snowpoint City/Snowpoint to Canalave Boat"}]},
+{ "name": "Pastoria Boats", "map_locations": [ { "map": "pastoriacity", "x": 696, "y": 592}], "sections": [
+{ "name": "Pastoria to Canalave Boat", "ref": "Pastoria City/Pastoria to Canalave Boat"},
+{ "name": "Pastoria to Snowpoint Boat", "ref": "Pastoria City/Pastoria to Snowpoint Boat"}]}
 ]}]
