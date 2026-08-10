@@ -368,7 +368,7 @@ function route_215_barricade_east()
     if has("opt_route_215_barricade_none") then
         return true
     elseif has("opt_route_215_barricade_bicycle_bridge") then
-        return has("bicycle")
+        return bicycle_through_route_210_barricade() and has("bicycle")
     elseif has("opt_route_215_barricade_rock_climb") then
         return rock_climb()
     elseif has("opt_route_215_barricade_surf") then
@@ -386,13 +386,13 @@ function route_215_barricade_east()
     elseif has("opt_route_215_barricade_psyduck") then
         return has("secretpotion")
     elseif has("opt_route_215_barricade_bicycle_bridge_and_cut_tree") then
-        return has("bicycle") and cut()
+        return bicycle_through_route_210_barricade() and has("bicycle") and cut()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_rock_smash") then
-        return has("bicycle") and rock_smash()
+        return bicycle_through_route_210_barricade() and has("bicycle") and rock_smash()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_strength_boulder") then
-        return has("bicycle") and strength()
+        return bicycle_through_route_210_barricade() and has("bicycle") and strength()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_psyduck") then
-        return has("bicycle") and has("secretpotion")
+        return bicycle_through_route_210_barricade() and has("bicycle") and has("secretpotion")
     elseif has("opt_route_215_barricade_rock_climb_and_cut_tree") then
         return rock_climb() and cut()
     elseif has("opt_route_215_barricade_rock_climb_and_rock_smash") then
@@ -424,7 +424,7 @@ function route_215_barricade_west()
     if has("opt_route_215_barricade_none") then
         return true
     elseif has("opt_route_215_barricade_bicycle_bridge") then
-        return has("bicycle")
+        return has("bag") and has("bicycle")
     elseif has("opt_route_215_barricade_rock_climb") then
         return rock_climb()
     elseif has("opt_route_215_barricade_surf") then
@@ -442,13 +442,13 @@ function route_215_barricade_west()
     elseif has("opt_route_215_barricade_psyduck") then
         return has("secretpotion")
     elseif has("opt_route_215_barricade_bicycle_bridge_and_cut_tree") then
-        return has("bicycle") and cut()
+        return has("bag") and has("bicycle") and cut()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_rock_smash") then
-        return has("bicycle") and rock_smash()
+        return has("bag") and has("bicycle") and rock_smash()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_strength_boulder") then
-        return has("bicycle") and strength()
+        return has("bag") and has("bicycle") and strength()
     elseif has("opt_route_215_barricade_bicycle_bridge_and_psyduck") then
-        return has("bicycle") and has("secretpotion")
+        return has("bag") and has("bicycle") and has("secretpotion")
     elseif has("opt_route_215_barricade_rock_climb_and_cut_tree") then
         return rock_climb() and cut()
     elseif has("opt_route_215_barricade_rock_climb_and_rock_smash") then
@@ -476,19 +476,8 @@ function route_215_barricade_west()
     end
 end
 
-function veilstone_bicycle_from_solaceon()
-    if has("opt_route_215_barricade_impassable")
-    or has("opt_route_215_barricade_surf")
-    or has("opt_route_215_barricade_surf_and_cut_tree")
-    or has("opt_route_215_barricade_surf_and_rock_smash")
-    or has("opt_route_215_barricade_surf_and_strength_boulder")
-    or has("opt_route_215_barricade_surf_and_psyduck")
-    or has("opt_route_215_barricade_waterfall")
-    or has("opt_route_215_barricade_waterfall_and_cut_tree")
-    or has("opt_route_215_barricade_waterfall_and_rock_smash")
-    or has("opt_route_215_barricade_waterfall_and_strength_boulder")
-    or has("opt_route_215_barricade_waterfall_and_psyduck")
-    or has("opt_route_210_lower_barricade_impassable")
+function bicycle_through_route_210_barricade()
+    if has("opt_route_210_lower_barricade_impassable")
     or has("opt_route_210_lower_barricade_surf")
     or has("opt_route_210_lower_barricade_surf_and_cut_tree")
     or has("opt_route_210_lower_barricade_surf_and_rock_smash")
@@ -502,6 +491,23 @@ function veilstone_bicycle_from_solaceon()
         return has("bag")
     end
     return true
+end
+
+function veilstone_bicycle_from_solaceon()
+    if has("opt_route_215_barricade_impassable")
+    or has("opt_route_215_barricade_surf")
+    or has("opt_route_215_barricade_surf_and_cut_tree")
+    or has("opt_route_215_barricade_surf_and_rock_smash")
+    or has("opt_route_215_barricade_surf_and_strength_boulder")
+    or has("opt_route_215_barricade_surf_and_psyduck")
+    or has("opt_route_215_barricade_waterfall")
+    or has("opt_route_215_barricade_waterfall_and_cut_tree")
+    or has("opt_route_215_barricade_waterfall_and_rock_smash")
+    or has("opt_route_215_barricade_waterfall_and_strength_boulder")
+    or has("opt_route_215_barricade_waterfall_and_psyduck") then
+        return has("bag")
+    end
+    return bicycle_through_route_210_barricade()
 end
 
 function marsh_pass()
