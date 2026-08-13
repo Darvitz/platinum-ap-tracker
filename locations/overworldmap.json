@@ -7563,6 +7563,19 @@
                 "visibility_rules": [
                     "show_mons"
                 ]
+            },
+			{
+                "name": "Pastoria Barriers",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
+                "access_rules": [
+                    "@route_212_north, {}",
+                    "@route_212_north_top, {}"
+                ],
+                "visibility_rules": [
+                    "opt_pastoria_barriers_unknown"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
@@ -13059,6 +13072,18 @@
                 "visibility_rules": [
                     "show_mons"
                 ]
+            },
+						{
+                "name": "Early Sunyshore",
+                "chest_unopened_img": "/images/settings/overlays/unknown.png",
+                "chest_opened_img": "/images/settings/overlays/unknown.png",
+                "access_rules": [
+                    "@valor_lakefront, {}",
+                ],
+                "visibility_rules": [
+                    "opt_early_sunyshore_unknown"
+                ],
+                "item_count": 1
             }
         ],
         "map_locations": [
