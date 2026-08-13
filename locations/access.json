@@ -1808,7 +1808,7 @@
         "name": "pokemon_league_south_south",
         "access_rules": [
             "@pokemon_league_south, $surf, $down_waterfall",
-            "@route_223, $surf"
+            "@route_223"
         ]
     },
     {
@@ -2391,7 +2391,7 @@
         "name": "route_223",
         "access_rules": [
             "@pokemon_league_south_south",
-            "@sunyshore_city"
+            "@sunyshore_city, $surf"
         ]
     },
     {

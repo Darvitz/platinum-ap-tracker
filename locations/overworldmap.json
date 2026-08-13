@@ -13442,7 +13442,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_223, $surf, ^$hidden"
+                    "@route_223, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -13452,7 +13452,7 @@
             {
                 "name": "Item Surrounded by West Rocks",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -13462,7 +13462,7 @@
             {
                 "name": "Swimmer Ricardo",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13473,7 +13473,7 @@
             {
                 "name": "Swimmer Colton",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13484,7 +13484,7 @@
             {
                 "name": "Swimmer Oscar",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13495,7 +13495,7 @@
             {
                 "name": "Swimmer Miranda",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13506,7 +13506,7 @@
             {
                 "name": "Swimmer Aubree",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13517,7 +13517,7 @@
             {
                 "name": "Swimmer Paige",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13595,7 +13595,7 @@
             {
                 "name": "Item Behind Sailor",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -13605,7 +13605,7 @@
             {
                 "name": "Northwest Item",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -13615,7 +13615,7 @@
             {
                 "name": "Northeast Item",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_overworld_on"
@@ -13627,7 +13627,7 @@
                 "chest_unopened_img": "/images/locations/hidden.png",
                 "chest_opened_img": "/images/locations/hiddenopen.png",
                 "access_rules": [
-                    "@route_223, $surf, ^$hidden"
+                    "@route_223, ^$hidden"
                 ],
                 "visibility_rules": [
                     "show_items, opt_hidden_on"
@@ -13637,7 +13637,7 @@
             {
                 "name": "Swimmer Crystal",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13648,7 +13648,7 @@
             {
                 "name": "Sailor Zachariah",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13659,7 +13659,7 @@
             {
                 "name": "Swimmer Cassandra",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13670,7 +13670,7 @@
             {
                 "name": "Swimmer Gabrielle",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13681,7 +13681,7 @@
             {
                 "name": "Swimmer Troy",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13692,7 +13692,7 @@
             {
                 "name": "Swimmer Francisco",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
@@ -13703,7 +13703,7 @@
             {
                 "name": "Swimmer Wesley",
                 "access_rules": [
-                    "@route_223, $surf"
+                    "@route_223"
                 ],
                 "visibility_rules": [
                     "show_items, opt_trainer_full",
