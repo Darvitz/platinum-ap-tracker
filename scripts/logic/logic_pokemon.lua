@@ -226,7 +226,11 @@ end
 --== Evolution Logic ==--
 
 function levelup()
-    return AccessibilityLevel.Normal
+    if has("evomethod_level_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
     -- yep. any level is always in logic.
 end
 
