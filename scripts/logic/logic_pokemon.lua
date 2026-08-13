@@ -284,17 +284,26 @@ function evolve_mildly(which)
 end
 
 function evolve_highly(which)
+    local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
+    local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
+    
     if has("evomethod_highly_on") then
-        local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
         if which == "tyrogue" then
             return math.max(veilstone, AccessibilityLevel.SequenceBreak)
         elseif which == "beauty" then
-            local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
             return math.min(veilstone, hearthome, has_level("poffincase"))
         elseif which == "wurmple" then
             return AccessibilityLevel.Normal
         end
     else
+        if which == "beauty" then
+            if math.min(veilstone, hearthome, has_level("poffincase")) == 5 then
+                goto continue
+            else
+                return AccessibilityLevel.None
+            end
+        end
+        ::continue::
         return AccessibilityLevel.SequenceBreak
     end
 end
