@@ -355,7 +355,13 @@ function searchMon()
         local dex2 = Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage
         local dex3 = Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage
         local dexID = dex1 * 100 + dex2 * 10 + dex3
-        
+
+        if dexID == 494 then
+            searchAmity()
+            Tracker:FindObjectForCode("go").CurrentStage = 0
+            return
+        end
+
         Tracker:FindObjectForCode("search_ID_result").CurrentStage = dexID
         
         local locations = POKEMON_TO_LOCATIONS[dexID]
@@ -384,6 +390,67 @@ function searchMon()
             end
         end
     end
-    
+
     Tracker:FindObjectForCode("go").CurrentStage = 0
+end
+
+
+-- for the three normal mons we just set the digit ID semi-manually and then use normal search
+function searchSpecificMon(dexID)
+    Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = math.floor(dexID / 100)
+    Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage = math.floor(dexID / 10) % 10
+    Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = dexID % 10
+    searchMon()
+end
+
+function searchGeodude()
+    searchSpecificMon(74)
+    Tracker:FindObjectForCode("search_geodude").CurrentStage = 0
+end
+
+function searchKecleon()
+    searchSpecificMon(352)
+    Tracker:FindObjectForCode("search_kecleon").CurrentStage = 0
+end
+
+function searchSnorlax()
+    searchSpecificMon(143)
+    Tracker:FindObjectForCode("search_snorlax").CurrentStage = 0
+end
+
+-- special handling so it looks for all Amity-Square eligible mons
+function searchAmity()
+    Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 4
+    Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage = 9
+    Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = 4
+    Tracker:FindObjectForCode("search_ID_result").CurrentStage = 494
+
+    local dexIds = amity_square_dex_ids()
+
+    if POKEMON_TO_LOCATIONS ~= nil then
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 2
+        Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
+
+        for region_key, location in pairs(ENCOUNTER_MAPPING) do
+            local object = Tracker:FindObjectForCode(location)
+            object.AvailableChestCount = 0
+        end
+
+        for _, dexID in ipairs(dexIds) do
+            local locations = POKEMON_TO_LOCATIONS[dexID]
+            if locations then
+                for _, location in ipairs(locations) do
+                    local object_name = ENCOUNTER_MAPPING[location]
+                    if object_name then
+                        local object = Tracker:FindObjectForCode(object_name)
+                        if object then
+                            object.AvailableChestCount = object.AvailableChestCount + 1
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    Tracker:FindObjectForCode("search_amity").CurrentStage = 0
 end

@@ -15,10 +15,13 @@ ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("opt_pastoria_barriers", "opt_pastoria_barriers", toggle_pastoriabarriers)
 ScriptHost:AddWatchForCode("opt_randomize_fly_items", "opt_randomize_fly_items", toggle_trackerlayout)
 
-
 -- Pokemon Related
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
 ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
+ScriptHost:AddWatchForCode("search_geodude_active", "search_geodude_active", searchGeodude)
+ScriptHost:AddWatchForCode("search_kecleon_active", "search_kecleon_active", searchKecleon)
+ScriptHost:AddWatchForCode("search_snorlax_active", "search_snorlax_active", searchSnorlax)
+ScriptHost:AddWatchForCode("search_amity_active", "search_amity_active", searchAmity)
 
 -- Other
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)

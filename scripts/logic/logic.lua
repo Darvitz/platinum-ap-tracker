@@ -540,7 +540,9 @@ function see_regional_mons()
     end
 end
 
-function amity_square()
+-- Dex IDs that can satisfy the Amity Square companion requirement.
+-- The National Dex unlocks four additional eligible Pokemon.
+function amity_square_dex_ids()
     local dexIds = {
         25,  -- Pikachu
         35,  -- Clefairy
@@ -560,14 +562,19 @@ function amity_square()
         440  -- Happiny
     }
 
-    for _, id in ipairs(dexIds) do
-        if has("caught_" .. id) then
-            return AccessibilityLevel.Normal
-        end
+    if has("national_dex") then
+        table.insert(dexIds, 39)  -- Jigglypuff
+        table.insert(dexIds, 255) -- Torchic
+        table.insert(dexIds, 285) -- Shroomish
+        table.insert(dexIds, 300) -- Skitty
     end
 
-    if has("national_dex") then
-        if has("caught_39") or has("caught_255") or has("caught_285") or has("caught_300") then
+    return dexIds
+end
+
+function amity_square()
+    for _, id in ipairs(amity_square_dex_ids()) do
+        if has("caught_" .. id) then
             return AccessibilityLevel.Normal
         end
     end
