@@ -571,7 +571,7 @@
     },
     {
         "name": "eternaforest",
-        "location_size": 14,
+        "location_size": 22,
         "location_border_thickness": 2,
         "img": "images/maps/eternaforest.png"
     },
