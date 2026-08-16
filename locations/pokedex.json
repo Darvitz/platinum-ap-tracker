@@ -230,7 +230,7 @@
 {"name": "Skarmory", "access_rules": ["caught_227"], "sections": [{"hosted_item": "caught_227"}],  "map_locations": [{"map": "johtodex", "x": 296, "y": 536, "shape": "rect"}]},
 {"name": "Houndour", "access_rules": ["caught_228"], "sections": [{"hosted_item": "caught_228"}],  "map_locations": [{"map": "johtodex", "x": 376, "y": 536, "shape": "rect"}]},
 {"name": "Houndoom", "access_rules": ["caught_229", "^$levelup|24, caught_228"], "sections": [{"hosted_item": "caught_229"}],  "map_locations": [{"map": "johtodex", "x": 456, "y": 536, "shape": "rect"}]},
-{"name": "Kingdra", "access_rules": ["caught_230", "^$evolve_trade_item|dragonscale, caught_116"], "sections": [{"hosted_item": "caught_230"}],  "map_locations": [{"map": "johtodex", "x": 536, "y": 536, "shape": "rect"}]},
+{"name": "Kingdra", "access_rules": ["caught_230", "^$evolve_trade_item|dragonscale, caught_117"], "sections": [{"hosted_item": "caught_230"}],  "map_locations": [{"map": "johtodex", "x": 536, "y": 536, "shape": "rect"}]},
 {"name": "Phanpy", "access_rules": ["caught_231"], "sections": [{"hosted_item": "caught_231"}],  "map_locations": [{"map": "johtodex", "x": 616, "y": 536, "shape": "rect"}]},
 {"name": "Donphan", "access_rules": ["caught_232", "^$levelup|25, caught_231"], "sections": [{"hosted_item": "caught_232"}],  "map_locations": [{"map": "johtodex", "x": 696, "y": 536, "shape": "rect"}]},
 {"name": "Porygon2", "access_rules": ["caught_233", "^$evolve_trade_item|upgrade, caught_137"], "sections": [{"hosted_item": "caught_233"}],  "map_locations": [{"map": "johtodex", "x": 776, "y": 536, "shape": "rect"}]},
