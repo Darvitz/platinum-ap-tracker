@@ -51,6 +51,14 @@ for _, code in ipairs(HOSTED_VANILLA_CODES) do
     ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
 end
 
+-- The edge cases. Those fuckers.
+local hosted_specific = {"coupon_1", "coupon_2", "coupon_3", "pokedex_1", "pokedex_2", "pokedex_3"}
+for _, code in ipairs(UNOWN_ITEMS) do table.insert(hosted_specific, code) end
+for _, code in ipairs(hosted_specific) do
+    ScriptHost:AddWatchForCode(code.."_hostsync", code, syncHostedFromBase)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
+end
+
 -- Debug
 --ScriptHost:AddWatchForCode("debug", "*", debug)
 --ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)

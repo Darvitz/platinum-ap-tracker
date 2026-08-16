@@ -9012,7 +9012,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "coupons, coupon_1",
+                "hosted_item": "coupon_1_hosted",
                 "clear_as_group": true
             },
             {
@@ -9033,7 +9033,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "coupons, coupon_2",
+                "hosted_item": "coupon_2_hosted",
                 "clear_as_group": true
             },
             {
@@ -9054,7 +9054,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "coupons, coupon_3",
+                "hosted_item": "coupon_3_hosted",
                 "clear_as_group": true
             },
             {
@@ -11205,7 +11205,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex, pokedex_2"
+                "hosted_item": "pokedex_2_hosted"
             },
             {
                 "name": "East - Fisherman Miguel",
@@ -11503,7 +11503,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_a"
+                "hosted_item": "unownfile_a_hosted"
             },
             {
                 "name": "B1F - Unown File B",
@@ -11525,7 +11525,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_b"
+                "hosted_item": "unownfile_b_hosted"
             },
             {
                 "name": "B1F - Unown File C",
@@ -11547,7 +11547,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_c"
+                "hosted_item": "unownfile_c_hosted"
             },
             {
                 "name": "B1F - Unown File D",
@@ -11569,7 +11569,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_d"
+                "hosted_item": "unownfile_d_hosted"
             },
             {
                 "name": "B2F - Unown File E",
@@ -11591,7 +11591,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_e"
+                "hosted_item": "unownfile_e_hosted"
             },
             {
                 "name": "B2F - Unown File F",
@@ -11613,7 +11613,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_f"
+                "hosted_item": "unownfile_f_hosted"
             },
             {
                 "name": "B2F - Unown File G",
@@ -11635,7 +11635,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_g"
+                "hosted_item": "unownfile_g_hosted"
             },
             {
                 "name": "B2F - Unown File H",
@@ -11657,7 +11657,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_h"
+                "hosted_item": "unownfile_h_hosted"
             },
             {
                 "name": "B3F - Unown File I",
@@ -11679,7 +11679,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_i"
+                "hosted_item": "unownfile_i_hosted"
             },
             {
                 "name": "B3F - Unown File J",
@@ -11701,7 +11701,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_j"
+                "hosted_item": "unownfile_j_hosted"
             },
             {
                 "name": "B3F - Unown File K",
@@ -11723,7 +11723,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_k"
+                "hosted_item": "unownfile_k_hosted"
             },
             {
                 "name": "B3F - Unown File L",
@@ -11745,7 +11745,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_l"
+                "hosted_item": "unownfile_l_hosted"
             },
             {
                 "name": "B4F - Unown File M",
@@ -11767,7 +11767,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_m"
+                "hosted_item": "unownfile_m_hosted"
             },
             {
                 "name": "B4F - Unown File N",
@@ -11789,7 +11789,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_n"
+                "hosted_item": "unownfile_n_hosted"
             },
             {
                 "name": "B5F - Unown File O",
@@ -11811,7 +11811,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_o"
+                "hosted_item": "unownfile_o_hosted"
             },
             {
                 "name": "B5F - Unown File P",
@@ -11833,7 +11833,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_p"
+                "hosted_item": "unownfile_p_hosted"
             },
             {
                 "name": "B3F - Unown File Q",
@@ -11855,7 +11855,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_q"
+                "hosted_item": "unownfile_q_hosted"
             },
             {
                 "name": "B3F - Unown File R",
@@ -11877,7 +11877,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_r"
+                "hosted_item": "unownfile_r_hosted"
             },
             {
                 "name": "B4F - Unown File S",
@@ -11899,7 +11899,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_s"
+                "hosted_item": "unownfile_s_hosted"
             },
             {
                 "name": "B4F - Unown File T",
@@ -11921,7 +11921,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_t"
+                "hosted_item": "unownfile_t_hosted"
             },
             {
                 "name": "Friendship Room - Unown File U",
@@ -11943,7 +11943,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_u"
+                "hosted_item": "unownfile_u_hosted"
             },
             {
                 "name": "B3F - Unown File V",
@@ -11965,7 +11965,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_v"
+                "hosted_item": "unownfile_v_hosted"
             },
             {
                 "name": "B4F - Unown File W",
@@ -11987,7 +11987,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_w"
+                "hosted_item": "unownfile_w_hosted"
             },
             {
                 "name": "B3F - Unown File X",
@@ -12009,7 +12009,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_x"
+                "hosted_item": "unownfile_x_hosted"
             },
             {
                 "name": "B2F - Unown File Y",
@@ -12031,7 +12031,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_y"
+                "hosted_item": "unownfile_y_hosted"
             },
             {
                 "name": "B1F - Unown File Z",
@@ -12053,7 +12053,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_z"
+                "hosted_item": "unownfile_z_hosted"
             },
             {
                 "name": "2F - Unown File !",
@@ -12075,7 +12075,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_ex"
+                "hosted_item": "unownfile_ex_hosted"
             },
             {
                 "name": "2F - Unown File ?",
@@ -12097,7 +12097,7 @@
                 "visibility_rules": [
                     "show_items, opt_unown_item, opt_hidden_off"
                 ],
-                "hosted_item": "unownfile, unownfile_qu"
+                "hosted_item": "unownfile_qu_hosted"
             },
             {
                 "name": "B2F - Ruin Maniac Karl",
@@ -21262,7 +21262,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex, pokedex_1"
+                "hosted_item": "pokedex_1_hosted"
             },
             {
                 "name": "Lab - First Item from Prof Oak",
@@ -21282,7 +21282,7 @@
                 "visibility_rules": [
                     "show_items, opt_pokedex_off"
                 ],
-                "hosted_item": "pokedex, pokedex_3"
+                "hosted_item": "pokedex_3_hosted"
             },
             {
                 "name": "Lab - Item from Prof Rowan (After Regional Dex)",
