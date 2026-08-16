@@ -41,8 +41,14 @@ end
 
 -- Event Location Syncs
 for _, code in ipairs(FLAG_EVENT_CODES) do
-    ScriptHost:AddWatchForCode(code, code, syncEventHosted)
-    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncEventFromHosted)
+    ScriptHost:AddWatchForCode(code, code, syncHostedFromBase)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
+end
+
+-- Vanilla Item Location Syncs
+for _, code in ipairs(HOSTED_VANILLA_CODES) do
+    ScriptHost:AddWatchForCode(code, code, syncHostedFromBase)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
 end
 
 -- Debug

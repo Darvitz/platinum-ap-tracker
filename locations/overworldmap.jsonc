@@ -313,7 +313,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "leafstone"
+                "hosted_item": "leafstone_hosted"
             },
             {
                 "name": "Area 4 - Item Above Bug Catcher",
@@ -872,7 +872,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "razorfang"
+                "hosted_item": "razorfang_hosted"
             },
             {
                 "name": "Item Behind Cut Trees Near Trainer Trio",
@@ -922,7 +922,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "dubiousdisc"
+                "hosted_item": "dubiousdisc_hosted"
             },
             {
                 "name": "Item on Northern Rock Climb Ledge",
@@ -942,7 +942,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "dawnstone"
+                "hosted_item": "dawnstone_hosted"
             },
             {
                 "name": "Item West of Bridge Section",
@@ -1008,7 +1008,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "leafstone"
+                "hosted_item": "leafstone_hosted"
             },
             {
                 "name": "Hidden Item in Center of Northernmost Grass Patch",
@@ -1328,7 +1328,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "razorclaw"
+                "hosted_item": "razorclaw_hosted"
             },
             {
                 "name": "1F - Item in Front of Foggy Basement Entrance",
@@ -1641,7 +1641,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "duskstone"
+                "hosted_item": "duskstone_hosted"
             },
             {
                 "name": "Side Cave B1F - Item in Bottom Right Corner of SW Pool",
@@ -2313,7 +2313,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "razorclaw"
+                "hosted_item": "razorclaw_hosted"
             },
             {
                 "name": "Item in NW Corner Between Two Psychics",
@@ -2638,7 +2638,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "upgrade"
+                "hosted_item": "upgrade_hosted"
             },
             {
                 "name": "Dragon Tamer Hayden",
@@ -3336,7 +3336,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "protector"
+                "hosted_item": "protector_hosted"
             },
             {
                 "name": "Item Northeast of Move Tutors House",
@@ -3366,7 +3366,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "shinystone"
+                "hosted_item": "shinystone_hosted"
             },
             {
                 "name": "Item Behind Breakable Rocks",
@@ -3725,7 +3725,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "waterstone"
+                "hosted_item": "waterstone_hosted"
             },
             {
                 "name": "Swimmer Glenn",
@@ -3963,7 +3963,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "kingsrock"
+                "hosted_item": "kingsrock_hosted"
             },
             {
                 "name": "Item from Black Belt in Lower Left House",
@@ -4055,7 +4055,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm03surf"
+                "hosted_item": "hm03surf_hosted"
             },
             {
                 "name": "Surf Encounters",
@@ -4142,7 +4142,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "reapercloth"
+                "hosted_item": "reapercloth_hosted"
             },
             {
                 "name": "Item in NE Corner",
@@ -4184,7 +4184,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "thunderstone"
+                "hosted_item": "thunderstone_hosted"
             },
             {
                 "name": "First Gift from Nugget Man",
@@ -4548,7 +4548,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "oddkeystone"
+                "hosted_item": "oddkeystone_hosted"
             },
             {
                 "name": "Item in Player's Bedroom",
@@ -4568,7 +4568,7 @@
                 "visibility_rules": [
                     "show_items, opt_bag_off"
                 ],
-                "hosted_item": "bag"
+                "hosted_item": "bag_hosted"
             },
             {
                 "name": "Item from Mom",
@@ -4608,7 +4608,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "parcel"
+                "hosted_item": "parcel_hosted"
             },
             {
                 "name": "Item from Mom (After Defeating Champion)",
@@ -4628,7 +4628,7 @@
                 "visibility_rules": [
                     "show_items, opt_ssticket_off"
                 ],
-                "hosted_item": "ssticket"
+                "hosted_item": "ssticket_hosted"
             },
             {
                 "name": "Surf Encounters",
@@ -5069,7 +5069,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "fenbadge"
+                "hosted_item": "fenbadge_hosted"
             },
             {
                 "name": "Gym - Gift from Crasher Wake",
@@ -5213,7 +5213,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm04strength"
+                "hosted_item": "hm04strength_hosted"
             },
             {
                 "name": "Byron's house - Gift from Byron",
@@ -5233,7 +5233,7 @@
                 "visibility_rules": [
                     "show_items, opt_npcgifts_off"
                 ],
-                "hosted_item": "metalcoat"
+                "hosted_item": "metalcoat_hosted"
             },
             {
                 "name": "B1F Left - Item on Raised Walkway",
@@ -5253,7 +5253,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "protector"
+                "hosted_item": "protector_hosted"
             },
             {
                 "name": "B1F Left - Item in Center",
@@ -5607,7 +5607,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "shinystone"
+                "hosted_item": "shinystone_hosted"
             },
             {
                 "name": "Iron Ruins - Item in Center",
@@ -5627,7 +5627,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "metalcoat"
+                "hosted_item": "metalcoat_hosted"
             },
             {
                 "name": "Iron Ruins - Hidden Item on Left",
@@ -6109,7 +6109,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "waterstone"
+                "hosted_item": "waterstone_hosted"
             },
             {
                 "name": "Item By Grass After Rock Climb Slope",
@@ -6247,7 +6247,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "suitekey"
+                "hosted_item": "suitekey_hosted"
             },
             {
                 "name": "Hidden Item on Right side of Eastern Beach",
@@ -7013,7 +7013,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "firestone"
+                "hosted_item": "firestone_hosted"
             },
             {
                 "name": "Heatran's Room - Defeat Team Galactic in Stark Mountain (Event)",
@@ -7941,7 +7941,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "dawnstone"
+                "hosted_item": "dawnstone_hosted"
             },
             {
                 "name": "Hidden Item in Deep Mud South of Honey Tree",
@@ -8142,7 +8142,7 @@
                 "visibility_rules": [
                     "show_items, opt_npcgifts_off"
                 ],
-                "hosted_item": "oddkeystone"
+                "hosted_item": "oddkeystone_hosted"
             },
             {
                 "name": "Berry Searcher App from Berry Masters Daughter",
@@ -8423,7 +8423,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "poffincase"
+                "hosted_item": "poffincase_hosted"
             },
             {
                 "name": "Gift from Woman in Hotel",
@@ -8539,7 +8539,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "relicbadge"
+                "hosted_item": "relicbadge_hosted"
             },
             {
                 "name": "Gym - Gift from Fantina",
@@ -8962,7 +8962,7 @@
                 "visibility_rules": [
                     "show_items, opt_rods_off"
                 ],
-                "hosted_item": "oldrod"
+                "hosted_item": "oldrod_hosted"
             },
             {
                 "name": "Item from Looker",
@@ -9075,7 +9075,7 @@
                 "visibility_rules": [
                     "show_items, opt_poketchapps_off"
                 ],
-                "hosted_item": "poketch"
+                "hosted_item": "poketch_hosted"
             },
             {
                 "name": "Second Item from CEO",
@@ -9155,7 +9155,7 @@
                 "visibility_rules": [
                     "show_items, opt_poketchapps_off"
                 ],
-                "hosted_item": "markingmap"
+                "hosted_item": "markingmap_hosted"
             },
             {
                 "name": "Poketch Company - Gift from CEO (5 Badges)",
@@ -9205,7 +9205,7 @@
                 "visibility_rules": [
                     "show_items, opt_cartridges_off"
                 ],
-                "hosted_item": "fireredcartridge"
+                "hosted_item": "fireredcartridge_hosted"
             },
             {
                 "name": "Item from Right DS Kid",
@@ -9225,7 +9225,7 @@
                 "visibility_rules": [
                     "show_items, opt_cartridges_off"
                 ],
-                "hosted_item": "leafgreencartridge"
+                "hosted_item": "leafgreencartridge_hosted"
             },
             {
                 "name": "Item from Schoolboy in Southwest Corner",
@@ -9245,7 +9245,7 @@
                 "visibility_rules": [
                     "show_items, opt_cartridges_off"
                 ],
-                "hosted_item": "sapphirecartridge"
+                "hosted_item": "sapphirecartridge_hosted"
             },
             {
                 "name": "Trainers' School - School Kid Harrison",
@@ -9436,7 +9436,7 @@
                 "visibility_rules": [
                     "show_items, opt_rods_off"
                 ],
-                "hosted_item": "goodrod"
+                "hosted_item": "goodrod_hosted"
             },
             {
                 "name": "Breeder Albert",
@@ -10059,7 +10059,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "shinystone"
+                "hosted_item": "shinystone_hosted"
             },
             {
                 "name": "Item in Northeast Grass Corner",
@@ -10264,7 +10264,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "oldcharm"
+                "hosted_item": "oldcharm_hosted"
             },
             {
                 "name": "Item Near Bottom Left Tree in Long Grass",
@@ -10489,7 +10489,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "ovalstone"
+                "hosted_item": "ovalstone_hosted"
             },
             {
                 "name": "2F - Hidden Item in Southeast Headstone",
@@ -11377,7 +11377,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "firestone"
+                "hosted_item": "firestone_hosted"
             },
             {
                 "name": "B3F - Hidden Item Down Bottom Left Staircase",
@@ -11399,7 +11399,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "waterstone"
+                "hosted_item": "waterstone_hosted"
             },
             {
                 "name": "B5F - Hidden Item Down Bottom Right Staircase",
@@ -11421,7 +11421,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "thunderstone"
+                "hosted_item": "thunderstone_hosted"
             },
             {
                 "name": "Friendship Room - Bottom Left Item",
@@ -11471,7 +11471,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm05defog"
+                "hosted_item": "hm05defog_hosted"
             },
             {
                 "name": "B1F - Gift for Lending Defog to Hiker",
@@ -12982,7 +12982,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "sunstone"
+                "hosted_item": "sunstone_hosted"
             },
             {
                 "name": "Hidden Item in Upper Corner of Grass",
@@ -13014,7 +13014,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "secretpotion"
+                "hosted_item": "secretpotion_hosted"
             },
             {
                 "name": "Gift from Locked Out Woman",
@@ -13135,7 +13135,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "thunderstone"
+                "hosted_item": "thunderstone_hosted"
             },
             {
                 "name": "Hidden Item Near Sunyshore Market",
@@ -13179,7 +13179,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm07waterfall"
+                "hosted_item": "hm07waterfall_hosted"
             },
             {
                 "name": "Third Item from Developer",
@@ -13229,7 +13229,7 @@
                 "visibility_rules": [
                     "show_items, opt_timeitems_off"
                 ],
-                "hosted_item": "daytime"
+                "hosted_item": "daytime_hosted"
             },
             {
                 "name": "Gym - School Kid Tiera",
@@ -13347,7 +13347,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "beaconbadge"
+                "hosted_item": "beaconbadge_hosted"
             },
             {
                 "name": "Gym - Gift from Volkner",
@@ -14010,7 +14010,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "minebadge"
+                "hosted_item": "minebadge_hosted"
             },
             {
                 "name": "Gym - Gift from Byron",
@@ -14406,7 +14406,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "electirizer"
+                "hosted_item": "electirizer_hosted"
             },
             {
                 "name": "Hidden Item Beyond Fence",
@@ -14492,7 +14492,7 @@
                 "visibility_rules": [
                     "show_items, opt_cartridges_off"
                 ],
-                "hosted_item": "rubycartridge"
+                "hosted_item": "rubycartridge_hosted"
             },
             {
                 "name": "Land Encounters",
@@ -14615,7 +14615,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "tm95doublehit"
+                "hosted_item": "tm95doublehit_hosted"
             },
             {
                 "name": "Item Left of South Entrance",
@@ -15016,7 +15016,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "firestone"
+                "hosted_item": "firestone_hosted"
             },
             {
                 "name": "Item in Lower Right Dead End",
@@ -15110,7 +15110,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "tm93rollout"
+                "hosted_item": "tm93rollout_hosted"
             },
             {
                 "name": "Worker Dillan",
@@ -15254,7 +15254,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "tm96mimic"
+                "hosted_item": "tm96mimic_hosted"
             },
             {
                 "name": "1F - Item on Left of Dining Area",
@@ -15522,7 +15522,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "moonstone"
+                "hosted_item": "moonstone_hosted"
             },
             {
                 "name": "First Item from Cynthia",
@@ -15542,7 +15542,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm01cut"
+                "hosted_item": "hm01cut_hosted"
             },
             {
                 "name": "Item from Rad Rickshaw",
@@ -15562,7 +15562,7 @@
                 "visibility_rules": [
                     "show_items, opt_bicycle_off"
                 ],
-                "hosted_item": "bicycle"
+                "hosted_item": "bicycle_hosted"
             },
             {
                 "name": "Pokemon Center - Item from Woman in Pokemon Center",
@@ -15612,7 +15612,7 @@
                 "visibility_rules": [
                     "show_items, opt_npcgifts_off"
                 ],
-                "hosted_item": "upgrade"
+                "hosted_item": "upgrade_hosted"
             },
             {
                 "name": "Gift from Old Woman in Condominiums",
@@ -15685,7 +15685,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "forestbadge"
+                "hosted_item": "forestbadge_hosted"
             },
             {
                 "name": "Gym - Gift from Gardenia",
@@ -15920,7 +15920,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "upgrade"
+                "hosted_item": "upgrade_hosted"
             }
         ],
         "map_locations": [
@@ -16161,7 +16161,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "magmarizer"
+                "hosted_item": "magmarizer_hosted"
             },
             {
                 "name": "Item in Fence Dead End Above Honey Tree",
@@ -16227,7 +16227,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "razorfang"
+                "hosted_item": "razorfang_hosted"
             },
             {
                 "name": "Ruin Maniac Bryan",
@@ -16743,7 +16743,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "cobblebadge"
+                "hosted_item": "cobblebadge_hosted"
             },
             {
                 "name": "Gym - Gift from Maylene",
@@ -16813,7 +16813,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "leafstone"
+                "hosted_item": "leafstone_hosted"
             },
             {
                 "name": "Middle Item Ball",
@@ -16985,7 +16985,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "workskey"
+                "hosted_item": "workskey_hosted"
             },
             {
                 "name": "Gift from Man after Grunts",
@@ -17129,7 +17129,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm02fly"
+                "hosted_item": "hm02fly_hosted"
             },
             {
                 "name": "Entrance - Item By Computer",
@@ -17149,7 +17149,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "duskstone"
+                "hosted_item": "duskstone_hosted"
             },
             {
                 "name": "B2F - Galactic Grunt 1",
@@ -17211,7 +17211,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "galactickey"
+                "hosted_item": "galactickey_hosted"
             },
             {
                 "name": "B1F - Item By Machine",
@@ -17231,7 +17231,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "linkingcord"
+                "hosted_item": "linkingcord_hosted"
             },
             {
                 "name": "1F - Galactic Grunt",
@@ -17283,7 +17283,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "dubiousdisc"
+                "hosted_item": "dubiousdisc_hosted"
             },
             {
                 "name": "2F - Galactic Grunt 1",
@@ -17555,7 +17555,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "razorclaw"
+                "hosted_item": "razorclaw_hosted"
             },
             {
                 "name": "Secret Lab - Item Next to Three Machines",
@@ -18102,7 +18102,7 @@
                 "visibility_rules": [
                     "show_items, opt_poketchapps_off"
                 ],
-                "hosted_item": "dowsingmachine"
+                "hosted_item": "dowsingmachine_hosted"
             },
             {
                 "name": "First Gift from Dawn or Lucas",
@@ -18809,7 +18809,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm08rockclimb"
+                "hosted_item": "hm08rockclimb_hosted"
             },
             {
                 "name": "Item Southeast of Hikers House",
@@ -19062,7 +19062,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "reapercloth"
+                "hosted_item": "reapercloth_hosted"
             },
             {
                 "name": "Lake - Item in NE Corner of Lake",
@@ -19376,7 +19376,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "iciclebadge"
+                "hosted_item": "iciclebadge_hosted"
             },
             {
                 "name": "Gym - Gift from Candice",
@@ -19482,7 +19482,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "tm94ancientpower"
+                "hosted_item": "tm94ancientpower_hosted"
             },
             {
                 "name": "B4F - Item Past Ice Tile",
@@ -20109,7 +20109,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "duskstone"
+                "hosted_item": "duskstone_hosted"
             },
             {
                 "name": "Final Room - Item",
@@ -20457,7 +20457,7 @@
                 "visibility_rules": [
                     "show_items, opt_badges_off"
                 ],
-                "hosted_item": "coalbadge"
+                "hosted_item": "coalbadge_hosted"
             },
             {
                 "name": "Gym - Gift from Roark",
@@ -20643,7 +20643,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "tm70flash"
+                "hosted_item": "tm70flash_hosted"
             },
             {
                 "name": "B1F - Item Next to Cyclist",
@@ -20673,7 +20673,7 @@
                 "visibility_rules": [
                     "show_items, opt_hms_off"
                 ],
-                "hosted_item": "hm06rocksmash"
+                "hosted_item": "hm06rocksmash_hosted"
             },
             {
                 "name": "B1F - Veteran Grant",
@@ -21079,7 +21079,7 @@
                 "visibility_rules": [
                     "show_items, opt_rods_off"
                 ],
-                "hosted_item": "superrod"
+                "hosted_item": "superrod_hosted"
             },
             {
                 "name": "Gift from Woman in Poke Mart",
@@ -21302,7 +21302,7 @@
                 "visibility_rules": [
                     "show_items, opt_keyitems_off"
                 ],
-                "hosted_item": "radar"
+                "hosted_item": "radar_hosted"
             },
             {
                 "name": "Item from Prof Rowan (Outside)",
@@ -21404,7 +21404,7 @@
                 "visibility_rules": [
                     "show_items, opt_cartridges_off"
                 ],
-                "hosted_item": "emeraldcartridge"
+                "hosted_item": "emeraldcartridge_hosted"
             }
         ],
         "map_locations": [
@@ -21796,7 +21796,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "sunstone"
+                "hosted_item": "sunstone_hosted"
             },
             {
                 "name": "4F Bottom - Hidden Item in Upper Middle",
@@ -22011,7 +22011,7 @@
                 "visibility_rules": [
                     "show_items, opt_timeitems_off"
                 ],
-                "hosted_item": "nighttime"
+                "hosted_item": "nighttime_hosted"
             },
             {
                 "name": "Spear Pillar - Galactic Grunt 1",
@@ -22778,7 +22778,7 @@
                 "visibility_rules": [
                     "show_items, opt_hidden_off"
                 ],
-                "hosted_item": "moonstone"
+                "hosted_item": "moonstone_hosted"
             },
             {
                 "name": "North - Hidden Item in Grass North of Strength Boulder",
@@ -23194,7 +23194,7 @@
                 "visibility_rules": [
                     "show_items, opt_overworld_off"
                 ],
-                "hosted_item": "dawnstone"
+                "hosted_item": "dawnstone_hosted"
             },
             {
                 "name": "Hidden Item on Center Boulder",
