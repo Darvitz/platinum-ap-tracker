@@ -83,3 +83,12 @@ function syncPokedex()
     end
     Tracker:FindObjectForCode("pokedex").CurrentStage = count
 end
+
+function syncEventHosted(code)
+    Tracker:FindObjectForCode(code.."_hosted").Active = Tracker:FindObjectForCode(code).Active
+end
+
+function syncEventFromHosted(code)
+    local base = code:gsub("_hosted", "")
+    Tracker:FindObjectForCode(base).Active = Tracker:FindObjectForCode(code).Active
+end

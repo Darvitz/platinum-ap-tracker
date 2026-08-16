@@ -2,6 +2,7 @@ local variant = Tracker.ActiveVariantUID
 
 -- Items
 Tracker:AddItems("items/events.json")
+Tracker:AddItems("items/events_hosted.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/flyunlock.json")
 Tracker:AddItems("items/settings.json")

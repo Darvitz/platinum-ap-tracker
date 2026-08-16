@@ -2101,7 +2101,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_cynthia"
+                "hosted_item": "event_defeat_cynthia_hosted"
             },
             {
                 "name": "Elite Four Aaron",
@@ -2806,7 +2806,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_roamer_1"
+                "hosted_item": "event_roamer_1_hosted"
             }
         ],
         "map_locations": [
@@ -4771,7 +4771,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_lakeverity"
+                "hosted_item": "event_clear_lakeverity_hosted"
             },
             {
                 "name": "Release Mesprit (Event)",
@@ -4781,7 +4781,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_roamer_0"
+                "hosted_item": "event_roamer_0_hosted"
             },
             {
                 "name": "Lake - Commander Mars",
@@ -5049,7 +5049,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_wake"
+                "hosted_item": "event_defeat_wake_hosted"
             },
             {
                 "name": "Gym - Badge from Crasher Wake",
@@ -7023,7 +7023,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_starkmountain"
+                "hosted_item": "event_clear_starkmountain_hosted"
             },
             {
                 "name": "Cavern - Bird Keeper Krystal",
@@ -8519,7 +8519,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_fantina"
+                "hosted_item": "event_defeat_fantina_hosted"
             },
             {
                 "name": "Gym - Badge from Fantina",
@@ -12759,7 +12759,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_lakevalor"
+                "hosted_item": "event_clear_lakevalor_hosted"
             },
             {
                 "name": "Cavern - Commander Saturn",
@@ -13327,7 +13327,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_volkner"
+                "hosted_item": "event_defeat_volkner_hosted"
             },
             {
                 "name": "Gym - Badge from Volkner",
@@ -13990,7 +13990,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_byron"
+                "hosted_item": "event_defeat_byron_hosted"
             },
             {
                 "name": "Gym - Badge from Byron",
@@ -14041,7 +14041,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_learn_of_lake_explosion"
+                "hosted_item": "event_learn_of_lake_explosion_hosted"
             },
             {
                 "name": "Surf Encounters",
@@ -14461,7 +14461,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_windworks"
+                "hosted_item": "event_clear_windworks_hosted"
             },
             {
                 "name": "Building - Commander Mars",
@@ -15602,7 +15602,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_roamer_3"
+                "hosted_item": "event_roamer_3_hosted"
             },
             {
                 "name": "Third Item from Prof Oak\u200b",
@@ -15665,7 +15665,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_gardenia"
+                "hosted_item": "event_defeat_gardenia_hosted"
             },
             {
                 "name": "Gym - Badge from Gardenia",
@@ -15889,7 +15889,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_eternahideout"
+                "hosted_item": "event_clear_eternahideout_hosted"
             },
             {
                 "name": "4F - Commander Jupiter",
@@ -16639,7 +16639,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_galactic_hq_looker"
+                "hosted_item": "event_galactic_hq_looker_hosted"
             },
             {
                 "name": "Department Store 1F - Accessory from Socialite",
@@ -16723,7 +16723,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_maylene"
+                "hosted_item": "event_defeat_maylene_hosted"
             },
             {
                 "name": "Gym - Badge from Maylene",
@@ -17586,7 +17586,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_galactic_hq_defeat_cyrus"
+                "hosted_item": "event_galactic_hq_defeat_cyrus_hosted"
             }
         ],
         "map_locations": [
@@ -19082,7 +19082,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_lakeacuity"
+                "hosted_item": "event_clear_lakeacuity_hosted"
             },
             {
                 "name": "Lakefront - Land Encounters",
@@ -19356,7 +19356,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_candice"
+                "hosted_item": "event_defeat_candice_hosted"
             },
             {
                 "name": "Gym - Badge from Candice",
@@ -20437,7 +20437,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_defeat_roark"
+                "hosted_item": "event_defeat_roark_hosted"
             },
             {
                 "name": "Gym - Badge from Roark",
@@ -21354,7 +21354,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_met_oak_at_palpark"
+                "hosted_item": "event_met_oak_at_palpark_hosted"
             },
             {
                 "name": "Second Item from Prof Oak",
@@ -22076,7 +22076,7 @@
                 "visibility_rules": [
                     "show_items"
                 ],
-                "hosted_item": "event_clear_distortion"
+                "hosted_item": "event_clear_distortion_hosted"
             },
             {
                 "name": "4F Bottom - Land Encounters",

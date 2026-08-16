@@ -39,6 +39,12 @@ for _, code in ipairs({"pokedex_1", "pokedex_2", "pokedex_3"}) do
     ScriptHost:AddWatchForCode(code, code, syncPokedex)
 end
 
+-- Event Location Syncs
+for _, code in ipairs(FLAG_EVENT_CODES) do
+    ScriptHost:AddWatchForCode(code, code, syncEventHosted)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncEventFromHosted)
+end
+
 -- Debug
 --ScriptHost:AddWatchForCode("debug", "*", debug)
 --ScriptHost:AddOnLocationSectionChangedHandler("debug", debug)
