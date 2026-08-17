@@ -276,7 +276,7 @@ function evolve_area(area)
 end
 
 function evolve_mildly(which)
-    if has("evomethod_mildly_on") then
+    if has("evomethod_mildlyannoying_on") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
@@ -286,8 +286,10 @@ end
 function evolve_highly(which)
     local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
     local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
-    
-    if has("evomethod_highly_on") then
+
+    if which ~= "wurmple" and not has("bag") then return AccessibilityLevel.None end
+
+    if has("evomethod_highlyannoying_on") then
         if which == "tyrogue" then
             return math.max(veilstone, AccessibilityLevel.SequenceBreak)
         elseif which == "beauty" then
@@ -309,7 +311,11 @@ function evolve_highly(which)
 end
 
 function evolve_friendship()
-    return AccessibilityLevel.Normal
+    if has("evomethod_happiness_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function evolve_time(timeofday)

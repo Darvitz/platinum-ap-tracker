@@ -4776,7 +4776,7 @@
             {
                 "name": "Release Mesprit (Event)",
                 "access_rules": [
-                    "@verity_cavern, event_clear_lakeverity, event_clear_distortion, @distortion_world"
+                    "@verity_cavern, event_clear_distortion, @distortion_world"
                 ],
                 "visibility_rules": [
                     "show_items"
