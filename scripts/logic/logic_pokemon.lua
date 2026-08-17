@@ -309,7 +309,11 @@ function evolve_highly(which)
 end
 
 function evolve_friendship()
-    return AccessibilityLevel.Normal
+    if has("evomethod_happiness_on") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function evolve_time(timeofday)
