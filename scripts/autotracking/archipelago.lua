@@ -241,6 +241,11 @@ function onClear(slot_data)
                 Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = rolled_dexsanity[i] == true
             end
             Tracker:FindObjectForCode("opt_dexsanity").AcquiredCount = #v
+            if #v == 0 then
+                Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+            else
+                Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+            end
         end
     end
     
