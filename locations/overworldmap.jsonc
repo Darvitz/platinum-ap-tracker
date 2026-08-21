@@ -21051,7 +21051,8 @@
                 "chest_unopened_img": "/images/fly_unlocks/red_fly_square.png",
                 "chest_opened_img": "/images/fly_unlocks/gray_fly_square.png",
                 "access_rules": [
-                    "@fight_area"
+                    "@fight_area",
+                    "@route_225_gate_to_fight_area"
                 ],
                 "visibility_rules": [
                     "show_items, opt_randomize_fly_items_all",
