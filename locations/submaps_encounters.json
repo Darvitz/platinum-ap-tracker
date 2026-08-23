@@ -181,7 +181,7 @@
 { "name": "Ruby Encounters", "ref": "Mt. Coronet Upper Floors/5F - Ruby Encounters" },
 { "name": "Sapphire Encounters", "ref": "Mt. Coronet Upper Floors/5F - Sapphire Encounters" }]},
 { "name": "6F - Encounters", "map_locations": [ { "map": "mtcoronetupper6f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Mt. Coronet Upper Floors/6F - Land Encounters" },
-{ "name": "Morning Encounters", "ref": "Mt. Coronet Upper Floors/5F - Morning Encounters" },
+{ "name": "Morning Encounters", "ref": "Mt. Coronet Upper Floors/6F - Morning Encounters" },
 { "name": "Ruby Encounters", "ref": "Mt. Coronet Upper Floors/6F - Ruby Encounters" },
 { "name": "Sapphire Encounters", "ref": "Mt. Coronet Upper Floors/6F - Sapphire Encounters" }]},
 { "name": "1F Dining Room - Encounters", "map_locations": [ { "map": "oldchateau1f", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [ { "name": "Land Encounters", "ref": "Old Chateau/1F Dining Room - Land Encounters" }]},
