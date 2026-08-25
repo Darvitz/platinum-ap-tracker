@@ -119,6 +119,10 @@ function dump_table(o, depth)
         generated_encounters = true,
         dexsanity_specs = true,
         generated_munchlax_trees = true,
+        dexsanity_whitelist = true,
+        trainersanity_whitelist = true,
+        dexsanity_blacklist = true,
+        trainersanity_blacklist = true,
     }
 
     if type(o) == 'table' then
@@ -145,12 +149,25 @@ function debug()
 
     for _, locationTable in pairs(LOCATION_MAPPING) do
         for _, locationCode in ipairs(locationTable) do
+            if locationCode:sub(1, 1) ~= "@" then
+                goto continue
+            end
             local obj = Tracker:FindObjectForCode(locationCode)
             if obj and obj.AccessibilityLevel == 6 then
                 count = count + 1
             end
+            ::continue::
         end
     end
 
-    print(count)
+    print("In logic: "..count)
+end
+
+function table_contains(table, element)
+    for _, value in pairs(table) do
+        if value == element then
+            return true
+        end
+    end
+    return false
 end

@@ -11,18 +11,20 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2,2",
+                        "item_margin": "4,4",
                         "item_size": "32,32",
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "split"
+                                "automap",
+								"splitmap"
                             ],
                             [
-                                "automap"
+                                "location_visibility",
+								"encounter_tracking"
                             ],
                             [
-                                "location_visibility"
+                                "hint_tracking"
                             ]
                         ]
                     }
@@ -47,13 +49,11 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-								"split"
-                            ],
-                            [
-                                "automap"
-                            ],
-                            [
-                                "location_visibility"
+                                "automap",
+								"splitmap",
+								"location_visibility",
+                                "encounter_tracking",
+								"hint_tracking"
                             ]
                         ]
                     }

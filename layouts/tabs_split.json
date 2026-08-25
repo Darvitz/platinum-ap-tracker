@@ -14,40 +14,48 @@
                                     "title": "Cities",
                                     "content": {
                                         "type": "dock",
-                                        "content": {
+                                        "content": [
+                                            {
                                             "type": "layout",
                                             "key": "cities"
-                                        }
+                                            }
+                                        ]
                                     }
                                 },
                                 {
                                     "title": "Routes",
                                     "content": {
                                         "type": "dock",
-                                        "content": {
+                                        "content": [
+                                            {
                                             "type": "layout",
                                             "key": "routes"
-                                        }
+                                            }
+                                        ]
                                     }
                                 },
                                 {
                                     "title": "Dungeons",
                                     "content": {
                                         "type": "dock",
-                                        "content": {
+                                        "content": [
+                                            {
                                             "type": "layout",
                                             "key": "dungeons"
-                                        }
+                                            }
+                                        ]
                                     }
                                 },
                                 {
                                     "title": "Mt. Coronet",
                                     "content": {
                                         "type": "dock",
-                                        "content": {
+                                        "content": [
+                                            {
                                             "type": "layout",
                                             "key": "mtcoronet"
-                                        }
+                                            }
+                                        ]
                                     }
                                 }
                             ]
@@ -68,10 +76,21 @@
                                     "title": "Pokédex",
                                     "content": {
                                         "type": "dock",
-                                        "content": {
+                                        "content": [
+                                            {
                                             "type": "layout",
                                             "key": "pokedex_grid"
-                                        }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "Credits"
+                                        ]
                                     }
                                 }
                             ]
