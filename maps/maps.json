@@ -270,12 +270,6 @@
         "img": "images/maps/route206.png"
     },
     {
-        "name": "route207",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route207.png"
-    },
-    {
         "name": "route208",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -304,12 +298,6 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route210center.png"
-    },
-    {
-        "name": "route210south",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route210south.png"
     },
     {
         "name": "route211west",
@@ -352,12 +340,6 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/route214south.png"
-    },
-    {
-        "name": "route215west",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/route215west.png"
     },
     {
         "name": "route215east",

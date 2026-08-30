@@ -653,8 +653,12 @@ function updateHints()
     end
 end
 
+-- gets used when revealing hidden roadblocks so the tab doesn't switch off
+CACHED_MAP = nil
+
 function onMap(mapBounce)
     if has("automap_on") and mapBounce.data ~= nil then
+        CACHED_MAP = mapBounce
         local mapID = mapBounce.data.mapNumber
 
         if MAP_XZYSPLIT_MAPPING[mapID] ~= nil then
