@@ -287,7 +287,7 @@ function evolve_highly(which)
     local hearthome = Tracker:FindObjectForCode("@hearthome_city").AccessibilityLevel
     local veilstone = Tracker:FindObjectForCode("@veilstone_city").AccessibilityLevel
 
-    if which ~= "wurmple" and not has("bag") then return AccessibilityLevel.None end
+    if which == "beauty" and not has("bag") then return AccessibilityLevel.None end
 
     if has("evomethod_highlyannoying_on") then
         if which == "tyrogue" then
@@ -299,7 +299,7 @@ function evolve_highly(which)
         end
     else
         if which == "beauty" then
-            if math.min(veilstone, hearthome, has_level("poffincase")) == 5 then
+            if math.min(veilstone, hearthome, has_level("poffincase")) >= 5 then
                 goto continue
             else
                 return AccessibilityLevel.None
