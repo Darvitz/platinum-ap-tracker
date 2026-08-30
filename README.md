@@ -9,16 +9,20 @@ PopTracker v0.33.3 or higher is neccessary.
 - Progression Item Tracking
 - Full Logic
 - Event Tracking
+- Submaps with Squares
+- Positional Tracking
+- Encounter Tracking
+- Dexsanity Logic View
+- This pack auto-updates
 
-## Known Limitations
-- Checks that require seeing or catching X Pokémon or specific Pokémon show as "in logic" as soon as you can get them. This won't be changed until Platinum version 0.2.0
+## Bugs
+If you find any bugs, please ping palex00 and / or RadisNoir7 on Discord or leave an Issue on this Github. Thanks!
 
 ## Planned Features
-- Submaps (Coming within 2 weeks)
 - Continuous support of the Archipelago Platinum integration
-
 
 ## Compatibility Chart
 apworld | pack version
 :-------------------------:|:-------------------------:
+0.2.0   | 2.X.X
 0.1.7   | 1.X.X
