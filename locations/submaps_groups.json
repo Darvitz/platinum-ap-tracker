@@ -509,13 +509,13 @@
 { "name": "B3F - Bottom Left Item", "ref": "Snowpoint Temple/B3F - Bottom Left Item"},
 { "name": "B3F - Bottom Left Item\u200b", "ref": "Snowpoint Temple/B3F - Bottom Left Item\u200b"},
 { "name": "B4F - Item Past Ice Tile", "ref": "Snowpoint Temple/B4F - Item Past Ice Tile"}]},
-{ "name": "Maniac Tunnel\u200b\u200b", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}, {"map": "route214north_barriers", "x": 128, "y": 476}], "sections": [
+{ "name": "Maniac Tunnel\u200b\u200b", "map_locations": [ { "map": "route214north", "x": 120, "y": 468}], "sections": [
 { "name": "Item Next to Entrance", "ref": "Maniac Tunnel/Item Next to Entrance"},
 { "name": "2F - Unown File !", "ref": "Solaceon Ruins/2F - Unown File !"},
 { "name": "2F - Unown File !\u200b", "ref": "Solaceon Ruins/2F - Unown File !\u200b"},
 { "name": "2F - Unown File ?", "ref": "Solaceon Ruins/2F - Unown File ?"},
 { "name": "2F - Unown File ?\u200b", "ref": "Solaceon Ruins/2F - Unown File ?\u200b"}]},
-{ "name": "Pokemon Mansion\u200b\u200b", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}, {"map": "route212north_barriers", "x": 384, "y": 566}], "sections": [
+{ "name": "Pokemon Mansion\u200b\u200b", "map_locations": [ { "map": "route212north", "x": 376, "y": 558}], "sections": [
 { "name": "Hidden Item in East Bedroom Trash", "ref": "Pokemon Mansion/Hidden Item in East Bedroom Trash"},
 { "name": "Item in Mr. Backlots Office", "ref": "Pokemon Mansion/Item in Mr. Backlots Office"},
 { "name": "Item in West Bedroom", "ref": "Pokemon Mansion/Item in West Bedroom"},

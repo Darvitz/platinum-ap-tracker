@@ -327,7 +327,7 @@
 { "name": "Radar Encounters", "ref": "Route 211 West/Radar Encounters" },
 { "name": "Night Encounters", "ref": "Route 211 West/Night Encounters" },
 { "name": "Emerald Encounters", "ref": "Route 211 West/Emerald Encounters" }]},
-{ "name": "​Encounters", "map_locations": [ { "map": "route212north", "size": 24, "x": 16, "y": 16, "shape": "diamond" },{ "map": "route212north_barriers", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [
+{ "name": "​Encounters", "map_locations": [ { "map": "route212north", "size": 24, "x": 16, "y": 16, "shape": "diamond" } ], "sections": [
 { "name": "Surf Encounters", "ref": "Route 212 North/Surf Encounters" },
 { "name": "Old Rod Encounters", "ref": "Route 212 North/Old Rod Encounters" },
 { "name": "Good Rod Encounters", "ref": "Route 212 North/Good Rod Encounters" },
