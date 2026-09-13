@@ -418,6 +418,8 @@ function searchSnorlax()
     Tracker:FindObjectForCode("search_snorlax").CurrentStage = 0
 end
 
+
+
 -- special handling so it looks for all Amity-Square eligible mons
 function searchAmity()
     Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 4
