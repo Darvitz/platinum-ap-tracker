@@ -100,6 +100,17 @@
                         "item": "search_amity"
                     }
                 ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "6,2,0,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "search_reset"
+                    }
+                ]
             }
         ]
     }

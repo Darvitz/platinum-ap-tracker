@@ -25,6 +25,7 @@ ScriptHost:AddWatchForCode("search_geodude_active", "search_geodude_active", sea
 ScriptHost:AddWatchForCode("search_kecleon_active", "search_kecleon_active", searchKecleon)
 ScriptHost:AddWatchForCode("search_snorlax_active", "search_snorlax_active", searchSnorlax)
 ScriptHost:AddWatchForCode("search_amity_active", "search_amity_active", searchAmity)
+ScriptHost:AddWatchForCode("search_reset_complete", "search_reset_complete", searchReset)
 
 -- Other
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)

@@ -418,6 +418,11 @@ function searchSnorlax()
     Tracker:FindObjectForCode("search_snorlax").CurrentStage = 0
 end
 
+function searchReset()
+    searchSpecificMon(000)
+    Tracker:FindObjectForCode("search_reset").CurrentStage = 0
+    Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+end
 
 
 -- special handling so it looks for all Amity-Square eligible mons
