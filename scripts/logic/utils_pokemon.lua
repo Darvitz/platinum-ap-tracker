@@ -424,7 +424,6 @@ function searchReset()
     Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
 end
 
-
 -- special handling so it looks for all Amity-Square eligible mons
 function searchAmity()
     Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 4

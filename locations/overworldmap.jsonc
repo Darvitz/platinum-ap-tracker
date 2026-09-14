@@ -13078,7 +13078,7 @@
                 "chest_unopened_img": "/images/settings/overlays/unknown.png",
                 "chest_opened_img": "/images/settings/overlays/unknown.png",
                 "access_rules": [
-                    "@valor_lakefront, {}",
+                    "@valor_lakefront, {}"
                 ],
                 "visibility_rules": [
                     "opt_early_sunyshore_unknown"
