@@ -421,7 +421,11 @@ end
 function searchReset()
     searchSpecificMon(000)
     Tracker:FindObjectForCode("search_reset").CurrentStage = 0
-    Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    if Tracker:FindObjectForCode("opt_dexsanity").AcquiredCount == 0 then
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    end
 end
 
 -- special handling so it looks for all Amity-Square eligible mons
