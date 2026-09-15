@@ -238,6 +238,7 @@
             {
                 "name": "Search for Geodude",
                 "img": "/images/pokemon/74.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_geodude"
             },
             {
@@ -257,6 +258,7 @@
             {
                 "name": "Search for Kecleon",
                 "img": "/images/pokemon/352.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_kecleon"
             },
             {
@@ -276,6 +278,7 @@
             {
                 "name": "Search for Snorlax",
                 "img": "/images/pokemon/143.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_snorlax"
             },
             {
@@ -295,6 +298,7 @@
             {
                 "name": "Search Amity Square Pokémon",
                 "img": "/images/tools/search_amitysquare.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_amity"
             },
             {
