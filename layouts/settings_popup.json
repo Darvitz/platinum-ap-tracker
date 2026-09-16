@@ -141,7 +141,8 @@
             ],
             [
                 "opt_evo_items_shop_in_ap_helper",
-                "opt_can_reset_legendaries_in_ap_helper"
+                "opt_can_reset_legendaries_in_ap_helper",
+                "opt_reusable_tms"
             ]
         ]
     },

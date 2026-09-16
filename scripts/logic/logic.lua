@@ -515,10 +515,14 @@ function marsh_pass()
 end
 
 function flash()
-    if has("opt_hm_visibility_off") or has("tm70flash") then
+    if has("opt_hm_visibility_off") then
+        return AccessibilityLevel.Normal
+    elseif not has("bag") or not has("tm70flash") then
+        return AccessibilityLevel.SequenceBreak
+    elseif has("opt_reusable_tms_on") then
         return AccessibilityLevel.Normal
     else
-        return AccessibilityLevel.SequenceBreak
+        return evo_item_shop()
     end
 end
 
