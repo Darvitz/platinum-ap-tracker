@@ -218,12 +218,12 @@
         "stages": [
             {
                 "name": "Click here to search",
-                "img": "/images/tools/GO2.png",
+                "img": "/images/tools/GO.png",
                 "codes": "go"
             },
             {
                 "name": "Click here to search",
-                "img": "/images/tools/GO2.png",
+                "img": "/images/tools/GO.png",
                 "codes": "search_active",
                 "inherit_codes": false,
                 "img_mods": "@disabled"
