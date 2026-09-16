@@ -239,6 +239,9 @@ function evolve_useitem(value)
     if not has(value) or not has("bag") then return end
     
     if has("evomethod_useitem_on") then
+        if value:sub(1, 2) == "tm" and not has("opt_reusable_tms_on") then
+            return evo_item_shop()
+        end
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
@@ -249,7 +252,7 @@ function evolve_helditem(value)
     if not has(value) or not has("bag") then return end
     
     if has("evomethod_helditem_on") then
-        return AccessibilityLevel.Normal
+        return evo_item_shop()
     else
         return AccessibilityLevel.SequenceBreak
     end
