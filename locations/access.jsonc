@@ -3438,14 +3438,14 @@
         "access_rules": [
             "@victory_road_1f",
             "@victory_road_2f_from_1f",
-            "@victory_road_b1f",
+            "@victory_road_b1f"
         ]
     },
     {
         "name": "victory_road_1f_upper_entrance",
         "access_rules": [
             "@pokemon_league, $surf, $down_waterfall",
-            "@victory_road_1f, $rock_climb",
+            "@victory_road_1f, $rock_climb"
         ]
     },
     {
@@ -3548,7 +3548,7 @@
         "name": "virt_fly_solaceon_town",
         "access_rules": [
             "@solaceon_town",
-            "@solaceon_town_ledge",
+            "@solaceon_town_ledge"
         ]
     },
     {

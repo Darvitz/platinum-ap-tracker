@@ -11,7 +11,7 @@
                     {
                         "type": "array",
                         "orientation": "horizontal",
-                        "margin": "9,0",
+                        "margin": "8,0",
                         "content": [
                             {
                                 "type": "item",
@@ -22,7 +22,7 @@
                     {
                         "type": "array",
                         "orientation": "horizontal",
-                        "margin": "9,0",
+                        "margin": "8,0",
                         "content": [
                             {
                                 "type": "item",
@@ -41,7 +41,7 @@
                     {
                         "type": "array",
                         "orientation": "horizontal",
-                        "margin": "9,0",
+                        "margin": "8,0",
                         "content": [
                             {
                                 "type": "item",
@@ -67,12 +67,12 @@
                                 "item": "dexsearch_digit3"
                             },
                             {
-                                "type": "item",
-                                "item": "go"
-                            },
-                            {
-                                "type": "item",
-                                "item": "dummy"
+                                "type": "itemgrid",
+                                "margin": "0,0,0,0",
+                                "item_margin":"0,-4",
+                                "rows": [
+                                    ["search_reset"],
+                                    ["go"]]
                             }
                         ]
                     }
