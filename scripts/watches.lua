@@ -17,6 +17,7 @@ ScriptHost:AddWatchForCode("opt_route_210_lower_barricade", "opt_route_210_lower
 ScriptHost:AddWatchForCode("opt_route_215_barricade", "opt_route_215_barricade", toggle_route215roadblock)
 ScriptHost:AddWatchForCode("opt_route_207_barricade", "opt_route_207_barricade", toggle_route207roadblock)
 ScriptHost:AddWatchForCode("opt_randomize_fly_items", "opt_randomize_fly_items", toggle_trackerlayout)
+ScriptHost:AddWatchForCode("opt_randomize_fly_items2", "opt_randomize_fly_items", toggle_flygrid)
 
 -- Pokemon Related
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
@@ -25,6 +26,7 @@ ScriptHost:AddWatchForCode("search_geodude_active", "search_geodude_active", sea
 ScriptHost:AddWatchForCode("search_kecleon_active", "search_kecleon_active", searchKecleon)
 ScriptHost:AddWatchForCode("search_snorlax_active", "search_snorlax_active", searchSnorlax)
 ScriptHost:AddWatchForCode("search_amity_active", "search_amity_active", searchAmity)
+ScriptHost:AddWatchForCode("search_reset_complete", "search_reset_complete", searchReset)
 
 -- Other
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)

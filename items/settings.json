@@ -713,6 +713,28 @@
         ]
     },
     {
+        "name": "Reusable TMs",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Reusable TMs - OFF",
+                "img": "images/settings/reusable_tms.png",
+                "img_mods": "@disabled",
+                "codes": "opt_reusable_tms, opt_reusable_tms_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Reusable TMs - ON",
+                "img": "images/settings/reusable_tms.png",
+                "codes": "opt_reusable_tms, opt_reusable_tms_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Canalave to Pastoria Boat",
         "type": "progressive",
         "initial_stage_idx": 0,

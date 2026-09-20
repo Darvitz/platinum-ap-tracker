@@ -218,12 +218,12 @@
         "stages": [
             {
                 "name": "Click here to search",
-                "img": "/images/tools/go.png",
+                "img": "/images/tools/GO.png",
                 "codes": "go"
             },
             {
                 "name": "Click here to search",
-                "img": "/images/tools/go.png",
+                "img": "/images/tools/GO.png",
                 "codes": "search_active",
                 "inherit_codes": false,
                 "img_mods": "@disabled"
@@ -238,6 +238,7 @@
             {
                 "name": "Search for Geodude",
                 "img": "/images/pokemon/74.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_geodude"
             },
             {
@@ -257,6 +258,7 @@
             {
                 "name": "Search for Kecleon",
                 "img": "/images/pokemon/352.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_kecleon"
             },
             {
@@ -276,6 +278,7 @@
             {
                 "name": "Search for Snorlax",
                 "img": "/images/pokemon/143.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_snorlax"
             },
             {
@@ -295,12 +298,32 @@
             {
                 "name": "Search Amity Square Pokémon",
                 "img": "/images/tools/search_amitysquare.png",
+                "img_mods": "overlay|/images/tools/mag_overlay.png",
                 "codes": "search_amity"
             },
             {
                 "name": "Search Amity Square Pokémon",
                 "img": "/images/tools/search_amitysquare.png",
                 "codes": "search_amity_active",
+                "inherit_codes": false,
+                "img_mods": "@disabled"
+            }
+        ]
+    },
+    {
+        "name": "Search Reset",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Search Reset",
+                "img": "/images/tools/reset2.png",
+                "codes": "search_reset"
+            },
+            {
+                "name": "Search Reset",
+                "img": "/images/tools/reset2.png",
+                "codes": "search_reset_complete",
                 "inherit_codes": false,
                 "img_mods": "@disabled"
             }
