@@ -330,12 +330,6 @@
         "img": "images/maps/route212southeast.png"
     },
     {
-        "name": "route213valorlakefront",
-        "location_size": 36,
-        "location_border_thickness": 4,
-        "img": "images/maps/route213valorlakefront.png"
-    },
-    {
         "name": "route214south",
         "location_size": 14,
         "location_border_thickness": 2,
